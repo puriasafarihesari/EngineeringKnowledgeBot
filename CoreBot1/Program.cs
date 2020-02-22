@@ -19,7 +19,7 @@ namespace CoreBot1
 
         public static void Main(string[] args)
         {
-            ReadDataBase.ReadData();
+            //ReadDataBase.ReadData();
             CreateWebHostBuilder(args).Build().Run();
             
         }
