@@ -101,9 +101,16 @@ namespace CoreBot1.Dialogs
                         Country = luisResult.Country
                     };
                     return await stepContext.BeginDialogAsync(nameof(BridgeTypologyDialog), topologyDetails, cancellationToken);
-                    //var getBridgeMessageText = "Sick dude, what kind of bridge?";
-                    //var GgtBridgeMessageMessage = MessageFactory.Text(getBridgeMessageText, getBridgeMessageText, InputHints.IgnoringInput);
-                    //await stepContext.Context.SendActivityAsync(GgtBridgeMessageMessage, cancellationToken);
+                //var getBridgeMessageText = "Sick dude, what kind of bridge?";
+                //var GgtBridgeMessageMessage = MessageFactory.Text(getBridgeMessageText, getBridgeMessageText, InputHints.IgnoringInput);
+                //await stepContext.Context.SendActivityAsync(GgtBridgeMessageMessage, cancellationToken);
+                case FlightBooking.Intent.GetPersonFromSkill:
+                    var skill = luisResult.Skill;
+                    var foundPerson = "Emil";
+                    var getPersonFromSkillMessageText = $"{foundPerson} is great at {skill}";
+                    var getPersonFromSkillMessage = MessageFactory.Text(getPersonFromSkillMessageText, getPersonFromSkillMessageText, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(getPersonFromSkillMessage, cancellationToken);
+                    break;
                 default:
                     // Catch all for unhandled intents
                     var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {luisResult.TopIntent().intent})";

@@ -21,7 +21,9 @@ namespace CoreBot1.CognitiveModels
             Cancel,
             GetWeather,
             None,
-            GetBridgeTypology
+            GetBridgeTypology,
+            GetPersonFromSkill
+
         };
         public Dictionary<Intent, IntentScore> Intents;
 
@@ -67,6 +69,7 @@ namespace CoreBot1.CognitiveModels
                 public InstanceData[] From;
                 public InstanceData[] To;
                 public InstanceData[] Country;
+                public InstanceData[] Skill;
             }
             [JsonProperty("$instance")]
             public _Instance _instance;
