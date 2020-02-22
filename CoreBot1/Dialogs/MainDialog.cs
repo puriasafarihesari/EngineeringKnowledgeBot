@@ -106,14 +106,17 @@ namespace CoreBot1.Dialogs
                 //await stepContext.Context.SendActivityAsync(GgtBridgeMessageMessage, cancellationToken);
                 case FlightBooking.Intent.GetPersonFromSkill:
                     var skill = luisResult.Skill;
-                    var foundPerson = "Emil";
-                    var getPersonFromSkillMessageText = $"{foundPerson} is great at {skill}";
+                    var foundPerson = GetDataFromDB.FindPersonWithSkill(skill.ToLower());
+                    var getPersonFromSkillMessageText = $"The people below are great at {skill}:\r\n{foundPerson}";
                     var getPersonFromSkillMessage = MessageFactory.Text(getPersonFromSkillMessageText, getPersonFromSkillMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(getPersonFromSkillMessage, cancellationToken);
                     break;
-                case FlightBooking.Intent.ShowProject:
+                case FlightBooking.Intent.GetPersonFromProject:
                     var project = luisResult.Project;
-                    StreamProject.Stream(project);
+                    var people = "bunch of people";
+                    var getPersonFromProjectMessageText = $"{project} is great at {people}";
+                    var getPersonFromProjectMessage = MessageFactory.Text(getPersonFromProjectMessageText, getPersonFromProjectMessageText, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(getPersonFromProjectMessage, cancellationToken);
                     break;
                 default:
                     // Catch all for unhandled intents

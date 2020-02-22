@@ -7,13 +7,21 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
 namespace CoreBot1
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
+            ReadDataBase.ReadData();
             CreateWebHostBuilder(args).Build().Run();
+            
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
@@ -24,5 +32,6 @@ namespace CoreBot1
                     logging.AddConsole();
                 })
                 .UseStartup<Startup>();
+
     }
 }

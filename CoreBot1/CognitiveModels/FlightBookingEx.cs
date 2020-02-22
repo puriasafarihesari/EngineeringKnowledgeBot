@@ -36,22 +36,21 @@ namespace CoreBot1.CognitiveModels
                 var countryValue = Entities?._instance.Country?.FirstOrDefault()?.Text;
                 //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
                 return countryValue;
-                //return (toValue, toAirportValue);
             }
         }
 
-        public string Project
+        public string Skill
         {
             get
             {
                 //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
-                var countryValue = Entities?._instance.Project?.FirstOrDefault()?.Text;
+                var countryValue = Entities?._instance.Skill?.FirstOrDefault()?.Text;
                 //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
                 return countryValue;
             }
         }
 
-        public string Skill
+        public string Project
         {
             get
             {
