@@ -49,13 +49,14 @@ namespace CoreBot1.CognitiveModels
                 return countryValue;
             }
         }
+        
 
         public string Project
         {
             get
             {
                 //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
-                var countryValue = Entities?._instance.Skill?.FirstOrDefault()?.Text;
+                var countryValue = Entities?._instance.Project?.FirstOrDefault()?.Text;
                 //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
                 return countryValue;
             }

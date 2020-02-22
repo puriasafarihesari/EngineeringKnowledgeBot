@@ -23,8 +23,8 @@ namespace CoreBot1.CognitiveModels
             None,
             GetBridgeTypology,
             GetPersonFromSkill,
-            GetPersonFromProject
-
+            GetPersonFromProject,
+            ShowProject
         };
         public Dictionary<Intent, IntentScore> Intents;
 
