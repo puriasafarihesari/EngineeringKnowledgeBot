@@ -111,6 +111,10 @@ namespace CoreBot1.Dialogs
                     var getPersonFromSkillMessage = MessageFactory.Text(getPersonFromSkillMessageText, getPersonFromSkillMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(getPersonFromSkillMessage, cancellationToken);
                     break;
+                case FlightBooking.Intent.ShowProject:
+                    var project = luisResult.Project;
+                    StreamProject.Stream(project);
+                    break;
                 default:
                     // Catch all for unhandled intents
                     var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {luisResult.TopIntent().intent})";
