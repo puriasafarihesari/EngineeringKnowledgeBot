@@ -95,8 +95,8 @@ namespace CoreBot1.Dialogs
             //bookingDetails.TravelDate = (string)stepContext.Result;
 
             var messageText = $"For a {bookingDetails.Material} bridge in {bookingDetails.Country} with a span of {bookingDetails.MaxSpan}, I recommend the following systems: ";
-            messageText += " Bajs";
-
+            messageText += " Prestressed concrete beam bridge";
+            //For a Concrete bridge in Germany with a span of 18m, I recommend the following systems: Prestressed concrete beam bridge.
             var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.IgnoringInput);
 
             return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);

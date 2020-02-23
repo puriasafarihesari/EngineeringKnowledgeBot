@@ -35,8 +35,7 @@ namespace CoreBot1.Dialogs
         {
             //var bookingDetails = "Lol?";//(BookingDetails)stepContext.Options;
 
-            var messageText = $"Sorry, I don't know that. Do you want me to post this question to our company's intranet"
-                + " to get it answered by the community?";
+            var messageText = $"Sorry, I don’t know the answer to this yet, should I add this to the intranet to get the answer and grow my knowledge?";
             var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.ExpectingInput);
 
             return await stepContext.PromptAsync(nameof(ConfirmPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
