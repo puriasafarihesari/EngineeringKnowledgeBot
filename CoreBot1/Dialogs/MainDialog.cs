@@ -127,6 +127,10 @@ namespace CoreBot1.Dialogs
                     var curviness = luisResult.Curviness;
                     var levels = luisResult.Levels;
                     StreamProject.StreamBuilding(levels, curviness);
+                    string msg = $"I have generated a building with {levels} levels. Please see the link here: ";
+                    msg += "http://bot.continuum.codes/viewer.html";
+                    var msgMessage = MessageFactory.Text(msg, msg, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(msgMessage, cancellationToken);
                     break;
 
                 default:
