@@ -17,15 +17,18 @@ namespace CoreBot1
 
         public string projectName { get; set; }
 
+        public string crossSection { get; set; }
+
         public string executionMethod { get; set; }
 
-        public Project(string typo, string mat, int mSpan, int mxSpan, string pName, string exMethod)
+        public Project(string typo, string mat, int mSpan, int mxSpan, string pName, string exMethod, string crossSec)
         {
             Typology = typo;
             Material = mat;
             minSpan = mSpan;
             maxSpan = mxSpan;
             projectName = pName;
+            crossSection = crossSec;
             executionMethod = exMethod;
         }
     }
