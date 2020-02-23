@@ -10,10 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="MyStaticFiles\Dummydatabase.csv" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Include="Cards\welcomeCard.json" />
   </ItemGroup>
 
