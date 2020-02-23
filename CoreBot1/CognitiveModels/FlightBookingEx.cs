@@ -39,6 +39,28 @@ namespace CoreBot1.CognitiveModels
             }
         }
 
+        public string Levels
+        {
+            get
+            {
+                //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
+                var levelsValue = Entities?._instance.Levels?.FirstOrDefault()?.Text;
+                //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
+                return levelsValue;
+            }
+        }
+
+        public string Curviness
+        {
+            get
+            {
+                //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
+                var curvinessValue = Entities?._instance.Curviness?.FirstOrDefault()?.Text;
+                //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
+                return curvinessValue;
+            }
+        }
+
         public string Skill
         {
             get

@@ -73,6 +73,51 @@ namespace CoreBot1
             return results;
         }
 
+        public static string GetParametricUrl(string levels, string curviness)
+        {
+            if (curviness == null)
+            {
+                curviness = "4";
+            }
+            else
+            {
+                if (curviness == "low")
+                {
+                    curviness = "4";
+                }
+                else if (curviness == "medium")
+                {
+                    curviness = "14";
+                }
+                else if (curviness == "high")
+                {
+                    curviness = "54";
+                }
+                else
+                {
+                    curviness = "4";
+                }
+            }
+            if (levels == null)
+            {
+                levels = "5";
+            }
+
+            string compiledUrl = "http://grot.rvba.fr/models/" + levels + "-" + curviness + ".json";
+            //string compiledUrl = "http://grot.rvba.fr/models/proj1.json";
+            return compiledUrl;
+        }
+
+        public static void StreamBuilding(string levels, string curviness)
+        {
+            string route = "https://speckle.continuum.codes/api/streams/MfNWI67wx";
+
+            string compiledUrl = GetParametricUrl(levels, curviness);
+            var proj1Json = GetCSV(compiledUrl);
+            string response = ApiRequest.ApiRequestWithAuth(RequestType.PUT, ResponseType.String, route, proj1Json, false);
+            //return compiledUrl;
+        }
+
         public static void Stream(string project)
         {
 
