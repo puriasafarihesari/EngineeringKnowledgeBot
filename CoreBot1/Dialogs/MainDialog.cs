@@ -33,6 +33,7 @@ namespace CoreBot1.Dialogs
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(bookingDialog);
             AddDialog(new BridgeTypologyDialog());
+            AddDialog(new CreatePostDialog());
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
                 IntroStepAsync,
@@ -98,7 +99,7 @@ namespace CoreBot1.Dialogs
                 case FlightBooking.Intent.GetBridgeTypology:
                     BridgeTopologyDetails topologyDetails = new BridgeTopologyDetails()
                     {
-                        Country = luisResult.Country
+                        Country = luisResult.Country,
                     };
                     return await stepContext.BeginDialogAsync(nameof(BridgeTypologyDialog), topologyDetails, cancellationToken);
                 //var getBridgeMessageText = "Sick dude, what kind of bridge?";
@@ -134,11 +135,12 @@ namespace CoreBot1.Dialogs
                     break;
 
                 default:
+                    return await stepContext.BeginDialogAsync(nameof(CreatePostDialog), null, cancellationToken);
                     // Catch all for unhandled intents
-                    var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {luisResult.TopIntent().intent})";
-                    var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
-                    await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
-                    break;
+                    //var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {luisResult.TopIntent().intent})";
+                    //var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
+                    // await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
+                    //break;
             }
 
             return await stepContext.NextAsync(null, cancellationToken);
