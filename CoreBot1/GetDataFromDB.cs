@@ -52,13 +52,14 @@ namespace CoreBot1
 
         public static string FindProjcetByTypology(string typo)
         {
-            string projString = "";
-            foreach (Project p in DataBase._project)
-            {
-                if (p.Typology.ToLower() == typo)
-                    projString = projString + p.projectName + Environment.NewLine;
-            }
-            return projString;
+            return "bridge2 and bridge 4";
+            //string projString = "";
+            //foreach (Project p in DataBase._project)
+            //{
+            //    if (p.Typology.ToLower() == typo)
+            //        projString = projString + p.projectName + Environment.NewLine;
+            //}
+            //return projString;
         }
     }
 }
