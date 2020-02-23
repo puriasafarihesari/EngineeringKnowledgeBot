@@ -24,6 +24,7 @@ namespace CoreBot1.CognitiveModels
             GetBridgeTypology,
             GetPersonFromSkill,
             GetTranslation,
+            GetProjectFromTypology,
             GetPersonFromProject,
             ShowProject,
             GenerateParametricBuilding
@@ -74,6 +75,7 @@ namespace CoreBot1.CognitiveModels
                 public InstanceData[] Country;
                 public InstanceData[] Skill;
                 public InstanceData[] Word;
+                public InstanceData[] Typology;
                 public InstanceData[] Language;
                 public InstanceData[] Project;
                 public InstanceData[] Levels;

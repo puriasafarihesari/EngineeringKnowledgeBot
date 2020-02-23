@@ -1,0 +1,218 @@
+[
+  {
+    "Typology": "Simply supported",
+    "Material": "Steel",
+    "minSpan": 20,
+    "maxSpan": 50,
+    "crossSection": "I-Girder",
+    "projectName": "Marco Singh Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Continuous",
+    "Material": "Steel",
+    "minSpan": 30,
+    "maxSpan": 60,
+    "crossSection": "I-Girder",
+    "projectName": "Tess Green Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Simply supported",
+    "Material": "Steel",
+    "minSpan": 50,
+    "maxSpan": 70,
+    "crossSection": "Box Girder",
+    "projectName": "Deja Hale Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Continuous",
+    "Material": "Steel",
+    "minSpan": 50,
+    "maxSpan": 100,
+    "crossSection": "Box Girder",
+    "projectName": "Hazel Davies Crossing",
+    "executionMethod": "Launching girders"
+  },
+  {
+    "Typology": "Simply supported truss",
+    "Material": "Steel",
+    "minSpan": 75,
+    "maxSpan": 100,
+    "crossSection": "",
+    "projectName": "Janae Monroe Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Cantilever truss",
+    "Material": "Steel",
+    "minSpan": 75,
+    "maxSpan": 549,
+    "crossSection": "",
+    "projectName": "Edith Perkins Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Arch bridge",
+    "Material": "Steel",
+    "minSpan": 50,
+    "maxSpan": 552,
+    "crossSection": "",
+    "projectName": "Nikolai Cherry Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Cable-stayed bridge",
+    "Material": "Composite",
+    "minSpan": 100,
+    "maxSpan": 600,
+    "crossSection": "Box Girder",
+    "projectName": "Jan Lin Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Cable-stayed bridge",
+    "Material": "Steel",
+    "minSpan": 600,
+    "maxSpan": 1000,
+    "crossSection": "Steel Orthotropic Plate Deck",
+    "projectName": "KingsQuerry Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Suspension bridge",
+    "Material": "Steel",
+    "minSpan": 120,
+    "maxSpan": 600,
+    "crossSection": "Box Girder",
+    "projectName": "Cierra Vega Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Suspension bridge",
+    "Material": "Steel",
+    "minSpan": 600,
+    "maxSpan": 2000,
+    "crossSection": "Steel Orthotropic Plate Deck",
+    "projectName": "Kristian Cuevas Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Simply supported",
+    "Material": "Concrete",
+    "minSpan": 5,
+    "maxSpan": 20,
+    "crossSection": "I-Girder",
+    "projectName": "Kali Austin Crossing",
+    "executionMethod": "Scaffolding supported from the ground"
+  },
+  {
+    "Typology": "Post-tension",
+    "Material": "Concrete",
+    "minSpan": 10,
+    "maxSpan": 95,
+    "crossSection": "Girder",
+    "projectName": "Damari Hammond Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Reinforced Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 15,
+    "maxSpan": 20,
+    "crossSection": "Slab or Voided Slab Deck",
+    "projectName": "Mila Everett Crossing",
+    "executionMethod": "Scaffolding supported from the ground"
+  },
+  {
+    "Typology": "Prestressed Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 20,
+    "maxSpan": 30,
+    "crossSection": "Slab or Voided Slab Deck",
+    "projectName": "Irvin Cross Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Prestressed Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 20,
+    "maxSpan": 35,
+    "crossSection": "Ribbed slab deck",
+    "projectName": "Devin Cantu Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Prestressed Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 35,
+    "maxSpan": 70,
+    "crossSection": "Slab girder deck",
+    "projectName": "Pranav Weaver Crossing",
+    "executionMethod": "Erection with cranes supported from the ground"
+  },
+  {
+    "Typology": "Reinforced Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 70,
+    "maxSpan": 200,
+    "crossSection": "Box Girder",
+    "projectName": "Isabell Cordova Crossing",
+    "executionMethod": "Formwork launching girders"
+  },
+  {
+    "Typology": "Composite Beam",
+    "Material": "Composite",
+    "minSpan": 40,
+    "maxSpan": 100,
+    "crossSection": "Plate Girder",
+    "projectName": "Rene Sanders Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Cable-stayed bridge",
+    "Material": "Composite",
+    "minSpan": 400,
+    "maxSpan": 500,
+    "crossSection": "Box Girder",
+    "projectName": "Ayana Shah Crossing",
+    "executionMethod": "Cantilever construction"
+  },
+  {
+    "Typology": "Continuous Beam",
+    "Material": "Composite",
+    "minSpan": 30,
+    "maxSpan": 120,
+    "crossSection": "Composite Plate Girder",
+    "projectName": "Skyler Holloway Crossing",
+    "executionMethod": "Increamental launching"
+  },
+  {
+    "Typology": "Reinforced Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 20,
+    "maxSpan": 50,
+    "crossSection": "Double T-beam",
+    "projectName": "Chandler Shea Crossing",
+    "executionMethod": "Formwork launching girders"
+  },
+  {
+    "Typology": "Reinforced Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 50,
+    "maxSpan": 80,
+    "crossSection": "Constant-Depth Box Girder",
+    "projectName": "Walker Sosa Crossing",
+    "executionMethod": "Formwork launching girders"
+  },
+  {
+    "Typology": "Reinforced Concrete Beam",
+    "Material": "Concrete",
+    "minSpan": 80,
+    "maxSpan": 120,
+    "crossSection": "Haunched Box Girder",
+    "projectName": "Ana Gonzales Crossing",
+    "executionMethod": "Formwork launching girders"
+  }
+]

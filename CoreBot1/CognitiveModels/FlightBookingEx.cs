@@ -105,6 +105,17 @@ namespace CoreBot1.CognitiveModels
             }
         }
 
+        public string Typology
+        {
+            get
+            {
+                //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
+                var countryValue = Entities?._instance.Typology?.FirstOrDefault()?.Text;
+                //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
+                return countryValue;
+            }
+        }
+
         public string Language
         {
             get
