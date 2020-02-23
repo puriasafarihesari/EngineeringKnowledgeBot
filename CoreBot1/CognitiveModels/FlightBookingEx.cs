@@ -88,7 +88,7 @@ namespace CoreBot1.CognitiveModels
             get
             {
                 //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
-                var countryValue = Entities?._instance.Typologi?.FirstOrDefault()?.Text;
+                var countryValue = Entities?._instance.Typology?.FirstOrDefault()?.Text;
                 //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
                 return countryValue;
             }

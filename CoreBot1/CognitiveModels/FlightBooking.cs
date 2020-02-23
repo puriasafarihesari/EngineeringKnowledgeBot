@@ -75,7 +75,7 @@ namespace CoreBot1.CognitiveModels
                 public InstanceData[] Country;
                 public InstanceData[] Skill;
                 public InstanceData[] Word;
-                public InstanceData[] Typologi;
+                public InstanceData[] Typology;
                 public InstanceData[] Language;
                 public InstanceData[] Project;
                 public InstanceData[] Levels;
