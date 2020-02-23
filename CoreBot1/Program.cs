@@ -19,9 +19,8 @@ namespace CoreBot1
 
         public static void Main(string[] args)
         {
-            //ReadDataBase.ReadData();
             CreateWebHostBuilder(args).Build().Run();
-            
+            //ReadDataBase.ReadData();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

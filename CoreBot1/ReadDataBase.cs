@@ -3,6 +3,8 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+
 
 namespace CoreBot1
 {
@@ -10,16 +12,11 @@ namespace CoreBot1
     {
         public static void ReadData()
         {
-            var reader = new StreamReader("Dummydatabase.csv");
-            while (!reader.EndOfStream)
-            {
-                var line = reader.ReadLine();
-                var values = line.Split(';');
-
-                Person person = new Person(values[0], values[4].ToLower(), values[3], values[1], values[2]);
-                DataBase._persons.Add(person);
-                
-            }
+            string peopleUrl = "http://grot.rvba.fr/models/dummyDatabase.json";
+            var peopleJson = StreamProject.GetCSV(peopleUrl);
+            DataBase._persons = JsonConvert.DeserializeObject<List<Person>>(peopleJson);
+            string jsonString = File.ReadAllText("wordDatabase.json");
+            DataBase._language = JsonConvert.DeserializeObject<List<Language>>(jsonString);
         }
     }
 }
