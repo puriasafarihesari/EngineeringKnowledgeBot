@@ -49,5 +49,16 @@ namespace CoreBot1
             }
             return translatedWord;
         }
+
+        public static string FindProjcetByTypology(string typo)
+        {
+            string projString = "";
+            foreach (Project p in DataBase._project)
+            {
+                if (p.Typology.ToLower() == typo)
+                    projString = projString + p.projectName + Environment.NewLine;
+            }
+            return projString;
+        }
     }
 }

@@ -120,6 +120,13 @@ namespace CoreBot1.Dialogs
                     var getTranslatedWordMessage = MessageFactory.Text(getTranslatedWordMessageText, getTranslatedWordMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(getTranslatedWordMessage, cancellationToken);
                     break;
+                case FlightBooking.Intent.GetProjectFromTypology:
+                    var typologi = luisResult.Typology;
+                    var matchedProjects = GetDataFromDB.FindProjcetByTypology(typologi.ToLower());
+                    var getProjectFromTypoMessageText = $"The projects below are using the same typology as {typologi}:\r\n{matchedProjects}";
+                    var getProjectFromTypoMessage = MessageFactory.Text(getProjectFromTypoMessageText, getProjectFromTypoMessageText, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(getProjectFromTypoMessage, cancellationToken);
+                    break;
                 case FlightBooking.Intent.GetPersonFromProject:
                     var project = luisResult.Project;
                     var people = "bunch of people";

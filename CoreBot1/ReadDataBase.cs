@@ -15,8 +15,10 @@ namespace CoreBot1
             string peopleUrl = "http://grot.rvba.fr/models/dummyDatabase.json";
             var peopleJson = StreamProject.GetCSV(peopleUrl);
             DataBase._persons = JsonConvert.DeserializeObject<List<Person>>(peopleJson);
-            string jsonString = File.ReadAllText("wordDatabase.json");
-            DataBase._language = JsonConvert.DeserializeObject<List<Language>>(jsonString);
+            string wordDBJson = File.ReadAllText("wordDatabase.json");
+            DataBase._language = JsonConvert.DeserializeObject<List<Language>>(wordDBJson);
+            string projectDBJson = File.ReadAllText("wordDatabase.json");
+            DataBase._project = JsonConvert.DeserializeObject<List<Project>>(projectDBJson);
         }
     }
 }
