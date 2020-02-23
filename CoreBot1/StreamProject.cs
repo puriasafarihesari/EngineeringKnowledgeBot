@@ -8,34 +8,69 @@ namespace CoreBot1
 {
     public class StreamProject
     {
+        public static bool TryGetBestMatchingProject(string project, out SpecleMesh matchingMesh)
+        {
+            if(project != null)
+            {
+                project = project.ToLower();
+            }
+
+            matchingMesh = null;
+            if (project == "bridge1")
+            {
+                return false;
+            }
+            else if (project == "bridge2")
+            {
+                matchingMesh = new SpecleMesh();
+                matchingMesh.Vertices = new List<double>()
+                {
+                    0,0,10,
+                    10,0,0,
+                    10,10,0,
+                    0,10,0
+                };
+
+                matchingMesh.Faces = new List<int>()
+                {
+                    1,0,1,2,3
+                };
+                return true;
+            }
+            else if (project == "bridge3")
+            {
+                return false;
+            }
+            else if (project == "bridge4")
+            {
+                matchingMesh = new SpecleMesh();
+                matchingMesh.Vertices = new List<double>()
+                {
+                    0,0,10,
+                    10,0,20,
+                    20,10,0,
+                    0,10,0
+                };
+
+                matchingMesh.Faces = new List<int>()
+                {
+                    1,0,1,2,3
+                };
+                return true;
+            }
+            return false;
+        }
+        
         public static void Stream(string project)
         {
-            string route = "https://speckle.continuum.codes/api/streams/MfNWI67wx";
-
-            var test = new SpecleMesh();
-            test.Vertices = new List<double>()
+            SpecleMesh matchingMesh = null;
+            if (TryGetBestMatchingProject(project, out matchingMesh))
             {
-                0,0,10,
-                10,0,0,
-                10,10,0,
-                0,10,0
-            };
-
-            test.Faces = new List<int>()
-            {
-                1,0,1,2,3
-            };
-
-            //var test = new SpecklePlane(SpeckleObject.CreatePoint(0, 0, 0),
-            //         SpeckleObject.CreateVector(0, 0, 1),
-            //         SpeckleObject.CreateVector(1, 0, 0),
-            //         SpeckleObject.CreateVector(0, 1, 0));
-
-            SpeckleInput input = new SpeckleInput();
-            input.Objects.Add(test);
-            
-            string response = ApiRequest.ApiRequestWithAuth(RequestType.PUT, ResponseType.String, route, input);
-            //dynamic response = ApiRequest.ApiRequest("POST", "json", ssoServer + "/api/users/authenticate/token", values);
+                string route = "https://speckle.continuum.codes/api/streams/MfNWI67wx";
+                SpeckleInput input = new SpeckleInput();
+                input.Objects.Add(matchingMesh);
+                string response = ApiRequest.ApiRequestWithAuth(RequestType.PUT, ResponseType.String, route, input);
+            }
         }
     }
     
