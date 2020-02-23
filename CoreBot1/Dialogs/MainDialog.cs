@@ -30,6 +30,7 @@ namespace CoreBot1.Dialogs
             _luisRecognizer = luisRecognizer;
             Logger = logger;
 
+            ReadDataBase.ReadData();
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(bookingDialog);
             AddDialog(new BridgeTypologyDialog());
@@ -106,11 +107,18 @@ namespace CoreBot1.Dialogs
                 //await stepContext.Context.SendActivityAsync(GgtBridgeMessageMessage, cancellationToken);
                 case FlightBooking.Intent.GetPersonFromSkill:
                     var skill = luisResult.Skill;
-                    StreamProject.Stream(skill);
                     var foundPerson = GetDataFromDB.FindPersonWithSkill(skill.ToLower());
                     var getPersonFromSkillMessageText = $"The people below are great at {skill}:\r\n{foundPerson}";
                     var getPersonFromSkillMessage = MessageFactory.Text(getPersonFromSkillMessageText, getPersonFromSkillMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(getPersonFromSkillMessage, cancellationToken);
+                    break;
+                case FlightBooking.Intent.GetTranslation:
+                    var word = luisResult.Word;
+                    var language = luisResult.Language;
+                    var translatedWord = GetDataFromDB.FindWord(word.ToLower(), language);
+                    var getTranslatedWordMessageText = $"The {language} word for {word} is {translatedWord}";
+                    var getTranslatedWordMessage = MessageFactory.Text(getTranslatedWordMessageText, getTranslatedWordMessageText, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(getTranslatedWordMessage, cancellationToken);
                     break;
                 case FlightBooking.Intent.GetPersonFromProject:
                     var project = luisResult.Project;

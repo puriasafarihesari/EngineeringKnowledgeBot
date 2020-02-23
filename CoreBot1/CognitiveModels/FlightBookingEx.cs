@@ -71,7 +71,29 @@ namespace CoreBot1.CognitiveModels
                 return countryValue;
             }
         }
-        
+
+        public string Word
+        {
+            get
+            {
+                //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
+                var countryValue = Entities?._instance.Word?.FirstOrDefault()?.Text;
+                //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
+                return countryValue;
+            }
+        }
+
+        public string Language
+        {
+            get
+            {
+                //var toValue = Entities?._instance?.To?.FirstOrDefault()?.Text;
+                var countryValue = Entities?._instance.Language?.FirstOrDefault()?.Text;
+                //var toAirportValue = Entities?.To?.FirstOrDefault()?.Airport?.FirstOrDefault()?.FirstOrDefault();
+                return countryValue;
+            }
+        }
+
 
         public string Project
         {

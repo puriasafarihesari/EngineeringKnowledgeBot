@@ -1,0 +1,4778 @@
+[
+  {
+    "ENGLISH": "fractile",
+    "DEUTSCH": "Fraktilwert",
+    "FRANCAIS": "fractile",
+    "ITALIANO": "frattile"
+  },
+  {
+    "ENGLISH": "safety factor",
+    "DEUTSCH": "Sicherheitsfaktor",
+    "FRANCAIS": "facteur de sécurité",
+    "ITALIANO": "fattore di sicurezza"
+  },
+  {
+    "ENGLISH": "safety margin",
+    "DEUTSCH": "Sicherheitsmarge",
+    "FRANCAIS": "marge de sécurité",
+    "ITALIANO": "margine di sicurezza"
+  },
+  {
+    "ENGLISH": "safety index",
+    "DEUTSCH": "Sicherheitsindex",
+    "FRANCAIS": "indice de sécurité",
+    "ITALIANO": "indice di sicurezza"
+  },
+  {
+    "ENGLISH": "weighting factor",
+    "DEUTSCH": "Wichtungsfaktor",
+    "FRANCAIS": "facteur de pondération",
+    "ITALIANO": "fattore di ponderazione"
+  },
+  {
+    "ENGLISH": "design value",
+    "DEUTSCH": "Bemessungswert",
+    "FRANCAIS": "valeur de dimensionnement",
+    "ITALIANO": "coefficiente di dimensiona-"
+  },
+  {
+    "ENGLISH": "impact force",
+    "DEUTSCH": "Anprallkraft",
+    "FRANCAIS": "force d'impact",
+    "ITALIANO": "forza d'impatto"
+  },
+  {
+    "ENGLISH": "principle of virtual work",
+    "DEUTSCH": "Arbeitsgleichung",
+    "FRANCAIS": "principe des travaux virtuels",
+    "ITALIANO": "equazione del lavoro"
+  },
+  {
+    "ENGLISH": "virtual work integral",
+    "DEUTSCH": "Arbeitsintegral",
+    "FRANCAIS": "das",
+    "ITALIANO": "intégrale du travail virtuel"
+  },
+  {
+    "ENGLISH": "support reaction",
+    "DEUTSCH": "Auflagergrösse",
+    "FRANCAIS": "réaction d'appui",
+    "ITALIANO": "reazione d'appoggio"
+  },
+  {
+    "ENGLISH": "stiffening",
+    "DEUTSCH": "Aussteifung",
+    "FRANCAIS": "raidissement",
+    "ITALIANO": "irrigidimento"
+  },
+  {
+    "ENGLISH": "beam",
+    "DEUTSCH": "Balken",
+    "FRANCAIS": "poutre",
+    "ITALIANO": "trave"
+  },
+  {
+    "ENGLISH": "continuous beam",
+    "DEUTSCH": "durchlaufender Balken",
+    "FRANCAIS": "poutre continue",
+    "ITALIANO": "trave continua"
+  },
+  {
+    "ENGLISH": "simply supported  beam",
+    "DEUTSCH": "einfacher Balken",
+    "FRANCAIS": "poutre simple",
+    "ITALIANO": "trave semplice"
+  },
+  {
+    "ENGLISH": "inverted bowstring beam",
+    "DEUTSCH": "unterspannter Balken",
+    "FRANCAIS": "poutre sous-tendue",
+    "ITALIANO": "trave sottotesa"
+  },
+  {
+    "ENGLISH": "key beam",
+    "DEUTSCH": "verdübelter Balken",
+    "FRANCAIS": "poutre chevillée",
+    "ITALIANO": "trave incavigliata"
+  },
+  {
+    "ENGLISH": "load",
+    "DEUTSCH": "Belastung",
+    "FRANCAIS": "charge",
+    "ITALIANO": "carico"
+  },
+  {
+    "ENGLISH": "moment redistribution",
+    "DEUTSCH": "Umlagerung der Schnittkräfte",
+    "FRANCAIS": "redistribution des efforts",
+    "ITALIANO": "ridistribuzione degli sforzi"
+  },
+  {
+    "ENGLISH": "concrete",
+    "DEUTSCH": "Beton",
+    "FRANCAIS": "béton",
+    "ITALIANO": "calcestruzzo"
+  },
+  {
+    "ENGLISH": "light-weight concrete",
+    "DEUTSCH": "Leichtbeton",
+    "FRANCAIS": "béton léger",
+    "ITALIANO": "calcestruzzo leggero"
+  },
+  {
+    "ENGLISH": "lean concrete",
+    "DEUTSCH": "Magerbeton",
+    "FRANCAIS": "béton maigre",
+    "ITALIANO": "calcestruzzo magro"
+  },
+  {
+    "ENGLISH": "cast-in-place concrete",
+    "DEUTSCH": "Ortbeton",
+    "FRANCAIS": "béton coulé sur place",
+    "ITALIANO": "cemento gettato in opera"
+  },
+  {
+    "ENGLISH": "cellular concrete",
+    "DEUTSCH": "Porenbeton",
+    "FRANCAIS": "béton cellulaire",
+    "ITALIANO": "calcestruzzo cellulare"
+  },
+  {
+    "ENGLISH": "pumped concrete",
+    "DEUTSCH": "Pumpbeton",
+    "FRANCAIS": "béton pompé",
+    "ITALIANO": "calcestruzzo pompato"
+  },
+  {
+    "ENGLISH": "exposed concrete",
+    "DEUTSCH": "Sichtbeton",
+    "FRANCAIS": "béton de parement",
+    "ITALIANO": "calcestruzzo A facciavista"
+  },
+  {
+    "ENGLISH": "prestressed concrete",
+    "DEUTSCH": "Spannbeton",
+    "FRANCAIS": "béton précontraint",
+    "ITALIANO": "calcestruzzo precompresso"
+  },
+  {
+    "ENGLISH": "shotcrete",
+    "DEUTSCH": "Spritzbeton",
+    "FRANCAIS": "béton projeté",
+    "ITALIANO": "calcestruzzo spruzzato"
+  },
+  {
+    "ENGLISH": "reinforced concrete",
+    "DEUTSCH": "Stahlbeton",
+    "FRANCAIS": "béton diagramme des moments",
+    "ITALIANO": "calcestruzzo verifica"
+  },
+  {
+    "ENGLISH": "precast concrete",
+    "DEUTSCH": "vorfabrizierter Beton",
+    "FRANCAIS": "béton préfabriqué",
+    "ITALIANO": "calcestruzzo prefabbricato"
+  },
+  {
+    "ENGLISH": "ready-mixed concrete",
+    "DEUTSCH": "Werkbeton",
+    "FRANCAIS": "béton livré",
+    "ITALIANO": "calcestruzzo fornito"
+  },
+  {
+    "ENGLISH": "deflection curve",
+    "DEUTSCH": "Biegelinie",
+    "FRANCAIS": "déformée",
+    "ITALIANO": "deformata"
+  },
+  {
+    "ENGLISH": "flexural rigidity",
+    "DEUTSCH": "Biegesteifigkeit",
+    "FRANCAIS": "rigidité flexionnelle",
+    "ITALIANO": "rigidità alla flessione"
+  },
+  {
+    "ENGLISH": "bending resistance",
+    "DEUTSCH": "Biegewiderstand",
+    "FRANCAIS": "résistance à la flexion",
+    "ITALIANO": "resistenza a flessione"
+  },
+  {
+    "ENGLISH": "arched bridge",
+    "DEUTSCH": "Bogenbrücke",
+    "FRANCAIS": "pont arc",
+    "ITALIANO": "ponte ad arco"
+  },
+  {
+    "ENGLISH": "braking force",
+    "DEUTSCH": "Bremskraft",
+    "FRANCAIS": "force de freinage",
+    "ITALIANO": "forza di frenata"
+  },
+  {
+    "ENGLISH": "durability",
+    "DEUTSCH": "Dauerhaftigkeit",
+    "FRANCAIS": "durabilité",
+    "ITALIANO": "durabilità"
+  },
+  {
+    "ENGLISH": "strain",
+    "DEUTSCH": "Dehnung",
+    "FRANCAIS": "dilatation",
+    "ITALIANO": "dilatazione"
+  },
+  {
+    "ENGLISH": "density",
+    "DEUTSCH": "Dichte",
+    "FRANCAIS": "densité",
+    "ITALIANO": "densità"
+  },
+  {
+    "ENGLISH": "couple",
+    "DEUTSCH": "Kräftepaar",
+    "FRANCAIS": "das",
+    "ITALIANO": "couple"
+  },
+  {
+    "ENGLISH": "three-hinged arch",
+    "DEUTSCH": "Dreigelenkbogen",
+    "FRANCAIS": "arc à trois articulations",
+    "ITALIANO": "arco a tre cerniere"
+  },
+  {
+    "ENGLISH": "compression line",
+    "DEUTSCH": "Drucklinie",
+    "FRANCAIS": "ligne de compression",
+    "ITALIANO": "linea di compressione"
+  },
+  {
+    "ENGLISH": "thin-walled section",
+    "DEUTSCH": "dünnwandige Querschnitt",
+    "FRANCAIS": "section à paroi mince",
+    "ITALIANO": "sezione sottile"
+  },
+  {
+    "ENGLISH": "deflection",
+    "DEUTSCH": "Durchbiegung",
+    "FRANCAIS": "flèche",
+    "ITALIANO": "freccia"
+  },
+  {
+    "ENGLISH": "eigenfrequency",
+    "DEUTSCH": "Eigenfrequenz",
+    "FRANCAIS": "fréquence propre",
+    "ITALIANO": "frequenza propria"
+  },
+  {
+    "ENGLISH": "built-in",
+    "DEUTSCH": "eingespannt",
+    "FRANCAIS": "encastré",
+    "ITALIANO": "incastrato"
+  },
+  {
+    "ENGLISH": "action",
+    "DEUTSCH": "Einwirkung",
+    "FRANCAIS": "action",
+    "ITALIANO": "influenza"
+  },
+  {
+    "ENGLISH": "displacement",
+    "DEUTSCH": "Verschiebung",
+    "FRANCAIS": "déplacement",
+    "ITALIANO": "spostamento"
+  },
+  {
+    "ENGLISH": "elastic theory",
+    "DEUTSCH": "Elastizitätstheorie",
+    "FRANCAIS": "théorie de l'élasticité",
+    "ITALIANO": "teoria dell'elasticità"
+  },
+  {
+    "ENGLISH": "Young's modulus",
+    "DEUTSCH": "Elastizitätsmodul",
+    "FRANCAIS": "module d'élasticité",
+    "ITALIANO": "modulo di elasticità"
+  },
+  {
+    "ENGLISH": "truss",
+    "DEUTSCH": "Fachwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "treillis"
+  },
+  {
+    "ENGLISH": "folded plate structure",
+    "DEUTSCH": "Faltwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "structure plissée"
+  },
+  {
+    "ENGLISH": "strength",
+    "DEUTSCH": "Festigkeit",
+    "FRANCAIS": "résistance",
+    "ITALIANO": "resistenza"
+  },
+  {
+    "ENGLISH": "compressive strength",
+    "DEUTSCH": "Druckfestigkeit",
+    "FRANCAIS": "résistance à la compression",
+    "ITALIANO": "resistenza alla compressione"
+  },
+  {
+    "ENGLISH": "tensile strength",
+    "DEUTSCH": "Zugfestigkeit",
+    "FRANCAIS": "résistance à la traction",
+    "ITALIANO": "resistenza alla trazione"
+  },
+  {
+    "ENGLISH": "serviceability",
+    "DEUTSCH": "Gebrauchstauglichkeit",
+    "FRANCAIS": "aptitude au service",
+    "ITALIANO": "efficienza funzionale"
+  },
+  {
+    "ENGLISH": "verification of",
+    "DEUTSCH": "Nachweis",
+    "FRANCAIS": "vérification",
+    "ITALIANO": "verifica"
+  },
+  {
+    "ENGLISH": "hazard scenario",
+    "DEUTSCH": "Gefährdungsbild",
+    "FRANCAIS": "das",
+    "ITALIANO": "situation de risque"
+  },
+  {
+    "ENGLISH": "hinged beam",
+    "DEUTSCH": "Gelenkträger",
+    "FRANCAIS": "poutre articulée",
+    "ITALIANO": "trave a cerniera"
+  },
+  {
+    "ENGLISH": "equilibrium",
+    "DEUTSCH": "Gleichgewicht",
+    "FRANCAIS": "das",
+    "ITALIANO": "équilibre"
+  },
+  {
+    "ENGLISH": "condition of equilibrium",
+    "DEUTSCH": "Gleichgewichtsbedingung",
+    "FRANCAIS": "condition d'équilibre",
+    "ITALIANO": "condizione di equilibrio"
+  },
+  {
+    "ENGLISH": "limiting value",
+    "DEUTSCH": "Grenzwert",
+    "FRANCAIS": "valeur limite",
+    "ITALIANO": "valore limite"
+  },
+  {
+    "ENGLISH": "upper bound",
+    "DEUTSCH": "oberer Grenzwert",
+    "FRANCAIS": "valeur limite supérieure",
+    "ITALIANO": "valore limite superiore"
+  },
+  {
+    "ENGLISH": "lower bound",
+    "DEUTSCH": "unterer Grenzwert",
+    "FRANCAIS": "valeur limite inférieure",
+    "ITALIANO": "valore limite inferiore"
+  },
+  {
+    "ENGLISH": "suspension structure",
+    "DEUTSCH": "Hängewerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "structure suspendue"
+  },
+  {
+    "ENGLISH": "hollow section",
+    "DEUTSCH": "Hohlquerschnitt",
+    "FRANCAIS": "section creuse",
+    "ITALIANO": "sezione cava"
+  },
+  {
+    "ENGLISH": "wood",
+    "DEUTSCH": "Holz",
+    "FRANCAIS": "das",
+    "ITALIANO": "bois"
+  },
+  {
+    "ENGLISH": "hardwood",
+    "DEUTSCH": "Hartholz",
+    "FRANCAIS": "bois dur",
+    "ITALIANO": "legno duro"
+  },
+  {
+    "ENGLISH": "deciduous U",
+    "DEUTSCH": "Laubholz",
+    "FRANCAIS": "feuillu",
+    "ITALIANO": "legno di fronda"
+  },
+  {
+    "ENGLISH": "pinewood",
+    "DEUTSCH": "Nadelholz",
+    "FRANCAIS": "résineux",
+    "ITALIANO": "legno di conifera"
+  },
+  {
+    "ENGLISH": "core of section",
+    "DEUTSCH": "Kern des Querschnitts",
+    "FRANCAIS": "noyau central",
+    "ITALIANO": "nocciolo della sezione"
+  },
+  {
+    "ENGLISH": "mechanism",
+    "DEUTSCH": "Mechanismus",
+    "FRANCAIS": "mécanisme",
+    "ITALIANO": "meccanismo"
+  },
+  {
+    "ENGLISH": "lateral buckling",
+    "DEUTSCH": "Kippen",
+    "FRANCAIS": "das",
+    "ITALIANO": "déversement"
+  },
+  {
+    "ENGLISH": "buckling length",
+    "DEUTSCH": "Knicklänge",
+    "FRANCAIS": "longueur de flambage",
+    "ITALIANO": "lunghezza libera d'inflessione"
+  },
+  {
+    "ENGLISH": "buckling load",
+    "DEUTSCH": "Knicklast",
+    "FRANCAIS": "charge de flambage",
+    "ITALIANO": "carico di punta"
+  },
+  {
+    "ENGLISH": "structural detailing",
+    "DEUTSCH": "konstruktive Durcharbeitung",
+    "FRANCAIS": "disposition constructive",
+    "ITALIANO": "disposizione costruttiva"
+  },
+  {
+    "ENGLISH": "kneebrace",
+    "DEUTSCH": "Kopfband",
+    "FRANCAIS": "das",
+    "ITALIANO": "aisselier"
+  },
+  {
+    "ENGLISH": "body",
+    "DEUTSCH": "Körper",
+    "FRANCAIS": "corps",
+    "ITALIANO": "corpo"
+  },
+  {
+    "ENGLISH": "force method",
+    "DEUTSCH": "Kraftgrössenverfahren",
+    "FRANCAIS": "das",
+    "ITALIANO": "méthode des forces"
+  },
+  {
+    "ENGLISH": "curvature",
+    "DEUTSCH": "Krümmung",
+    "FRANCAIS": "courbure",
+    "ITALIANO": "curvatura"
+  },
+  {
+    "ENGLISH": "load",
+    "DEUTSCH": "Last",
+    "FRANCAIS": "charge",
+    "ITALIANO": "carico"
+  },
+  {
+    "ENGLISH": "surcharge",
+    "DEUTSCH": "Auflast",
+    "FRANCAIS": "surcharge",
+    "ITALIANO": "sovraccarico"
+  },
+  {
+    "ENGLISH": "eccentric load",
+    "DEUTSCH": "ausmittige",
+    "FRANCAIS": "exzentrische Last",
+    "ITALIANO": "charge excentrée"
+  },
+  {
+    "ENGLISH": "rail traffic load",
+    "DEUTSCH": "Bahnlast",
+    "FRANCAIS": "charge due au trafic ferroviaire",
+    "ITALIANO": "carico del traffico ferroviario"
+  },
+  {
+    "ENGLISH": "ultimate load",
+    "DEUTSCH": "Bruchlast",
+    "FRANCAIS": "charge de rupture",
+    "ITALIANO": "carico di rottura"
+  },
+  {
+    "ENGLISH": "self-weight",
+    "DEUTSCH": "Eigenlast",
+    "FRANCAIS": "poids propre",
+    "ITALIANO": "peso proprio"
+  },
+  {
+    "ENGLISH": "concentrated load",
+    "DEUTSCH": "Einzellast",
+    "FRANCAIS": "charge concentrée",
+    "ITALIANO": "carico concentrato"
+  },
+  {
+    "ENGLISH": "service load",
+    "DEUTSCH": "Gebrauchslast",
+    "FRANCAIS": "charge de service",
+    "ITALIANO": "carico di servizio"
+  },
+  {
+    "ENGLISH": "crane gantry rail",
+    "DEUTSCH": "Kranbahnlast",
+    "FRANCAIS": "charge due au pont roulant",
+    "ITALIANO": "carico dei carriponte"
+  },
+  {
+    "ENGLISH": "line load",
+    "DEUTSCH": "Linienlast",
+    "FRANCAIS": "charge linéaire",
+    "ITALIANO": "carico lineare"
+  },
+  {
+    "ENGLISH": "concentrated load",
+    "DEUTSCH": "mittige",
+    "FRANCAIS": "zentrische Last",
+    "ITALIANO": "charge concentrée"
+  },
+  {
+    "ENGLISH": "live load",
+    "DEUTSCH": "Nutzlast",
+    "FRANCAIS": "charge utile",
+    "ITALIANO": "carico utile"
+  },
+  {
+    "ENGLISH": "permanent load",
+    "DEUTSCH": "ständige Last",
+    "FRANCAIS": "charge permanente",
+    "ITALIANO": "carico permanente"
+  },
+  {
+    "ENGLISH": "road traffic load",
+    "DEUTSCH": "Strassenlast",
+    "FRANCAIS": "charge due au trafic routier",
+    "ITALIANO": "carico del traffico stradale"
+  },
+  {
+    "ENGLISH": "ultimate load",
+    "DEUTSCH": "Traglast",
+    "FRANCAIS": "charge ultime",
+    "ITALIANO": "carico limite o ultimo"
+  },
+  {
+    "ENGLISH": "traffic load",
+    "DEUTSCH": "Verkehrslast",
+    "FRANCAIS": "charge due au trafic",
+    "ITALIANO": "carico mobile"
+  },
+  {
+    "ENGLISH": "distributed load",
+    "DEUTSCH": "verteilte Last",
+    "FRANCAIS": "charge répartie",
+    "ITALIANO": "carico ripartito"
+  },
+  {
+    "ENGLISH": "wind load",
+    "DEUTSCH": "Windlast",
+    "FRANCAIS": "charge due au vent",
+    "ITALIANO": "carico dovuto al vento"
+  },
+  {
+    "ENGLISH": "load combination",
+    "DEUTSCH": "Lastkombination",
+    "FRANCAIS": "combinaison de charge",
+    "ITALIANO": "combinazione di carico"
+  },
+  {
+    "ENGLISH": "bending moment diagram",
+    "DEUTSCH": "Momentenfläche",
+    "FRANCAIS": "diagramme des moments",
+    "ITALIANO": "diagramma dei momenti"
+  },
+  {
+    "ENGLISH": "code",
+    "DEUTSCH": "standard",
+    "FRANCAIS": "Norm",
+    "ITALIANO": "norme"
+  },
+  {
+    "ENGLISH": "neutral axis",
+    "DEUTSCH": "Nullinie",
+    "FRANCAIS": "axe neutre",
+    "ITALIANO": "asse neutro"
+  },
+  {
+    "ENGLISH": "utilisation plan",
+    "DEUTSCH": "Nutzungsplan",
+    "FRANCAIS": "plan d'utilisation",
+    "ITALIANO": "piano d'utilizzazione"
+  },
+  {
+    "ENGLISH": "service state",
+    "DEUTSCH": "Nutzungszustand",
+    "FRANCAIS": "état d'utilisation",
+    "ITALIANO": "stadio di servizio"
+  },
+  {
+    "ENGLISH": "theory of plasticity",
+    "DEUTSCH": "Plastizitätstheorie",
+    "FRANCAIS": "théorie de la plasticité",
+    "ITALIANO": "teoria della plasticità"
+  },
+  {
+    "ENGLISH": "plastic moment",
+    "DEUTSCH": "plastische Moment",
+    "FRANCAIS": "das",
+    "ITALIANO": "moment plastique"
+  },
+  {
+    "ENGLISH": "plasticity condition",
+    "DEUTSCH": "Plastizitätsbedingung",
+    "FRANCAIS": "condition de plasticité",
+    "ITALIANO": "condizione di plasticità"
+  },
+  {
+    "ENGLISH": "lateral load",
+    "DEUTSCH": "Querbelastung",
+    "FRANCAIS": "charge transversale",
+    "ITALIANO": "carico trasversale"
+  },
+  {
+    "ENGLISH": "shear force diagram",
+    "DEUTSCH": "Querkraftfläche",
+    "FRANCAIS": "diagramme des efforts",
+    "ITALIANO": "diagramma di taglio"
+  },
+  {
+    "ENGLISH": "cross sectional property",
+    "DEUTSCH": "Querschnittswert",
+    "FRANCAIS": "caractéristique de la section",
+    "ITALIANO": "valore caratteristico della"
+  },
+  {
+    "ENGLISH": "rectangular section",
+    "DEUTSCH": "Rechteckquerschnitt",
+    "FRANCAIS": "section rectangulaire",
+    "ITALIANO": "sezione rettangolare"
+  },
+  {
+    "ENGLISH": "resultant",
+    "DEUTSCH": "Resultierende",
+    "FRANCAIS": "résultante",
+    "ITALIANO": "risultante"
+  },
+  {
+    "ENGLISH": "shell",
+    "DEUTSCH": "Schale",
+    "FRANCAIS": "coque",
+    "ITALIANO": "guscio"
+  },
+  {
+    "ENGLISH": "panel",
+    "DEUTSCH": "Scheibe",
+    "FRANCAIS": "paroi",
+    "ITALIANO": "lastra"
+  },
+  {
+    "ENGLISH": "slenderness",
+    "DEUTSCH": "Schlankheit",
+    "FRANCAIS": "élancement",
+    "ITALIANO": "snellezza"
+  },
+  {
+    "ENGLISH": "closing line",
+    "DEUTSCH": "Schlusslinie",
+    "FRANCAIS": "ligne de fermeture",
+    "ITALIANO": "linea di chiusura"
+  },
+  {
+    "ENGLISH": "internal force or moment",
+    "DEUTSCH": "Schnittgrösse",
+    "FRANCAIS": "effort intérieur",
+    "ITALIANO": "sforzo interno"
+  },
+  {
+    "ENGLISH": "shear",
+    "DEUTSCH": "Schub",
+    "FRANCAIS": "cisaillement",
+    "ITALIANO": "taglio"
+  },
+  {
+    "ENGLISH": "centre of gravity",
+    "DEUTSCH": "Schwerpunkt",
+    "FRANCAIS": "centre de gravité",
+    "ITALIANO": "centro di gravità"
+  },
+  {
+    "ENGLISH": "shrinkage",
+    "DEUTSCH": "Schwinden",
+    "FRANCAIS": "das",
+    "ITALIANO": "retrait"
+  },
+  {
+    "ENGLISH": "vibration",
+    "DEUTSCH": "Schwingung",
+    "FRANCAIS": "vibration",
+    "ITALIANO": "vibrazione"
+  },
+  {
+    "ENGLISH": "amplitude",
+    "DEUTSCH": "Amplitude",
+    "FRANCAIS": "amplitude",
+    "ITALIANO": "ampiezza"
+  },
+  {
+    "ENGLISH": "safety",
+    "DEUTSCH": "Sicherheit",
+    "FRANCAIS": "sécurité",
+    "ITALIANO": "sicurezza"
+  },
+  {
+    "ENGLISH": "safety plan",
+    "DEUTSCH": "Sicherheitsplan",
+    "FRANCAIS": "plan de sécurité",
+    "ITALIANO": "piano di sicurezza"
+  },
+  {
+    "ENGLISH": "stress-strain diagram",
+    "DEUTSCH": "Spannungs-Dehnungs-",
+    "FRANCAIS": "diagramme contrainte-",
+    "ITALIANO": "diagramma tensione-"
+  },
+  {
+    "ENGLISH": "strut frame structure",
+    "DEUTSCH": "Sprengwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "structure à béquilles"
+  },
+  {
+    "ENGLISH": "steel section",
+    "DEUTSCH": "Stahlprofil",
+    "FRANCAIS": "das",
+    "ITALIANO": "profilé métallique"
+  },
+  {
+    "ENGLISH": "statically determinate",
+    "DEUTSCH": "statisch bestimmt",
+    "FRANCAIS": "isostatique",
+    "ITALIANO": "staticamente determinato"
+  },
+  {
+    "ENGLISH": "theorem",
+    "DEUTSCH": "Grenzwertsatz",
+    "FRANCAIS": "théorème",
+    "ITALIANO": "teorema"
+  },
+  {
+    "ENGLISH": "kinematic theorem",
+    "DEUTSCH": "kinematischer Grenzwertsatz",
+    "FRANCAIS": "théorème cinématique",
+    "ITALIANO": "teorema cinematico"
+  },
+  {
+    "ENGLISH": "upper bound theorem",
+    "DEUTSCH": "oberer Grenzwertsatz",
+    "FRANCAIS": "théorème de la borne supérieure",
+    "ITALIANO": "teorema del limite superiore"
+  },
+  {
+    "ENGLISH": "static theorem",
+    "DEUTSCH": "statischer Grenzwertsatz",
+    "FRANCAIS": "théorème statique",
+    "ITALIANO": "teorema statico"
+  },
+  {
+    "ENGLISH": "lower bound theorem",
+    "DEUTSCH": "unterer Grenzwertsatz",
+    "FRANCAIS": "théorème de la borne inférieure",
+    "ITALIANO": "teorema del limite inferiore"
+  },
+  {
+    "ENGLISH": "static moment",
+    "DEUTSCH": "statisches Moment",
+    "FRANCAIS": "das",
+    "ITALIANO": "moment statique"
+  },
+  {
+    "ENGLISH": "structural analysis",
+    "DEUTSCH": "statische Berechnung",
+    "FRANCAIS": "calcul statique",
+    "ITALIANO": "calcolo statico"
+  },
+  {
+    "ENGLISH": "lower bound method",
+    "DEUTSCH": "statische Methode",
+    "FRANCAIS": "méthode statique",
+    "ITALIANO": "metodo statico"
+  },
+  {
+    "ENGLISH": "impact",
+    "DEUTSCH": "Stoss",
+    "FRANCAIS": "impact",
+    "ITALIANO": "impatto"
+  },
+  {
+    "ENGLISH": "superposition",
+    "DEUTSCH": "Superposition",
+    "FRANCAIS": "superposition",
+    "ITALIANO": "sovrapposizione"
+  },
+  {
+    "ENGLISH": "limit of system",
+    "DEUTSCH": "Systemabgrenzung",
+    "FRANCAIS": "limite du système",
+    "ITALIANO": "ambito del sistema"
+  },
+  {
+    "ENGLISH": "torsion",
+    "DEUTSCH": "Torsion",
+    "FRANCAIS": "torsion",
+    "ITALIANO": "torsione"
+  },
+  {
+    "ENGLISH": "structural safety",
+    "DEUTSCH": "Tragsicherheit",
+    "FRANCAIS": "sécurité structurale",
+    "ITALIANO": "sicurezza strutturale"
+  },
+  {
+    "ENGLISH": "ultimate resistance",
+    "DEUTSCH": "Tragwiderstand",
+    "FRANCAIS": "résistance ultime",
+    "ITALIANO": "resistenza ultima"
+  },
+  {
+    "ENGLISH": "deflected state",
+    "DEUTSCH": "Verschiebungszustand",
+    "FRANCAIS": "état de déformation",
+    "ITALIANO": "stato di spostamento"
+  },
+  {
+    "ENGLISH": "stiffening beam",
+    "DEUTSCH": "Versteifungsträger",
+    "FRANCAIS": "poutre de raidissement",
+    "ITALIANO": "trave di rinforzo"
+  },
+  {
+    "ENGLISH": "line of action",
+    "DEUTSCH": "Wirkungslinie",
+    "FRANCAIS": "ligne d'action",
+    "ITALIANO": "linea di azione"
+  },
+  {
+    "ENGLISH": "product of inertia",
+    "DEUTSCH": "Zentrifugalmoment",
+    "FRANCAIS": "das",
+    "ITALIANO": "produit d'inertie"
+  },
+  {
+    "ENGLISH": "tie rod",
+    "DEUTSCH": "Zugband",
+    "FRANCAIS": "das",
+    "ITALIANO": "tirant"
+  },
+  {
+    "ENGLISH": "constraint stress",
+    "DEUTSCH": "Zwängungsbeanspruchung",
+    "FRANCAIS": "sollicitation due aux",
+    "ITALIANO": "sollecitazione indotta da"
+  },
+  {
+    "ENGLISH": "demolition",
+    "DEUTSCH": "Abbruch",
+    "FRANCAIS": "démolition",
+    "ITALIANO": "demolizione"
+  },
+  {
+    "ENGLISH": "prestress",
+    "DEUTSCH": "Vorspannung",
+    "FRANCAIS": "précontrainte",
+    "ITALIANO": "precompressione"
+  },
+  {
+    "ENGLISH": "external prestress",
+    "DEUTSCH": "äussere Vorspannung",
+    "FRANCAIS": "précontrainte extérieure",
+    "ITALIANO": "precompressione esterna"
+  },
+  {
+    "ENGLISH": "internal prestress",
+    "DEUTSCH": "innere Vorspannung",
+    "FRANCAIS": "précontrainte intérieure",
+    "ITALIANO": "precompressione interna"
+  },
+  {
+    "ENGLISH": "partial prestress",
+    "DEUTSCH": "teilweise Vorspannung",
+    "FRANCAIS": "précontrainte partielle",
+    "ITALIANO": "precompressione parziale"
+  },
+  {
+    "ENGLISH": "opening",
+    "DEUTSCH": "Aussparung",
+    "FRANCAIS": "évidement",
+    "ITALIANO": "risparmio"
+  },
+  {
+    "ENGLISH": "ground",
+    "DEUTSCH": "Baugrund",
+    "FRANCAIS": "sol de fondation",
+    "ITALIANO": "terreno di fondazione"
+  },
+  {
+    "ENGLISH": "site preparation",
+    "DEUTSCH": "Baustelleneinrichtung",
+    "FRANCAIS": "installation de chantier",
+    "ITALIANO": "istallazione di cantiere"
+  },
+  {
+    "ENGLISH": "impounding reservoir",
+    "DEUTSCH": "Becken",
+    "FRANCAIS": "das",
+    "ITALIANO": "bassin de retenue"
+  },
+  {
+    "ENGLISH": "dimensioning",
+    "DEUTSCH": "Bemessung",
+    "FRANCAIS": "dimensionnement",
+    "ITALIANO": "dimensionamento"
+  },
+  {
+    "ENGLISH": "reinforcement",
+    "DEUTSCH": "Bewehrung",
+    "FRANCAIS": "armature",
+    "ITALIANO": "armatura"
+  },
+  {
+    "ENGLISH": "torsional reinforcement",
+    "DEUTSCH": "Drillbewehrung",
+    "FRANCAIS": "armature de torsion",
+    "ITALIANO": "armatura di torsione"
+  },
+  {
+    "ENGLISH": "compression reinforcement",
+    "DEUTSCH": "Druckbewehrung",
+    "FRANCAIS": "armature de compression",
+    "ITALIANO": "armatura di compressione"
+  },
+  {
+    "ENGLISH": "deformed bar",
+    "DEUTSCH": "profilierte Bewehrung",
+    "FRANCAIS": "armature nervurée",
+    "ITALIANO": "acciaio d'armatura nervata"
+  },
+  {
+    "ENGLISH": "mild reinforcement",
+    "DEUTSCH": "schlaffe Bewehrung",
+    "FRANCAIS": "armature passive",
+    "ITALIANO": "armatura lenta"
+  },
+  {
+    "ENGLISH": "shear reinforcement",
+    "DEUTSCH": "Schubbewehrung",
+    "FRANCAIS": "armature d'effort tranchant",
+    "ITALIANO": "armatura di taglio"
+  },
+  {
+    "ENGLISH": "prestressed reinforcement",
+    "DEUTSCH": "vorgespannte Bewehrung",
+    "FRANCAIS": "armature de précontrainte",
+    "ITALIANO": "armatura precompressa"
+  },
+  {
+    "ENGLISH": "tension reinforcement",
+    "DEUTSCH": "Zugbewehrung",
+    "FRANCAIS": "armature de traction",
+    "ITALIANO": "armatura tesa"
+  },
+  {
+    "ENGLISH": "bending reinforcement",
+    "DEUTSCH": "Biegebewehrung",
+    "FRANCAIS": "armature de flexion",
+    "ITALIANO": "armatura di flessione"
+  },
+  {
+    "ENGLISH": "bending crack",
+    "DEUTSCH": "Biegeriss",
+    "FRANCAIS": "fissure de flexion",
+    "ITALIANO": "fessura di flessione"
+  },
+  {
+    "ENGLISH": "tensile bending strength",
+    "DEUTSCH": "Biegezugfestigkeit",
+    "FRANCAIS": "résistance à la traction",
+    "ITALIANO": "resistenza alla tenso-flessione"
+  },
+  {
+    "ENGLISH": "yield line theory",
+    "DEUTSCH": "Bruchlinientheorie",
+    "FRANCAIS": "théorie des lignes de rupture",
+    "ITALIANO": "teoria delle linee di rottura"
+  },
+  {
+    "ENGLISH": "bridge",
+    "DEUTSCH": "Brücke",
+    "FRANCAIS": "pont",
+    "ITALIANO": "ponte"
+  },
+  {
+    "ENGLISH": "straight bridge",
+    "DEUTSCH": "gerade Brücke",
+    "FRANCAIS": "pont droit",
+    "ITALIANO": "ponte diritto"
+  },
+  {
+    "ENGLISH": "skew  bridge",
+    "DEUTSCH": "schiefe Brücke",
+    "FRANCAIS": "pont biais",
+    "ITALIANO": "ponte obliquo"
+  },
+  {
+    "ENGLISH": "impermeability",
+    "DEUTSCH": "Dichtigkeit",
+    "FRANCAIS": "étanchéité",
+    "ITALIANO": "impermeabilità"
+  },
+  {
+    "ENGLISH": "culvert",
+    "DEUTSCH": "Durchlass",
+    "FRANCAIS": "passage inférieur",
+    "ITALIANO": "passaggio"
+  },
+  {
+    "ENGLISH": "punching shear reinforcement",
+    "DEUTSCH": "Durchstanzbewehrung",
+    "FRANCAIS": "armature de poinçonnement",
+    "ITALIANO": "armatura di punzonamento"
+  },
+  {
+    "ENGLISH": "corner column",
+    "DEUTSCH": "Eckstütze",
+    "FRANCAIS": "colonne d'angle",
+    "ITALIANO": "pilastro d'angolo"
+  },
+  {
+    "ENGLISH": "eigen stress",
+    "DEUTSCH": "Eigenspannung",
+    "FRANCAIS": "auto-contrainte",
+    "ITALIANO": "autotensione"
+  },
+  {
+    "ENGLISH": "influence surface",
+    "DEUTSCH": "Einflussfeld",
+    "FRANCAIS": "das",
+    "ITALIANO": "surface d'influence"
+  },
+  {
+    "ENGLISH": "underground reservoir",
+    "DEUTSCH": "Erdbehälter",
+    "FRANCAIS": "réservoir souterrain",
+    "ITALIANO": "serbatoio sotterraneo"
+  },
+  {
+    "ENGLISH": "soil",
+    "DEUTSCH": "Erdreich",
+    "FRANCAIS": "das",
+    "ITALIANO": "sol"
+  },
+  {
+    "ENGLISH": "hardening",
+    "DEUTSCH": "Erhärtung",
+    "FRANCAIS": "durcissement",
+    "ITALIANO": "indurimento"
+  },
+  {
+    "ENGLISH": "Euler's load",
+    "DEUTSCH": "Euler'sche Knicklast",
+    "FRANCAIS": "charge critique d'Euler",
+    "ITALIANO": "carico di Eulero"
+  },
+  {
+    "ENGLISH": "property",
+    "DEUTSCH": "Eigenschaft",
+    "FRANCAIS": "propriété",
+    "ITALIANO": "proprietà"
+  },
+  {
+    "ENGLISH": "finite elements",
+    "DEUTSCH": "finite Elemente",
+    "FRANCAIS": "élément fini",
+    "ITALIANO": "elementi finiti"
+  },
+  {
+    "ENGLISH": "flange",
+    "DEUTSCH": "Flansch",
+    "FRANCAIS": "aile",
+    "ITALIANO": "ala"
+  },
+  {
+    "ENGLISH": "footing",
+    "DEUTSCH": "Fundament",
+    "FRANCAIS": "das",
+    "ITALIANO": "fondation"
+  },
+  {
+    "ENGLISH": "isolated load distribution",
+    "DEUTSCH": "Einzelfundament",
+    "FRANCAIS": "fondation isolée",
+    "ITALIANO": "plinto di fondazione"
+  },
+  {
+    "ENGLISH": "raft foundation",
+    "DEUTSCH": "Plattenfundament",
+    "FRANCAIS": "fondation sur radier",
+    "ITALIANO": "fondazione a piastra"
+  },
+  {
+    "ENGLISH": "strip load distribution",
+    "DEUTSCH": "Streifenfundament",
+    "FRANCAIS": "fondation sur semelle continue",
+    "ITALIANO": "fondazione continua"
+  },
+  {
+    "ENGLISH": "hinge",
+    "DEUTSCH": "Gelenk",
+    "FRANCAIS": "das",
+    "ITALIANO": "articulation"
+  },
+  {
+    "ENGLISH": "envelope",
+    "DEUTSCH": "Grenzwertlinie",
+    "FRANCAIS": "courbe enveloppe",
+    "ITALIANO": "linea dei valori limiti"
+  },
+  {
+    "ENGLISH": "box section",
+    "DEUTSCH": "Kastenquerschnitt",
+    "FRANCAIS": "section en caisson",
+    "ITALIANO": "sezione a cassone"
+  },
+  {
+    "ENGLISH": "voided slab",
+    "DEUTSCH": "Hohlplatte",
+    "FRANCAIS": "dalle évidée",
+    "ITALIANO": "soletta a elementi cavi"
+  },
+  {
+    "ENGLISH": "injection",
+    "DEUTSCH": "Injektion",
+    "FRANCAIS": "injection",
+    "ITALIANO": "iniezione"
+  },
+  {
+    "ENGLISH": "interaction diagram",
+    "DEUTSCH": "Interaktionsdiagramm",
+    "FRANCAIS": "das",
+    "ITALIANO": "diagramme d'interaction"
+  },
+  {
+    "ENGLISH": "representative value",
+    "DEUTSCH": "Kennwert",
+    "FRANCAIS": "valeur représentative",
+    "ITALIANO": "valore rappresentativo"
+  },
+  {
+    "ENGLISH": "buckling of column",
+    "DEUTSCH": "Knicken",
+    "FRANCAIS": "das",
+    "ITALIANO": "flambage"
+  },
+  {
+    "ENGLISH": "corbel",
+    "DEUTSCH": "Konsole",
+    "FRANCAIS": "console",
+    "ITALIANO": "mensola"
+  },
+  {
+    "ENGLISH": "secondary reinforcement",
+    "DEUTSCH": "konstruktive Bewehrung",
+    "FRANCAIS": "armature constructive",
+    "ITALIANO": "armatura costruttiva"
+  },
+  {
+    "ENGLISH": "creep",
+    "DEUTSCH": "Kriechen",
+    "FRANCAIS": "das",
+    "ITALIANO": "fluage"
+  },
+  {
+    "ENGLISH": "creep coefficient",
+    "DEUTSCH": "Kriechzahl",
+    "FRANCAIS": "coefficient de fluage",
+    "ITALIANO": "coefficiente di viscosità"
+  },
+  {
+    "ENGLISH": "longitudinal reinforcement",
+    "DEUTSCH": "Längsbewehrung",
+    "FRANCAIS": "armature longitudinale",
+    "ITALIANO": "armatura longitudinale"
+  },
+  {
+    "ENGLISH": "load factor",
+    "DEUTSCH": "Lastfaktor",
+    "FRANCAIS": "facteur de charge",
+    "ITALIANO": "fattore di carico"
+  },
+  {
+    "ENGLISH": "scaffolding",
+    "DEUTSCH": "Lehrgerüst",
+    "FRANCAIS": "das",
+    "ITALIANO": "cintre"
+  },
+  {
+    "ENGLISH": "T-beam",
+    "DEUTSCH": "Plattenbalken",
+    "FRANCAIS": "poutre en T",
+    "ITALIANO": "trave a T"
+  },
+  {
+    "ENGLISH": "slab bridge",
+    "DEUTSCH": "Plattenbrücke",
+    "FRANCAIS": "pont-dalle",
+    "ITALIANO": "ponte a piastra"
+  },
+  {
+    "ENGLISH": "Lagrange equation",
+    "DEUTSCH": "Plattengleichung",
+    "FRANCAIS": "équation de Lagrange",
+    "ITALIANO": "equazione della piastra"
+  },
+  {
+    "ENGLISH": "plate theory",
+    "DEUTSCH": "Plattentheorie",
+    "FRANCAIS": "théorie des plaques",
+    "ITALIANO": "teoria della piastra"
+  },
+  {
+    "ENGLISH": "perimeter column",
+    "DEUTSCH": "Randstütze",
+    "FRANCAIS": "colonne de bord",
+    "ITALIANO": "pilastro di bordo"
+  },
+  {
+    "ENGLISH": "crack formation",
+    "DEUTSCH": "Rissbildung",
+    "FRANCAIS": "fissuration",
+    "ITALIANO": "fessurazione"
+  },
+  {
+    "ENGLISH": "formwork plan",
+    "DEUTSCH": "Schalungsplan",
+    "FRANCAIS": "plan de coffrage",
+    "ITALIANO": "piano casseri"
+  },
+  {
+    "ENGLISH": "diaphragm wall",
+    "DEUTSCH": "Schlitzwand",
+    "FRANCAIS": "paroi moulée",
+    "ITALIANO": "paratia"
+  },
+  {
+    "ENGLISH": "shear modulus",
+    "DEUTSCH": "Schubmodul",
+    "FRANCAIS": "module de glissement",
+    "ITALIANO": "modulo di elasticità tangenziale"
+  },
+  {
+    "ENGLISH": "shear crack",
+    "DEUTSCH": "Schubriss",
+    "FRANCAIS": "fissure de cisaillement",
+    "ITALIANO": "fessura di taglio"
+  },
+  {
+    "ENGLISH": "shear resistance",
+    "DEUTSCH": "Schubwiderstand",
+    "FRANCAIS": "résistance à l'effort tranchant",
+    "ITALIANO": "resistenza di taglio"
+  },
+  {
+    "ENGLISH": "silo",
+    "DEUTSCH": "Silo",
+    "FRANCAIS": "das",
+    "ITALIANO": "silo"
+  },
+  {
+    "ENGLISH": "prestressing steel",
+    "DEUTSCH": "Spannstahl",
+    "FRANCAIS": "acier de précontrainte",
+    "ITALIANO": "acciaio di precompressione"
+  },
+  {
+    "ENGLISH": "frame structure",
+    "DEUTSCH": "Stabtragwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "structure à barres"
+  },
+  {
+    "ENGLISH": "steel",
+    "DEUTSCH": "Stahl",
+    "FRANCAIS": "acier",
+    "ITALIANO": "acciaio"
+  },
+  {
+    "ENGLISH": "high-tensile steel",
+    "DEUTSCH": "hochfester Stahl",
+    "FRANCAIS": "acier à haute résistance",
+    "ITALIANO": "acciaio ad alta resistenza"
+  },
+  {
+    "ENGLISH": "stainless steel",
+    "DEUTSCH": "nichtrostender Stahl",
+    "FRANCAIS": "acier inoxydable",
+    "ITALIANO": "acciaio inossidabile"
+  },
+  {
+    "ENGLISH": "weathering steel",
+    "DEUTSCH": "witterungsbeständiger Stahl",
+    "FRANCAIS": "acier patinable",
+    "ITALIANO": "acciaio patinato"
+  },
+  {
+    "ENGLISH": "steel schedule",
+    "DEUTSCH": "Stahlliste",
+    "FRANCAIS": "liste de fer",
+    "ITALIANO": "lista ferri"
+  },
+  {
+    "ENGLISH": "bottom flange",
+    "DEUTSCH": "Unterflansch",
+    "FRANCAIS": "aile inférieure",
+    "ITALIANO": "ala inferiore"
+  },
+  {
+    "ENGLISH": "anchorage",
+    "DEUTSCH": "Verankerung",
+    "FRANCAIS": "ancrage",
+    "ITALIANO": "ancoraggio"
+  },
+  {
+    "ENGLISH": "anchorage length",
+    "DEUTSCH": "Verankerungslänge",
+    "FRANCAIS": "longueur d'ancrage",
+    "ITALIANO": "lunghezza d'ancoraggio"
+  },
+  {
+    "ENGLISH": "bond stress",
+    "DEUTSCH": "Verbundspannung",
+    "FRANCAIS": "contrainte d'adhérence",
+    "ITALIANO": "tensione tangenziale"
+  },
+  {
+    "ENGLISH": "deformation",
+    "DEUTSCH": "Verformung",
+    "FRANCAIS": "déformation",
+    "ITALIANO": "deformazione"
+  },
+  {
+    "ENGLISH": "strengthening",
+    "DEUTSCH": "Verstärkung",
+    "FRANCAIS": "renforcement",
+    "ITALIANO": "rinforzo"
+  },
+  {
+    "ENGLISH": "prefabrication",
+    "DEUTSCH": "Vorfabrikation",
+    "FRANCAIS": "préfabrication",
+    "ITALIANO": "prefabbricazione"
+  },
+  {
+    "ENGLISH": "prestressing system",
+    "DEUTSCH": "Vorspannsystem",
+    "FRANCAIS": "das",
+    "ITALIANO": "système de précontrainte"
+  },
+  {
+    "ENGLISH": "loss of prestress",
+    "DEUTSCH": "Spannkraftverlust",
+    "FRANCAIS": "perte de précontrainte",
+    "ITALIANO": "perdita di precompressione"
+  },
+  {
+    "ENGLISH": "abutment",
+    "DEUTSCH": "Widerlager",
+    "FRANCAIS": "das",
+    "ITALIANO": "culée"
+  },
+  {
+    "ENGLISH": "resistance factor",
+    "DEUTSCH": "Widerstandsbeiwert",
+    "FRANCAIS": "facteur de résistance",
+    "ITALIANO": "fattore di resistenza"
+  },
+  {
+    "ENGLISH": "cube compressive strength",
+    "DEUTSCH": "Würfeldruckfestigkeit",
+    "FRANCAIS": "résistance à la compression",
+    "ITALIANO": "resistenza a compressione"
+  },
+  {
+    "ENGLISH": "intermediate support",
+    "DEUTSCH": "Zwischenauflager",
+    "FRANCAIS": "das",
+    "ITALIANO": "appui intermédiaire"
+  },
+  {
+    "ENGLISH": "cylinder",
+    "DEUTSCH": "Zylinder",
+    "FRANCAIS": "cylindre",
+    "ITALIANO": "cilindro"
+  },
+  {
+    "ENGLISH": "cylindrical shell",
+    "DEUTSCH": "Zylinderschale",
+    "FRANCAIS": "coque cylindrique",
+    "ITALIANO": "volta cilindrica"
+  },
+  {
+    "ENGLISH": "admissible",
+    "DEUTSCH": "zulässig",
+    "FRANCAIS": "admissible",
+    "ITALIANO": "ammissibile"
+  },
+  {
+    "ENGLISH": "bend",
+    "DEUTSCH": "Abbiegen",
+    "FRANCAIS": "das",
+    "ITALIANO": "façonnage"
+  },
+  {
+    "ENGLISH": "setting",
+    "DEUTSCH": "Abbinden",
+    "FRANCAIS": "das",
+    "ITALIANO": "prise"
+  },
+  {
+    "ENGLISH": "waterproof seal",
+    "DEUTSCH": "Abdichtung",
+    "FRANCAIS": "étanchement",
+    "ITALIANO": "impermeabilizzazione"
+  },
+  {
+    "ENGLISH": "shearing off",
+    "DEUTSCH": "Abscheren",
+    "FRANCAIS": "das",
+    "ITALIANO": "cisaillement"
+  },
+  {
+    "ENGLISH": "spacer",
+    "DEUTSCH": "Abstandhalter",
+    "FRANCAIS": "écarteur",
+    "ITALIANO": "distanziatore"
+  },
+  {
+    "ENGLISH": "point of application",
+    "DEUTSCH": "Angriffspunkt",
+    "FRANCAIS": "point d'application",
+    "ITALIANO": "punto di applicazione"
+  },
+  {
+    "ENGLISH": "support",
+    "DEUTSCH": "Auflager",
+    "FRANCAIS": "das",
+    "ITALIANO": "appui"
+  },
+  {
+    "ENGLISH": "build-in support",
+    "DEUTSCH": "eingespanntes Auflager",
+    "FRANCAIS": "appui encastré",
+    "ITALIANO": "appoggio incastrato"
+  },
+  {
+    "ENGLISH": "fixed suppoert",
+    "DEUTSCH": "festes Auflager",
+    "FRANCAIS": "appui fixe",
+    "ITALIANO": "appoggio fisso"
+  },
+  {
+    "ENGLISH": "sliding support",
+    "DEUTSCH": "verschiebliches Auflager",
+    "FRANCAIS": "appui mobile",
+    "ITALIANO": "appoggio mobile"
+  },
+  {
+    "ENGLISH": "support condition",
+    "DEUTSCH": "Auflagerbedingung",
+    "FRANCAIS": "condition d'appui",
+    "ITALIANO": "condizione d'appoggio"
+  },
+  {
+    "ENGLISH": "angle of rotation",
+    "DEUTSCH": "Drehwinkel",
+    "FRANCAIS": "angle de rotation",
+    "ITALIANO": "angolo di rotazione"
+  },
+  {
+    "ENGLISH": "support subsidence",
+    "DEUTSCH": "Auflagersenkung",
+    "FRANCAIS": "tassement d'appui",
+    "ITALIANO": "cedimento dell'appoggio"
+  },
+  {
+    "ENGLISH": "uplift",
+    "DEUTSCH": "Auftrieb",
+    "FRANCAIS": "sous-pression",
+    "ITALIANO": "spinta d'Archimede"
+  },
+  {
+    "ENGLISH": "excavation",
+    "DEUTSCH": "Aushub",
+    "FRANCAIS": "fouille",
+    "ITALIANO": "scavo"
+  },
+  {
+    "ENGLISH": "lining",
+    "DEUTSCH": "Auskleidung",
+    "FRANCAIS": "revêtement",
+    "ITALIANO": "rivestimento"
+  },
+  {
+    "ENGLISH": "striking",
+    "DEUTSCH": "Ausschalen",
+    "FRANCAIS": "das",
+    "ITALIANO": "décoffrage"
+  },
+  {
+    "ENGLISH": "axis",
+    "DEUTSCH": "Achse",
+    "FRANCAIS": "axe",
+    "ITALIANO": "asse"
+  },
+  {
+    "ENGLISH": "major axis",
+    "DEUTSCH": "Hauptachse",
+    "FRANCAIS": "axe principal",
+    "ITALIANO": "asse principale"
+  },
+  {
+    "ENGLISH": "minor axis",
+    "DEUTSCH": "konjugierte Achse",
+    "FRANCAIS": "axe conjugué",
+    "ITALIANO": "asse coniugato"
+  },
+  {
+    "ENGLISH": "longitudinal axis",
+    "DEUTSCH": "Stabachse",
+    "FRANCAIS": "axe de la barre",
+    "ITALIANO": "asse dell'asta"
+  },
+  {
+    "ENGLISH": "beam bridge",
+    "DEUTSCH": "Balkenbrücke",
+    "FRANCAIS": "pont poutre",
+    "ITALIANO": "ponte a travata"
+  },
+  {
+    "ENGLISH": "scaffolding",
+    "DEUTSCH": "Baugerüst",
+    "FRANCAIS": "das",
+    "ITALIANO": "échafaudage"
+  },
+  {
+    "ENGLISH": "statics of structures",
+    "DEUTSCH": "Baustatik",
+    "FRANCAIS": "statique appliquée",
+    "ITALIANO": "statica delle costruzioni"
+  },
+  {
+    "ENGLISH": "construction site",
+    "DEUTSCH": "Baustelle",
+    "FRANCAIS": "chantier",
+    "ITALIANO": "cantiere"
+  },
+  {
+    "ENGLISH": "stress and strain",
+    "DEUTSCH": "Beanspruchung",
+    "FRANCAIS": "sollicitation",
+    "ITALIANO": "sollecitazione"
+  },
+  {
+    "ENGLISH": "loading assumption",
+    "DEUTSCH": "Belastungsannahme",
+    "FRANCAIS": "hypothèse de charge",
+    "ITALIANO": "ipotesi di carico"
+  },
+  {
+    "ENGLISH": "plane of loading",
+    "DEUTSCH": "Belastungsebene",
+    "FRANCAIS": "plan de chargement",
+    "ITALIANO": "piano di carico"
+  },
+  {
+    "ENGLISH": "loading state",
+    "DEUTSCH": "Belastungszustand",
+    "FRANCAIS": "état de charge",
+    "ITALIANO": "stato di carico"
+  },
+  {
+    "ENGLISH": "concrete hinge",
+    "DEUTSCH": "Betongelenk",
+    "FRANCAIS": "das",
+    "ITALIANO": "articulation en béton"
+  },
+  {
+    "ENGLISH": "concrete cover",
+    "DEUTSCH": "Betonüberdeckung",
+    "FRANCAIS": "enrobage du béton",
+    "ITALIANO": "copriferro"
+  },
+  {
+    "ENGLISH": "buckling of plate or shell",
+    "DEUTSCH": "Beulen",
+    "FRANCAIS": "das",
+    "ITALIANO": "voilement"
+  },
+  {
+    "ENGLISH": "reinforcing mesh",
+    "DEUTSCH": "Bewehrungsnetz",
+    "FRANCAIS": "das",
+    "ITALIANO": "treillis d'armature"
+  },
+  {
+    "ENGLISH": "reinforcement bar",
+    "DEUTSCH": "Bewehrungsstab",
+    "FRANCAIS": "barre d'armature",
+    "ITALIANO": "barra di armatura"
+  },
+  {
+    "ENGLISH": "bending",
+    "DEUTSCH": "Biegung",
+    "FRANCAIS": "flexion",
+    "ITALIANO": "flessione"
+  },
+  {
+    "ENGLISH": "simple bending",
+    "DEUTSCH": "einfache Biegung",
+    "FRANCAIS": "flexion simple",
+    "ITALIANO": "flessione semplice"
+  },
+  {
+    "ENGLISH": "pure bending",
+    "DEUTSCH": "reine Biegung",
+    "FRANCAIS": "flexion pure",
+    "ITALIANO": "flessione pura"
+  },
+  {
+    "ENGLISH": "biaxial bending",
+    "DEUTSCH": "schiefe Biegung",
+    "FRANCAIS": "flexion oblique",
+    "ITALIANO": "flessione obliqua"
+  },
+  {
+    "ENGLISH": "binding agent",
+    "DEUTSCH": "Bindemittel",
+    "FRANCAIS": "das",
+    "ITALIANO": "liant"
+  },
+  {
+    "ENGLISH": "binder",
+    "DEUTSCH": "Binder",
+    "FRANCAIS": "ferme",
+    "ITALIANO": "capriata"
+  },
+  {
+    "ENGLISH": "soil pressure",
+    "DEUTSCH": "Bodenpressung",
+    "FRANCAIS": "pression sur le sol",
+    "ITALIANO": "pressione sul suolo"
+  },
+  {
+    "ENGLISH": "arch",
+    "DEUTSCH": "Bogen",
+    "FRANCAIS": "arc",
+    "ITALIANO": "arco"
+  },
+  {
+    "ENGLISH": "plank",
+    "DEUTSCH": "Bohle",
+    "FRANCAIS": "madrier",
+    "ITALIANO": "tavolone"
+  },
+  {
+    "ENGLISH": "product of inertia",
+    "DEUTSCH": "Deviationsmoment",
+    "FRANCAIS": "das",
+    "ITALIANO": "produit d'inertie"
+  },
+  {
+    "ENGLISH": "slope",
+    "DEUTSCH": "Böschung",
+    "FRANCAIS": "talus",
+    "ITALIANO": "scarpata"
+  },
+  {
+    "ENGLISH": "board",
+    "DEUTSCH": "Brett",
+    "FRANCAIS": "das",
+    "ITALIANO": "planche"
+  },
+  {
+    "ENGLISH": "rupture",
+    "DEUTSCH": "Bruch",
+    "FRANCAIS": "rupture",
+    "ITALIANO": "rottura"
+  },
+  {
+    "ENGLISH": "elongation at rupture",
+    "DEUTSCH": "Bruchdehnung",
+    "FRANCAIS": "déformation spécifique",
+    "ITALIANO": "allungamento alla rottura"
+  },
+  {
+    "ENGLISH": "stirrup",
+    "DEUTSCH": "Bügel",
+    "FRANCAIS": "étrier",
+    "ITALIANO": "staffa"
+  },
+  {
+    "ENGLISH": "roof",
+    "DEUTSCH": "Dach",
+    "FRANCAIS": "das",
+    "ITALIANO": "toit"
+  },
+  {
+    "ENGLISH": "collar roof",
+    "DEUTSCH": "Kehlbalkendach",
+    "FRANCAIS": "toit avec entrait",
+    "ITALIANO": "tetto a collegiamento"
+  },
+  {
+    "ENGLISH": "purlin roof",
+    "DEUTSCH": "Pfettendach",
+    "FRANCAIS": "toit à pannes",
+    "ITALIANO": "tetto ad arcarecci"
+  },
+  {
+    "ENGLISH": "rafter",
+    "DEUTSCH": "Sparrendach",
+    "FRANCAIS": "toit à chevrons",
+    "ITALIANO": "tetto a puntone"
+  },
+  {
+    "ENGLISH": "weight of oven-dry wood",
+    "DEUTSCH": "Darrgewicht",
+    "FRANCAIS": "das",
+    "ITALIANO": "poids volumique apparent sec"
+  },
+  {
+    "ENGLISH": "slab",
+    "DEUTSCH": "Decke",
+    "FRANCAIS": "dalle",
+    "ITALIANO": "soletta"
+  },
+  {
+    "ENGLISH": "flat slab",
+    "DEUTSCH": "Flachdecke",
+    "FRANCAIS": "plancher-dalle",
+    "ITALIANO": "soletta piana"
+  },
+  {
+    "ENGLISH": "mushroom slab",
+    "DEUTSCH": "Pilzdecke",
+    "FRANCAIS": "dalle champignon",
+    "ITALIANO": "soletta A fungo"
+  },
+  {
+    "ENGLISH": "ribbed slab",
+    "DEUTSCH": "Rippendecke",
+    "FRANCAIS": "dalle nervurée",
+    "ITALIANO": "soletta A nervatura"
+  },
+  {
+    "ENGLISH": "stiffness method",
+    "DEUTSCH": "Deformationsmethode",
+    "FRANCAIS": "méthode des déplacements",
+    "ITALIANO": "metodo degli spostamenti"
+  },
+  {
+    "ENGLISH": "expansion joint",
+    "DEUTSCH": "Dehnungsfuge",
+    "FRANCAIS": "joint de dilatation",
+    "ITALIANO": "giunto di dilatazione"
+  },
+  {
+    "ENGLISH": "wire",
+    "DEUTSCH": "Draht",
+    "FRANCAIS": "fil",
+    "ITALIANO": "filo"
+  },
+  {
+    "ENGLISH": "centre of rotation",
+    "DEUTSCH": "Drehpunkt",
+    "FRANCAIS": "centre de rotation",
+    "ITALIANO": "centro di rotazione"
+  },
+  {
+    "ENGLISH": "pressure",
+    "DEUTSCH": "Druck",
+    "FRANCAIS": "pression",
+    "ITALIANO": "pressione"
+  },
+  {
+    "ENGLISH": "compression member",
+    "DEUTSCH": "Druckglied",
+    "FRANCAIS": "das",
+    "ITALIANO": "élément comprimé"
+  },
+  {
+    "ENGLISH": "compression zone",
+    "DEUTSCH": "Druckzone",
+    "FRANCAIS": "zone de compression",
+    "ITALIANO": "zona di compressione"
+  },
+  {
+    "ENGLISH": "dowel",
+    "DEUTSCH": "Dübel",
+    "FRANCAIS": "connecteur",
+    "ITALIANO": "tassello"
+  },
+  {
+    "ENGLISH": "shear connector",
+    "DEUTSCH": "Flachdübel",
+    "FRANCAIS": "goujon plat",
+    "ITALIANO": "tassello piano"
+  },
+  {
+    "ENGLISH": "split ring",
+    "DEUTSCH": "Ringdübel",
+    "FRANCAIS": "anneau",
+    "ITALIANO": "tassello ad anello"
+  },
+  {
+    "ENGLISH": "punching",
+    "DEUTSCH": "Durchstanzen",
+    "FRANCAIS": "das",
+    "ITALIANO": "poinçonnement"
+  },
+  {
+    "ENGLISH": "influence line",
+    "DEUTSCH": "Einflusslinie",
+    "FRANCAIS": "ligne d'influence",
+    "ITALIANO": "linea d'influenza"
+  },
+  {
+    "ENGLISH": "fixed end-support",
+    "DEUTSCH": "Einspannung",
+    "FRANCAIS": "encastrement",
+    "ITALIANO": "incastro"
+  },
+  {
+    "ENGLISH": "unloading",
+    "DEUTSCH": "Entlastung",
+    "FRANCAIS": "déchargement",
+    "ITALIANO": "scarico"
+  },
+  {
+    "ENGLISH": "segregation",
+    "DEUTSCH": "Entmischung",
+    "FRANCAIS": "ségrégation",
+    "ITALIANO": "segregazione"
+  },
+  {
+    "ENGLISH": "drainage",
+    "DEUTSCH": "Entwässerung",
+    "FRANCAIS": "drainage",
+    "ITALIANO": "drenaggio"
+  },
+  {
+    "ENGLISH": "design",
+    "DEUTSCH": "Entwurf",
+    "FRANCAIS": "projet",
+    "ITALIANO": "progetto"
+  },
+  {
+    "ENGLISH": "earthquake",
+    "DEUTSCH": "Erdbeben",
+    "FRANCAIS": "das",
+    "ITALIANO": "tremblement de terre"
+  },
+  {
+    "ENGLISH": "earth pressure",
+    "DEUTSCH": "Erddruck",
+    "FRANCAIS": "pression des terres",
+    "ITALIANO": "spinta delle terre"
+  },
+  {
+    "ENGLISH": "active segregation",
+    "DEUTSCH": "aktiver Erddruck",
+    "FRANCAIS": "poussée des terres",
+    "ITALIANO": "spinta attiva"
+  },
+  {
+    "ENGLISH": "passive segregation",
+    "DEUTSCH": "passiver Erddruck",
+    "FRANCAIS": "butée des terres",
+    "ITALIANO": "spinta passiva"
+  },
+  {
+    "ENGLISH": "segregation at rest",
+    "DEUTSCH": "Ruhedruck",
+    "FRANCAIS": "pression des terres au repos",
+    "ITALIANO": "spinta A riposo"
+  },
+  {
+    "ENGLISH": "fatigue",
+    "DEUTSCH": "Ermüdung",
+    "FRANCAIS": "fatigue",
+    "ITALIANO": "fatica"
+  },
+  {
+    "ENGLISH": "equivalent system",
+    "DEUTSCH": "Ersatzsystem",
+    "FRANCAIS": "das",
+    "ITALIANO": "système de remplacement"
+  },
+  {
+    "ENGLISH": "eccentricity",
+    "DEUTSCH": "Exzentrizität",
+    "FRANCAIS": "excentricité",
+    "ITALIANO": "eccentricità"
+  },
+  {
+    "ENGLISH": "fibre",
+    "DEUTSCH": "Faser",
+    "FRANCAIS": "fibre",
+    "ITALIANO": "fibra"
+  },
+  {
+    "ENGLISH": "spring",
+    "DEUTSCH": "Feder",
+    "FRANCAIS": "ressort",
+    "ITALIANO": "molla"
+  },
+  {
+    "ENGLISH": "strength of materials",
+    "DEUTSCH": "Festigkeitslehre",
+    "FRANCAIS": "résistance des materiaux",
+    "ITALIANO": "resistenza dei materiali"
+  },
+  {
+    "ENGLISH": "space structure",
+    "DEUTSCH": "Flächentragwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "structure porteuse à paroi"
+  },
+  {
+    "ENGLISH": "bending stress",
+    "DEUTSCH": "Biegespannung",
+    "FRANCAIS": "contrainte de flexion",
+    "ITALIANO": "tensione dovuta al momento"
+  },
+  {
+    "ENGLISH": "plastic deformation",
+    "DEUTSCH": "Fliessdehnung",
+    "FRANCAIS": "allongement plastique",
+    "ITALIANO": "deformazione specifica di"
+  },
+  {
+    "ENGLISH": "yield point",
+    "DEUTSCH": "Fliessgrenze",
+    "FRANCAIS": "limite d'écoulement",
+    "ITALIANO": "limite di snervamiento"
+  },
+  {
+    "ENGLISH": "yield stress",
+    "DEUTSCH": "Fliessspannung",
+    "FRANCAIS": "contrainte d'écoulement",
+    "ITALIANO": "tensione di snervamento"
+  },
+  {
+    "ENGLISH": "deformation",
+    "DEUTSCH": "Formänderung",
+    "FRANCAIS": "déformation",
+    "ITALIANO": "deformazione"
+  },
+  {
+    "ENGLISH": "condition of geometrical compatibility",
+    "DEUTSCH": "Formänderungsbedingung",
+    "FRANCAIS": "condition de compatibilité des",
+    "ITALIANO": "condizione di compatibilità"
+  },
+  {
+    "ENGLISH": "degree of freedom",
+    "DEUTSCH": "Freiheitsgrad",
+    "FRANCAIS": "degré de liberté",
+    "ITALIANO": "grado di libertà"
+  },
+  {
+    "ENGLISH": "cantilevered construction",
+    "DEUTSCH": "Freivorbau",
+    "FRANCAIS": "construction en encorbellement",
+    "ITALIANO": "costruzione con centina mobile"
+  },
+  {
+    "ENGLISH": "frost resistance",
+    "DEUTSCH": "Frostbeständigkeit",
+    "FRANCAIS": "résistance au gel",
+    "ITALIANO": "resistenza al gelo"
+  },
+  {
+    "ENGLISH": "sealing strip",
+    "DEUTSCH": "Fugenband",
+    "FRANCAIS": "das",
+    "ITALIANO": "ruban d'étanchéité"
+  },
+  {
+    "ENGLISH": "serviceability limit state",
+    "DEUTSCH": "Gebrauchszustand",
+    "FRANCAIS": "état de service",
+    "ITALIANO": "stadio di esercizio"
+  },
+  {
+    "ENGLISH": "limit state",
+    "DEUTSCH": "Grenzzustand",
+    "FRANCAIS": "état limite",
+    "ITALIANO": "stadio limite"
+  },
+  {
+    "ENGLISH": "basic system",
+    "DEUTSCH": "Grundsystem",
+    "FRANCAIS": "das",
+    "ITALIANO": "système fondamental"
+  },
+  {
+    "ENGLISH": "foundation",
+    "DEUTSCH": "Gründung",
+    "FRANCAIS": "fondation",
+    "ITALIANO": "fondazione"
+  },
+  {
+    "ENGLISH": "shallow foundation",
+    "DEUTSCH": "Flachgründung",
+    "FRANCAIS": "fondation superficielle",
+    "ITALIANO": "fondazione superficiale"
+  },
+  {
+    "ENGLISH": "deep foundation",
+    "DEUTSCH": "Tiefgründung",
+    "FRANCAIS": "fondation profonde",
+    "ITALIANO": "fondazione profonda"
+  },
+  {
+    "ENGLISH": "chord",
+    "DEUTSCH": "Gurt",
+    "FRANCAIS": "membrure",
+    "ITALIANO": "corrente"
+  },
+  {
+    "ENGLISH": "static friction",
+    "DEUTSCH": "Haftreibung",
+    "FRANCAIS": "frottement statique",
+    "ITALIANO": "attrito radente"
+  },
+  {
+    "ENGLISH": "bond",
+    "DEUTSCH": "Haftung",
+    "FRANCAIS": "adhérence",
+    "ITALIANO": "aderenza"
+  },
+  {
+    "ENGLISH": "hook",
+    "DEUTSCH": "Haken",
+    "FRANCAIS": "crochet",
+    "ITALIANO": "gancio"
+  },
+  {
+    "ENGLISH": "suspension bridge",
+    "DEUTSCH": "Hängebrücke",
+    "FRANCAIS": "pont suspendu",
+    "ITALIANO": "ponte sospeso"
+  },
+  {
+    "ENGLISH": "main girder",
+    "DEUTSCH": "Hauptträger",
+    "FRANCAIS": "poutre maîtresse",
+    "ITALIANO": "trave principale"
+  },
+  {
+    "ENGLISH": "principal moment of inertia",
+    "DEUTSCH": "Hauptträgheitsmoment",
+    "FRANCAIS": "das",
+    "ITALIANO": "moment d'inertie principal"
+  },
+  {
+    "ENGLISH": "lever-arm",
+    "DEUTSCH": "Hebelarm",
+    "FRANCAIS": "bras de levier",
+    "ITALIANO": "braccio di leva"
+  },
+  {
+    "ENGLISH": "glulam beam",
+    "DEUTSCH": "Brettschichtträger",
+    "FRANCAIS": "poutre lamellée-collée",
+    "ITALIANO": "trave in legno lamellare"
+  },
+  {
+    "ENGLISH": "timber construction",
+    "DEUTSCH": "Holzbau",
+    "FRANCAIS": "construction en bois",
+    "ITALIANO": "costruzione in legno"
+  },
+  {
+    "ENGLISH": "duct",
+    "DEUTSCH": "Hüllrohr",
+    "FRANCAIS": "das",
+    "ITALIANO": "gaine"
+  },
+  {
+    "ENGLISH": "grouting",
+    "DEUTSCH": "Injizieren",
+    "FRANCAIS": "das",
+    "ITALIANO": "injection"
+  },
+  {
+    "ENGLISH": "gravel",
+    "DEUTSCH": "Kies",
+    "FRANCAIS": "gravier",
+    "ITALIANO": "ghiaia"
+  },
+  {
+    "ENGLISH": "cleat",
+    "DEUTSCH": "Knagge",
+    "FRANCAIS": "échantignole",
+    "ITALIANO": "gatello"
+  },
+  {
+    "ENGLISH": "node",
+    "DEUTSCH": "Knoten",
+    "FRANCAIS": "noeud",
+    "ITALIANO": "nodo"
+  },
+  {
+    "ENGLISH": "gusset plate",
+    "DEUTSCH": "Knotenblech",
+    "FRANCAIS": "das",
+    "ITALIANO": "gousset"
+  },
+  {
+    "ENGLISH": "force method",
+    "DEUTSCH": "Kraftmethode",
+    "FRANCAIS": "méthode des forces",
+    "ITALIANO": "metodo delle forze"
+  },
+  {
+    "ENGLISH": "force polygon",
+    "DEUTSCH": "Kräfteplan",
+    "FRANCAIS": "polygone des forces",
+    "ITALIANO": "poligono delle forze"
+  },
+  {
+    "ENGLISH": "situation plan",
+    "DEUTSCH": "Lageplan",
+    "FRANCAIS": "plan de situation",
+    "ITALIANO": "planimetria generale"
+  },
+  {
+    "ENGLISH": "bearing",
+    "DEUTSCH": "Lagerkonstruktion",
+    "FRANCAIS": "appareil d'appui",
+    "ITALIANO": "sistema d'appoggio"
+  },
+  {
+    "ENGLISH": "sliding bearing",
+    "DEUTSCH": "- Gleitlager",
+    "FRANCAIS": "das",
+    "ITALIANO": "appui glissant"
+  },
+  {
+    "ENGLISH": "rocker bearing",
+    "DEUTSCH": "- Kipplager",
+    "FRANCAIS": "das",
+    "ITALIANO": "appui oscillant"
+  },
+  {
+    "ENGLISH": "roller bearing",
+    "DEUTSCH": "- Rollenlager",
+    "FRANCAIS": "das",
+    "ITALIANO": "appui à rouleaux"
+  },
+  {
+    "ENGLISH": "load case",
+    "DEUTSCH": "Lastfall",
+    "FRANCAIS": "cas de charge",
+    "ITALIANO": "caso di carico"
+  },
+  {
+    "ENGLISH": "load position",
+    "DEUTSCH": "Laststellung",
+    "FRANCAIS": "position de la charge",
+    "ITALIANO": "posizione del carico"
+  },
+  {
+    "ENGLISH": "load distribution",
+    "DEUTSCH": "Lastverteilung",
+    "FRANCAIS": "répartition des charges",
+    "ITALIANO": "ripartizione del carico"
+  },
+  {
+    "ENGLISH": "glue",
+    "DEUTSCH": "Leim",
+    "FRANCAIS": "colle",
+    "ITALIANO": "colla"
+  },
+  {
+    "ENGLISH": "strand",
+    "DEUTSCH": "Litze",
+    "FRANCAIS": "toron",
+    "ITALIANO": "treccia di fili"
+  },
+  {
+    "ENGLISH": "masonry wall",
+    "DEUTSCH": "Mauerwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "maçonnerie"
+  },
+  {
+    "ENGLISH": "single skin wall",
+    "DEUTSCH": "Einsteinmauerwerk",
+    "FRANCAIS": "maçonnerie à simple paroi",
+    "ITALIANO": "muratura semplice"
+  },
+  {
+    "ENGLISH": "natural stone wall",
+    "DEUTSCH": "Natursteinmauerwerk",
+    "FRANCAIS": "maçonnerie en pierres naturelles",
+    "ITALIANO": "muratura in pietra naturale"
+  },
+  {
+    "ENGLISH": "cavity wall",
+    "DEUTSCH": "Zweischalenmauerwerk",
+    "FRANCAIS": "maçonnerie à double paroi",
+    "ITALIANO": "muratura A doppia parete"
+  },
+  {
+    "ENGLISH": "moment",
+    "DEUTSCH": "Moment",
+    "FRANCAIS": "das",
+    "ITALIANO": "moment"
+  },
+  {
+    "ENGLISH": "bending moment",
+    "DEUTSCH": "Biegemoment",
+    "FRANCAIS": "moment de flexion",
+    "ITALIANO": "momento flettente"
+  },
+  {
+    "ENGLISH": "failure moment",
+    "DEUTSCH": "Bruchmoment",
+    "FRANCAIS": "moment de rupture",
+    "ITALIANO": "momento di rottura"
+  },
+  {
+    "ENGLISH": "couple",
+    "DEUTSCH": "Drehmoment",
+    "FRANCAIS": "couple",
+    "ITALIANO": "momento di rotazione"
+  },
+  {
+    "ENGLISH": "torsion moment",
+    "DEUTSCH": "Drillmoment",
+    "FRANCAIS": "moment de torsion",
+    "ITALIANO": "momento di torsione"
+  },
+  {
+    "ENGLISH": "fixed-end moment",
+    "DEUTSCH": "Einspannmoment",
+    "FRANCAIS": "moment d'encastrement",
+    "ITALIANO": "momento d'incastro"
+  },
+  {
+    "ENGLISH": "mid-span moment",
+    "DEUTSCH": "Feldmoment",
+    "FRANCAIS": "moment en travée",
+    "ITALIANO": "momento in campata"
+  },
+  {
+    "ENGLISH": "support moment",
+    "DEUTSCH": "Stützenmoment",
+    "FRANCAIS": "moment sur appui",
+    "ITALIANO": "momento sull'appoggio"
+  },
+  {
+    "ENGLISH": "torsional moment",
+    "DEUTSCH": "Torsionsmoment",
+    "FRANCAIS": "moment de torsion",
+    "ITALIANO": "momento di torsione"
+  },
+  {
+    "ENGLISH": "moment of inertia",
+    "DEUTSCH": "Trägheitsmoment",
+    "FRANCAIS": "moment d'inertie",
+    "ITALIANO": "momento d'inerzia"
+  },
+  {
+    "ENGLISH": "section modulus",
+    "DEUTSCH": "Widerstandsmoment",
+    "FRANCAIS": "moment de résistance",
+    "ITALIANO": "momento resistente"
+  },
+  {
+    "ENGLISH": "secondary moment",
+    "DEUTSCH": "Zwängungsmoment",
+    "FRANCAIS": "moment secondaire",
+    "ITALIANO": "momento secondario"
+  },
+  {
+    "ENGLISH": "erection",
+    "DEUTSCH": "Montage",
+    "FRANCAIS": "montage",
+    "ITALIANO": "montaggio"
+  },
+  {
+    "ENGLISH": "mortar",
+    "DEUTSCH": "Mörtel",
+    "FRANCAIS": "mortier",
+    "ITALIANO": "malta"
+  },
+  {
+    "ENGLISH": "lime mortar",
+    "DEUTSCH": "Kalkmörtel",
+    "FRANCAIS": "mortier de chaux",
+    "ITALIANO": "malta di calce"
+  },
+  {
+    "ENGLISH": "glue mortar",
+    "DEUTSCH": "Klebemörtel",
+    "FRANCAIS": "mortier-colle",
+    "ITALIANO": "malta di collegamento"
+  },
+  {
+    "ENGLISH": "cement-lime mortar",
+    "DEUTSCH": "verlängerter Mörtel",
+    "FRANCAIS": "mortier allongé",
+    "ITALIANO": "malta allungata"
+  },
+  {
+    "ENGLISH": "cement mortar",
+    "DEUTSCH": "Zementmörtel",
+    "FRANCAIS": "mortier de ciment",
+    "ITALIANO": "malta di cemento"
+  },
+  {
+    "ENGLISH": "curing",
+    "DEUTSCH": "Nachbehandlung",
+    "FRANCAIS": "cure",
+    "ITALIANO": "post-trattamento"
+  },
+  {
+    "ENGLISH": "nail",
+    "DEUTSCH": "Nagel",
+    "FRANCAIS": "clou",
+    "ITALIANO": "chiodo"
+  },
+  {
+    "ENGLISH": "rocking pier",
+    "DEUTSCH": "Pendelstütze",
+    "FRANCAIS": "colonne articulée",
+    "ITALIANO": "pilastro biarticolato"
+  },
+  {
+    "ENGLISH": "pile",
+    "DEUTSCH": "Pfahl",
+    "FRANCAIS": "pieu",
+    "ITALIANO": "palo"
+  },
+  {
+    "ENGLISH": "bored pile",
+    "DEUTSCH": "Bohrpfahl",
+    "FRANCAIS": "pieu foré",
+    "ITALIANO": "palo trivellato"
+  },
+  {
+    "ENGLISH": "precast pile",
+    "DEUTSCH": "Fertigpfahl",
+    "FRANCAIS": "pieu préfabriqué",
+    "ITALIANO": "palo prefabbricato"
+  },
+  {
+    "ENGLISH": "cast-in-place pile",
+    "DEUTSCH": "Ortspfahl",
+    "FRANCAIS": "pieu moulé",
+    "ITALIANO": "palo gettato"
+  },
+  {
+    "ENGLISH": "driven pile",
+    "DEUTSCH": "Rammpfahl",
+    "FRANCAIS": "pieu battu",
+    "ITALIANO": "palo battuto"
+  },
+  {
+    "ENGLISH": "floating pile",
+    "DEUTSCH": "friction pile",
+    "FRANCAIS": "Reibungspfahl",
+    "ITALIANO": "pieu flottant"
+  },
+  {
+    "ENGLISH": "end-bearing pile",
+    "DEUTSCH": "Spitzenpfahl",
+    "FRANCAIS": "pieu à résistance de pointe",
+    "ITALIANO": "palo resistente alla punta"
+  },
+  {
+    "ENGLISH": "rise of arch",
+    "DEUTSCH": "Pfeilhöhe",
+    "FRANCAIS": "flèche",
+    "ITALIANO": "freccia"
+  },
+  {
+    "ENGLISH": "purlin",
+    "DEUTSCH": "Pfette",
+    "FRANCAIS": "panne",
+    "ITALIANO": "terzera"
+  },
+  {
+    "ENGLISH": "prism strength",
+    "DEUTSCH": "Prismendruckfestigkeit",
+    "FRANCAIS": "résistance à la compression",
+    "ITALIANO": "resistenza a compressione"
+  },
+  {
+    "ENGLISH": "swelling",
+    "DEUTSCH": "Quellen",
+    "FRANCAIS": "das",
+    "ITALIANO": "gonflement"
+  },
+  {
+    "ENGLISH": "lateral strain",
+    "DEUTSCH": "Querdehnung",
+    "FRANCAIS": "déformation transversale",
+    "ITALIANO": "deformazione trasversale"
+  },
+  {
+    "ENGLISH": "Poisson's ratio",
+    "DEUTSCH": "Querdehnungszahl",
+    "FRANCAIS": "coefficient de Poisson",
+    "ITALIANO": "coefficiente di Poisson"
+  },
+  {
+    "ENGLISH": "lateral compression",
+    "DEUTSCH": "Querdruck",
+    "FRANCAIS": "compression transversale",
+    "ITALIANO": "compressione trasversale"
+  },
+  {
+    "ENGLISH": "structure",
+    "DEUTSCH": "Tragwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "structure porteuse"
+  },
+  {
+    "ENGLISH": "plane structure",
+    "DEUTSCH": "ebenes Tragwerk",
+    "FRANCAIS": "structure porteuse plane",
+    "ITALIANO": "struttura portante piana"
+  },
+  {
+    "ENGLISH": "space structure",
+    "DEUTSCH": "räumliches Tragwerk",
+    "FRANCAIS": "structure porteuse spatiale",
+    "ITALIANO": "struttura portante spaziale"
+  },
+  {
+    "ENGLISH": "frame",
+    "DEUTSCH": "Rahmen",
+    "FRANCAIS": "cadre",
+    "ITALIANO": "telaio"
+  },
+  {
+    "ENGLISH": "friction",
+    "DEUTSCH": "Reibung",
+    "FRANCAIS": "frottement",
+    "ITALIANO": "attrito"
+  },
+  {
+    "ENGLISH": "friction losses",
+    "DEUTSCH": "Reibungsverlust",
+    "FRANCAIS": "perte par frottement",
+    "ITALIANO": "perdita per attrito"
+  },
+  {
+    "ENGLISH": "crack",
+    "DEUTSCH": "Riss",
+    "FRANCAIS": "fissure",
+    "ITALIANO": "fessura"
+  },
+  {
+    "ENGLISH": "column",
+    "DEUTSCH": "Säule",
+    "FRANCAIS": "colonne",
+    "ITALIANO": "colonna"
+  },
+  {
+    "ENGLISH": "shuttering",
+    "DEUTSCH": "Schalung",
+    "FRANCAIS": "coffrage",
+    "ITALIANO": "cassero"
+  },
+  {
+    "ENGLISH": "damage",
+    "DEUTSCH": "Schaden",
+    "FRANCAIS": "dommage",
+    "ITALIANO": "danno"
+  },
+  {
+    "ENGLISH": "transition slab",
+    "DEUTSCH": "Schleppplatte",
+    "FRANCAIS": "dalle de transition",
+    "ITALIANO": "soletta di assestamento"
+  },
+  {
+    "ENGLISH": "bent-up bar",
+    "DEUTSCH": "Schrägbewehrung",
+    "FRANCAIS": "armature oblique",
+    "ITALIANO": "armatura obliqua"
+  },
+  {
+    "ENGLISH": "section",
+    "DEUTSCH": "Schnitt",
+    "FRANCAIS": "coupe",
+    "ITALIANO": "sezione"
+  },
+  {
+    "ENGLISH": "longitudinal section",
+    "DEUTSCH": "Längsschnitt",
+    "FRANCAIS": "coupe longitudinale",
+    "ITALIANO": "sezione longitudinale"
+  },
+  {
+    "ENGLISH": "cross section",
+    "DEUTSCH": "Querschnitt",
+    "FRANCAIS": "coupe transversale",
+    "ITALIANO": "sezione trasversale"
+  },
+  {
+    "ENGLISH": "screw",
+    "DEUTSCH": "Holzschraube",
+    "FRANCAIS": "vis à bois",
+    "ITALIANO": "vite per legno"
+  },
+  {
+    "ENGLISH": "shear centre",
+    "DEUTSCH": "Schubmittelpunkt",
+    "FRANCAIS": "centre de cisaillement",
+    "ITALIANO": "centro delle forze di taglio"
+  },
+  {
+    "ENGLISH": "shear strain",
+    "DEUTSCH": "Schubverzerrung",
+    "FRANCAIS": "glissement moyen",
+    "ITALIANO": "scorrimento tangenziale"
+  },
+  {
+    "ENGLISH": "welding",
+    "DEUTSCH": "Schweissung",
+    "FRANCAIS": "soudure",
+    "ITALIANO": "saldatura"
+  },
+  {
+    "ENGLISH": "axis of gravity",
+    "DEUTSCH": "Schwerachse",
+    "FRANCAIS": "axe de gravité",
+    "ITALIANO": "asse baricentrico"
+  },
+  {
+    "ENGLISH": "link polygon",
+    "DEUTSCH": "Seilpolygon",
+    "FRANCAIS": "das",
+    "ITALIANO": "polygone funiculaire"
+  },
+  {
+    "ENGLISH": "settlement",
+    "DEUTSCH": "Setzung",
+    "FRANCAIS": "tassement",
+    "ITALIANO": "assestamento"
+  },
+  {
+    "ENGLISH": "grain size distribution curve",
+    "DEUTSCH": "Siebkurve",
+    "FRANCAIS": "courbe granulométrique",
+    "ITALIANO": "curva granulometrica"
+  },
+  {
+    "ENGLISH": "suction",
+    "DEUTSCH": "Sog",
+    "FRANCAIS": "succion",
+    "ITALIANO": "risucchio"
+  },
+  {
+    "ENGLISH": "pretensioning",
+    "DEUTSCH": "Spannbettverfahren",
+    "FRANCAIS": "das",
+    "ITALIANO": "procédé de précontrainte par"
+  },
+  {
+    "ENGLISH": "tendon",
+    "DEUTSCH": "Spannkabel",
+    "FRANCAIS": "das",
+    "ITALIANO": "câble de précontrainte"
+  },
+  {
+    "ENGLISH": "principal stress trajectory",
+    "DEUTSCH": "Spannungstrajektorie",
+    "FRANCAIS": "trajectoire de contrainte",
+    "ITALIANO": "traiettoria delle tensioni"
+  },
+  {
+    "ENGLISH": "stress",
+    "DEUTSCH": "Spannung",
+    "FRANCAIS": "contrainte",
+    "ITALIANO": "tensione"
+  },
+  {
+    "ENGLISH": "buckling stress",
+    "DEUTSCH": "Beulspannung",
+    "FRANCAIS": "contrainte de voilement",
+    "ITALIANO": "tensione d'imbozzamento"
+  },
+  {
+    "ENGLISH": "ultimate stress",
+    "DEUTSCH": "Bruchspannung",
+    "FRANCAIS": "contrainte de rupture",
+    "ITALIANO": "tensione di rottura"
+  },
+  {
+    "ENGLISH": "compressive stress",
+    "DEUTSCH": "Druckspannung",
+    "FRANCAIS": "contrainte de compression",
+    "ITALIANO": "tensione di compressione"
+  },
+  {
+    "ENGLISH": "principal stress",
+    "DEUTSCH": "Hauptspannung",
+    "FRANCAIS": "contrainte principale",
+    "ITALIANO": "tensione principale"
+  },
+  {
+    "ENGLISH": "normal stress",
+    "DEUTSCH": "Normalspannung",
+    "FRANCAIS": "contrainte normale",
+    "ITALIANO": "tensione normale"
+  },
+  {
+    "ENGLISH": "tangential stress",
+    "DEUTSCH": "Schubspannung",
+    "FRANCAIS": "contrainte tangentielle",
+    "ITALIANO": "tensione tangenziale"
+  },
+  {
+    "ENGLISH": "existing stress",
+    "DEUTSCH": "vorhandene Spannung",
+    "FRANCAIS": "contrainte effective",
+    "ITALIANO": "tensione effettiva"
+  },
+  {
+    "ENGLISH": "tensile stress",
+    "DEUTSCH": "Zugspannung",
+    "FRANCAIS": "contrainte de traction",
+    "ITALIANO": "tensione di trazione"
+  },
+  {
+    "ENGLISH": "allowable stress",
+    "DEUTSCH": "zulässige Spannung",
+    "FRANCAIS": "contrainte admissible",
+    "ITALIANO": "tensione ammissibile"
+  },
+  {
+    "ENGLISH": "rafter",
+    "DEUTSCH": "Sparren",
+    "FRANCAIS": "chevron",
+    "ITALIANO": "corrente"
+  },
+  {
+    "ENGLISH": "sheet-pile wall",
+    "DEUTSCH": "Spundwand",
+    "FRANCAIS": "rideau de palplanches",
+    "ITALIANO": "diaframma di palancole"
+  },
+  {
+    "ENGLISH": "steel construction",
+    "DEUTSCH": "Stahlbau",
+    "FRANCAIS": "construction métallique",
+    "ITALIANO": "costruzione metallica"
+  },
+  {
+    "ENGLISH": "dynamic pressure",
+    "DEUTSCH": "Staudruck",
+    "FRANCAIS": "pression dynamique",
+    "ITALIANO": "pressione dinamica"
+  },
+  {
+    "ENGLISH": "web",
+    "DEUTSCH": "Steg",
+    "FRANCAIS": "âme",
+    "ITALIANO": "anima (della trave)"
+  },
+  {
+    "ENGLISH": "joint",
+    "DEUTSCH": "Stoss",
+    "FRANCAIS": "joint",
+    "ITALIANO": "giunto"
+  },
+  {
+    "ENGLISH": "diagonal",
+    "DEUTSCH": "Strebe",
+    "FRANCAIS": "diagonale",
+    "ITALIANO": "diagonale"
+  },
+  {
+    "ENGLISH": "proportional limit",
+    "DEUTSCH": "Streckgrenze",
+    "FRANCAIS": "limite apparente d'élasticité",
+    "ITALIANO": "limite di snervamento"
+  },
+  {
+    "ENGLISH": "column",
+    "DEUTSCH": "Stütze",
+    "FRANCAIS": "colonne",
+    "ITALIANO": "pilastro"
+  },
+  {
+    "ENGLISH": "eccentrically loaded column",
+    "DEUTSCH": "exzentrisch belastete Stütze",
+    "FRANCAIS": "colonne chargée excentriquement",
+    "ITALIANO": "pilastro caricato eccentricamente"
+  },
+  {
+    "ENGLISH": "transversely loaded column",
+    "DEUTSCH": "querbelastete Stütze",
+    "FRANCAIS": "colonne chargée transversalement",
+    "ITALIANO": "pilastro caricato lateralmente"
+  },
+  {
+    "ENGLISH": "retaining wall",
+    "DEUTSCH": "Stützmauer",
+    "FRANCAIS": "mur de soutènement",
+    "ITALIANO": "muro di sostegno"
+  },
+  {
+    "ENGLISH": "span",
+    "DEUTSCH": "Stützweite",
+    "FRANCAIS": "portée",
+    "ITALIANO": "portata"
+  },
+  {
+    "ENGLISH": "beam",
+    "DEUTSCH": "Träger",
+    "FRANCAIS": "poutre",
+    "ITALIANO": "trave"
+  },
+  {
+    "ENGLISH": "continuous beam",
+    "DEUTSCH": "Durchlaufträger",
+    "FRANCAIS": "poutre continue",
+    "ITALIANO": "trave continua"
+  },
+  {
+    "ENGLISH": "fixed ended beam",
+    "DEUTSCH": "eingespannter Träger",
+    "FRANCAIS": "poutre encastrée",
+    "ITALIANO": "trave incastrata"
+  },
+  {
+    "ENGLISH": "truss  beam",
+    "DEUTSCH": "Fachwerkträger",
+    "FRANCAIS": "poutre à treillis",
+    "ITALIANO": "trave reticolare"
+  },
+  {
+    "ENGLISH": "Gerber beam",
+    "DEUTSCH": "Gerberträger",
+    "FRANCAIS": "poutre Gerber",
+    "ITALIANO": "trave Gerber"
+  },
+  {
+    "ENGLISH": "cantilever beam",
+    "DEUTSCH": "Kragträger",
+    "FRANCAIS": "poutre-console",
+    "ITALIANO": "trave a mensola"
+  },
+  {
+    "ENGLISH": "cross  beam",
+    "DEUTSCH": "Querträger",
+    "FRANCAIS": "entretoise",
+    "ITALIANO": "trave trasversale"
+  },
+  {
+    "ENGLISH": "keyed-beam",
+    "DEUTSCH": "verdübelter Träger",
+    "FRANCAIS": "poutre mixte",
+    "ITALIANO": "trave con connettori"
+  },
+  {
+    "ENGLISH": "deep beam",
+    "DEUTSCH": "wandartiger Träger",
+    "FRANCAIS": "poutre-cloison",
+    "ITALIANO": "trave parete"
+  },
+  {
+    "ENGLISH": "grid",
+    "DEUTSCH": "Trägerrost",
+    "FRANCAIS": "grille de poutre",
+    "ITALIANO": "traliccio"
+  },
+  {
+    "ENGLISH": "radius of gyration",
+    "DEUTSCH": "Trägheitsradius",
+    "FRANCAIS": "rayon de giration",
+    "ITALIANO": "raggio d'inerzia"
+  },
+  {
+    "ENGLISH": "superstructure",
+    "DEUTSCH": "Überbau",
+    "FRANCAIS": "superstructure",
+    "ITALIANO": "soprastruttura"
+  },
+  {
+    "ENGLISH": "camber",
+    "DEUTSCH": "Überhöhung",
+    "FRANCAIS": "contreflèche",
+    "ITALIANO": "controfreccia"
+  },
+  {
+    "ENGLISH": "redundant force",
+    "DEUTSCH": "überzählige Grösse",
+    "FRANCAIS": "effort hyperstatique",
+    "ITALIANO": "forza iperstatica"
+  },
+  {
+    "ENGLISH": "substructure",
+    "DEUTSCH": "Unterbau",
+    "FRANCAIS": "infrastructure",
+    "ITALIANO": "sottostruttura"
+  },
+  {
+    "ENGLISH": "washer",
+    "DEUTSCH": "Unterlagsscheibe",
+    "FRANCAIS": "rondelle",
+    "ITALIANO": "ranella"
+  },
+  {
+    "ENGLISH": "main beam",
+    "DEUTSCH": "Unterzug",
+    "FRANCAIS": "sommier",
+    "ITALIANO": "architrave"
+  },
+  {
+    "ENGLISH": "connection",
+    "DEUTSCH": "Verbindung",
+    "FRANCAIS": "assemblage",
+    "ITALIANO": "collegamento"
+  },
+  {
+    "ENGLISH": "fastener",
+    "DEUTSCH": "Verbindungsmittel",
+    "FRANCAIS": "das",
+    "ITALIANO": "moyen d'assemblage"
+  },
+  {
+    "ENGLISH": "composite section",
+    "DEUTSCH": "Verbundquerschnitt",
+    "FRANCAIS": "section mixte",
+    "ITALIANO": "sezione mista"
+  },
+  {
+    "ENGLISH": "rotation",
+    "DEUTSCH": "Verdrehung",
+    "FRANCAIS": "rotation",
+    "ITALIANO": "rotazione"
+  },
+  {
+    "ENGLISH": "finger joint",
+    "DEUTSCH": "Verkämmung",
+    "FRANCAIS": "joint à entures multiples",
+    "ITALIANO": "giunto intagliato a pettine"
+  },
+  {
+    "ENGLISH": "notch",
+    "DEUTSCH": "Versatz",
+    "FRANCAIS": "embrèvement",
+    "ITALIANO": "giunto a dente"
+  },
+  {
+    "ENGLISH": "precast element",
+    "DEUTSCH": "vorfabriziertes Element",
+    "FRANCAIS": "das",
+    "ITALIANO": "élément préfabriqué"
+  },
+  {
+    "ENGLISH": "wall",
+    "DEUTSCH": "Wand",
+    "FRANCAIS": "paroi",
+    "ITALIANO": "parete"
+  },
+  {
+    "ENGLISH": "non-load-bearing wall",
+    "DEUTSCH": "nichttragende Wand",
+    "FRANCAIS": "paroi non porteuse",
+    "ITALIANO": "parete non portante"
+  },
+  {
+    "ENGLISH": "load-bearing wall",
+    "DEUTSCH": "tragende Wand",
+    "FRANCAIS": "paroi porteuse",
+    "ITALIANO": "parete portante"
+  },
+  {
+    "ENGLISH": "water-cement ratio",
+    "DEUTSCH": "Wasser-Zement-Faktor",
+    "FRANCAIS": "rapport eau-ciment",
+    "ITALIANO": "rapporto acqua-cemento"
+  },
+  {
+    "ENGLISH": "plug",
+    "DEUTSCH": "Zapfen",
+    "FRANCAIS": "tenon",
+    "ITALIANO": "perno"
+  },
+  {
+    "ENGLISH": "cement",
+    "DEUTSCH": "Zement",
+    "FRANCAIS": "ciment",
+    "ITALIANO": "cemento"
+  },
+  {
+    "ENGLISH": "admixture",
+    "DEUTSCH": "Zusatzmittel",
+    "FRANCAIS": "das",
+    "ITALIANO": "adjuvant"
+  },
+  {
+    "ENGLISH": "aggregate",
+    "DEUTSCH": "Zuschlagsstoff",
+    "FRANCAIS": "granulat",
+    "ITALIANO": "inerte"
+  },
+  {
+    "ENGLISH": "cylinder compressive strength",
+    "DEUTSCH": "Zylinderdruckfestigkeit",
+    "FRANCAIS": "résistance à la compression",
+    "ITALIANO": "resistenza a compressione"
+  },
+  {
+    "ENGLISH": "correlation",
+    "DEUTSCH": "Korrelation",
+    "FRANCAIS": "corrélation",
+    "ITALIANO": "correlazione"
+  },
+  {
+    "ENGLISH": "element",
+    "DEUTSCH": "Element",
+    "FRANCAIS": "das",
+    "ITALIANO": "élément"
+  },
+  {
+    "ENGLISH": "system",
+    "DEUTSCH": "System",
+    "FRANCAIS": "das",
+    "ITALIANO": "système"
+  },
+  {
+    "ENGLISH": "failure mode",
+    "DEUTSCH": "Versagensart",
+    "FRANCAIS": "mode de défaillance",
+    "ITALIANO": "tipo di collasso"
+  },
+  {
+    "ENGLISH": "updating",
+    "DEUTSCH": "Aktualisierung",
+    "FRANCAIS": "mise à jour",
+    "ITALIANO": "aggiornamento"
+  },
+  {
+    "ENGLISH": "remaining service life",
+    "DEUTSCH": "Restnutzungsdauer",
+    "FRANCAIS": "durée de vie restante",
+    "ITALIANO": "durata di utilizzazione residua"
+  },
+  {
+    "ENGLISH": "risk",
+    "DEUTSCH": "Risiko",
+    "FRANCAIS": "das",
+    "ITALIANO": "risque"
+  },
+  {
+    "ENGLISH": "accepted risk",
+    "DEUTSCH": "akzeptiertes Risiko",
+    "FRANCAIS": "risque accepté",
+    "ITALIANO": "rischio accettato"
+  },
+  {
+    "ENGLISH": "imposed risk",
+    "DEUTSCH": "aufgezwungenes Risiko",
+    "FRANCAIS": "risque imposé",
+    "ITALIANO": "rischio imposto"
+  },
+  {
+    "ENGLISH": "perceived risk",
+    "DEUTSCH": "empfundenes Risiko",
+    "FRANCAIS": "risque ressenti",
+    "ITALIANO": "rischio percepito"
+  },
+  {
+    "ENGLISH": "voluntary risk",
+    "DEUTSCH": "freiwilliges Risiko",
+    "FRANCAIS": "risque volontaire",
+    "ITALIANO": "rischio volontario"
+  },
+  {
+    "ENGLISH": "individual risk",
+    "DEUTSCH": "individuelles Risiko",
+    "FRANCAIS": "risque individuel",
+    "ITALIANO": "rischio individuale"
+  },
+  {
+    "ENGLISH": "group risk",
+    "DEUTSCH": "kollektives Risiko",
+    "FRANCAIS": "risque collectif",
+    "ITALIANO": "rischio collettivo"
+  },
+  {
+    "ENGLISH": "residual risk",
+    "DEUTSCH": "Restrisiko",
+    "FRANCAIS": "das",
+    "ITALIANO": "risque résiduel"
+  },
+  {
+    "ENGLISH": "reliability",
+    "DEUTSCH": "Zuverlässigkeit",
+    "FRANCAIS": "fiabilité",
+    "ITALIANO": "affidabilità"
+  },
+  {
+    "ENGLISH": "cause",
+    "DEUTSCH": "Ursache",
+    "FRANCAIS": "cause",
+    "ITALIANO": "causa"
+  },
+  {
+    "ENGLISH": "quality assurance",
+    "DEUTSCH": "Qualitätssicherung",
+    "FRANCAIS": "assurance de la qualité",
+    "ITALIANO": "sistema qualità"
+  },
+  {
+    "ENGLISH": "hazard potential",
+    "DEUTSCH": "Gefährdungspotential",
+    "FRANCAIS": "das",
+    "ITALIANO": "potentiel de risque"
+  },
+  {
+    "ENGLISH": "residual hazard",
+    "DEUTSCH": "Restgefahr",
+    "FRANCAIS": "danger résiduel",
+    "ITALIANO": "pericolo residuo"
+  },
+  {
+    "ENGLISH": "accompanying hazard",
+    "DEUTSCH": "Begleitgefahr",
+    "FRANCAIS": "danger concomitant",
+    "ITALIANO": "pericolo concomitante"
+  },
+  {
+    "ENGLISH": "predominant action",
+    "DEUTSCH": "Leiteinwirkung",
+    "FRANCAIS": "action prépondérante",
+    "ITALIANO": "azione preponderante"
+  },
+  {
+    "ENGLISH": "accompanying action",
+    "DEUTSCH": "Begleiteinwirkung",
+    "FRANCAIS": "action concomitante",
+    "ITALIANO": "azione concomitante"
+  },
+  {
+    "ENGLISH": "construction standard",
+    "DEUTSCH": "Konstruktionsnorm",
+    "FRANCAIS": "norme de construction",
+    "ITALIANO": "norma di costruzione"
+  },
+  {
+    "ENGLISH": "long-term value",
+    "DEUTSCH": "Langzeitwert",
+    "FRANCAIS": "valeur à long terme",
+    "ITALIANO": "valore a lungo termine"
+  },
+  {
+    "ENGLISH": "short-term value",
+    "DEUTSCH": "Kurzzeitwert",
+    "FRANCAIS": "valeur à court terme",
+    "ITALIANO": "valore a breve termine"
+  },
+  {
+    "ENGLISH": "fault-tree",
+    "DEUTSCH": "Fehlerbaum",
+    "FRANCAIS": "arbre des erreurs",
+    "ITALIANO": "grafo dell' errore"
+  },
+  {
+    "ENGLISH": "event-tree",
+    "DEUTSCH": "Ereignisbaum",
+    "FRANCAIS": "arbre des événements",
+    "ITALIANO": "grafo dell' evento"
+  },
+  {
+    "ENGLISH": "cause-consequence-chart",
+    "DEUTSCH": "Ursachen-Folgen-Diagramm",
+    "FRANCAIS": "das",
+    "ITALIANO": "diagramme cause-"
+  },
+  {
+    "ENGLISH": "progressive failure",
+    "DEUTSCH": "fortschreitendes Versagen",
+    "FRANCAIS": "effondrement progressif",
+    "ITALIANO": "crollo progressivo"
+  },
+  {
+    "ENGLISH": "eigenvalue",
+    "DEUTSCH": "Eigenwert",
+    "FRANCAIS": "valeur propre",
+    "ITALIANO": "valore proprio"
+  },
+  {
+    "ENGLISH": "crash barrier",
+    "DEUTSCH": "Leitplanke",
+    "FRANCAIS": "glissière de sécurité",
+    "ITALIANO": "barriera di protezione"
+  },
+  {
+    "ENGLISH": "nominal value",
+    "DEUTSCH": "Nennwert",
+    "FRANCAIS": "valeur nominale",
+    "ITALIANO": "valore nominale"
+  },
+  {
+    "ENGLISH": "characteristic value",
+    "DEUTSCH": "charakteristisches Wert",
+    "FRANCAIS": "valeur caractéristique",
+    "ITALIANO": "valore caratteristico"
+  },
+  {
+    "ENGLISH": "human error",
+    "DEUTSCH": "Fehlhandlung",
+    "FRANCAIS": "erreur humaine",
+    "ITALIANO": "errore umano o di"
+  },
+  {
+    "ENGLISH": "measure",
+    "DEUTSCH": "Massnahme",
+    "FRANCAIS": "mesure",
+    "ITALIANO": "misura"
+  },
+  {
+    "ENGLISH": "tolerance",
+    "DEUTSCH": "Toleranz",
+    "FRANCAIS": "tolérance",
+    "ITALIANO": "tolleranza"
+  },
+  {
+    "ENGLISH": "checking plan",
+    "DEUTSCH": "Kontrollplan",
+    "FRANCAIS": "programme de contrôle",
+    "ITALIANO": "piano di controllo"
+  },
+  {
+    "ENGLISH": "checking instruction",
+    "DEUTSCH": "Kontrollanweisung",
+    "FRANCAIS": "prescription de surveillance",
+    "ITALIANO": "istruzione di controllo"
+  },
+  {
+    "ENGLISH": "probability",
+    "DEUTSCH": "Wahrscheinlichkeit",
+    "FRANCAIS": "probabilité",
+    "ITALIANO": "probabilità"
+  },
+  {
+    "ENGLISH": "conditional probability",
+    "DEUTSCH": "bedingte Wahrscheinlichkeit",
+    "FRANCAIS": "probabilité conditionnelle",
+    "ITALIANO": "probabilità condizionata"
+  },
+  {
+    "ENGLISH": "total probability",
+    "DEUTSCH": "totale Wahrscheinlichkeit",
+    "FRANCAIS": "probabilité totale",
+    "ITALIANO": "probabilità totale"
+  },
+  {
+    "ENGLISH": "universal set",
+    "DEUTSCH": "Grundgesamtheit",
+    "FRANCAIS": "ensemble",
+    "ITALIANO": "insieme"
+  },
+  {
+    "ENGLISH": "random variable",
+    "DEUTSCH": "Zufallsvariable",
+    "FRANCAIS": "variable aléatoire",
+    "ITALIANO": "variabile casuale"
+  },
+  {
+    "ENGLISH": "sample",
+    "DEUTSCH": "Stichprobe",
+    "FRANCAIS": "échantillon",
+    "ITALIANO": "campionatura"
+  },
+  {
+    "ENGLISH": "histogramme",
+    "DEUTSCH": "Histogramm",
+    "FRANCAIS": "das",
+    "ITALIANO": "histogramme"
+  },
+  {
+    "ENGLISH": "time curve",
+    "DEUTSCH": "Ganglinie",
+    "FRANCAIS": "diagramme en fonction du",
+    "ITALIANO": "spirale"
+  },
+  {
+    "ENGLISH": "extreme value",
+    "DEUTSCH": "Extremwert",
+    "FRANCAIS": "valeur extrême",
+    "ITALIANO": "valore estremo"
+  },
+  {
+    "ENGLISH": "variance",
+    "DEUTSCH": "Varianz",
+    "FRANCAIS": "variance",
+    "ITALIANO": "varianza"
+  },
+  {
+    "ENGLISH": "standard deviation",
+    "DEUTSCH": "Standardabweichung",
+    "FRANCAIS": "écart-type",
+    "ITALIANO": "deviazione standard"
+  },
+  {
+    "ENGLISH": "coefficient of variation",
+    "DEUTSCH": "Variationskoeffizient",
+    "FRANCAIS": "coefficient de variation",
+    "ITALIANO": "coefficiente di variazione"
+  },
+  {
+    "ENGLISH": "distribution",
+    "DEUTSCH": "Verteilung",
+    "FRANCAIS": "distribution",
+    "ITALIANO": "distribuzione"
+  },
+  {
+    "ENGLISH": "probability density",
+    "DEUTSCH": "Verteilungsdichte",
+    "FRANCAIS": "densité de probabilité",
+    "ITALIANO": "densità di distribuzione"
+  },
+  {
+    "ENGLISH": "probability density function",
+    "DEUTSCH": "Verteilungsfunktion",
+    "FRANCAIS": "fonction de distribution",
+    "ITALIANO": "funzione di distribuzione"
+  },
+  {
+    "ENGLISH": "median",
+    "DEUTSCH": "Median",
+    "FRANCAIS": "médiane",
+    "ITALIANO": "valore medio"
+  },
+  {
+    "ENGLISH": "modal value",
+    "DEUTSCH": "Modalwert",
+    "FRANCAIS": "valeur modale",
+    "ITALIANO": "valore modale"
+  },
+  {
+    "ENGLISH": "return period",
+    "DEUTSCH": "Wiederkehrperiode",
+    "FRANCAIS": "période de retour",
+    "ITALIANO": "periodo ricorrente"
+  },
+  {
+    "ENGLISH": "covariance",
+    "DEUTSCH": "Kovarianz",
+    "FRANCAIS": "covariance",
+    "ITALIANO": "covarianza"
+  },
+  {
+    "ENGLISH": "regression",
+    "DEUTSCH": "Regression",
+    "FRANCAIS": "régression",
+    "ITALIANO": "regressione"
+  },
+  {
+    "ENGLISH": "basic variable",
+    "DEUTSCH": "Basisvariable",
+    "FRANCAIS": "variable de base",
+    "ITALIANO": "variabile base"
+  },
+  {
+    "ENGLISH": "design variable",
+    "DEUTSCH": "Bemessungsvariable",
+    "FRANCAIS": "variable de dimensionnement",
+    "ITALIANO": "variabile di dimensionamento"
+  },
+  {
+    "ENGLISH": "resistance",
+    "DEUTSCH": "Widerstand",
+    "FRANCAIS": "résistance",
+    "ITALIANO": "resistenza"
+  },
+  {
+    "ENGLISH": "variable",
+    "DEUTSCH": "Variable",
+    "FRANCAIS": "variable",
+    "ITALIANO": "variabile"
+  },
+  {
+    "ENGLISH": "failure condition",
+    "DEUTSCH": "Versagensbedingung",
+    "FRANCAIS": "condition de défaillance",
+    "ITALIANO": "condizione di collasso"
+  },
+  {
+    "ENGLISH": "load arrangement",
+    "DEUTSCH": "Lastbild",
+    "FRANCAIS": "das",
+    "ITALIANO": "disposition des charges"
+  },
+  {
+    "ENGLISH": "service value",
+    "DEUTSCH": "Gebrauchswert",
+    "FRANCAIS": "valeur de service",
+    "ITALIANO": "valore di esercizio"
+  },
+  {
+    "ENGLISH": "negligence",
+    "DEUTSCH": "Fahrlässigkeit",
+    "FRANCAIS": "négligence",
+    "ITALIANO": "negligenza"
+  },
+  {
+    "ENGLISH": "sabotage",
+    "DEUTSCH": "Sabotage",
+    "FRANCAIS": "sabotage",
+    "ITALIANO": "sabotaggio"
+  },
+  {
+    "ENGLISH": "brace",
+    "DEUTSCH": "Bug",
+    "FRANCAIS": "béquille",
+    "ITALIANO": "diagonale"
+  },
+  {
+    "ENGLISH": "virtual",
+    "DEUTSCH": "virtuell",
+    "FRANCAIS": "virtuel",
+    "ITALIANO": "virtuale"
+  },
+  {
+    "ENGLISH": "reinforcing steel",
+    "DEUTSCH": "Betonstahl",
+    "FRANCAIS": "acier d'armature",
+    "ITALIANO": "acciaio d'armatura"
+  },
+  {
+    "ENGLISH": "percentage of reinforcement",
+    "DEUTSCH": "Bewehrungsgehalt",
+    "FRANCAIS": "taux d' armature",
+    "ITALIANO": "contenuto d'armatura"
+  },
+  {
+    "ENGLISH": "geometrical percentage of reinforcecement",
+    "DEUTSCH": "geometrischer Bewehrungsgehalt",
+    "FRANCAIS": "taux d'armature géométrique",
+    "ITALIANO": "percentuale geometrica d'armatura"
+  },
+  {
+    "ENGLISH": "mechanical percentage of reinforcement",
+    "DEUTSCH": "mechanischer Bewehrungsgehalt",
+    "FRANCAIS": "taux d'armature mécanique",
+    "ITALIANO": "percentuale meccanica d'armatura"
+  },
+  {
+    "ENGLISH": "plan of reinforcement",
+    "DEUTSCH": "Bewehrungsplan",
+    "FRANCAIS": "plan d'armature",
+    "ITALIANO": "piano d'armatura"
+  },
+  {
+    "ENGLISH": "splice",
+    "DEUTSCH": "Bewehrungsstoss",
+    "FRANCAIS": "manchon",
+    "ITALIANO": "sovrapposizione dell'armatura"
+  },
+  {
+    "ENGLISH": "elastic",
+    "DEUTSCH": "elastisch",
+    "FRANCAIS": "élastique",
+    "ITALIANO": "elastico"
+  },
+  {
+    "ENGLISH": "plastic",
+    "DEUTSCH": "plastisch",
+    "FRANCAIS": "plastique",
+    "ITALIANO": "plastico"
+  },
+  {
+    "ENGLISH": "kinematic method",
+    "DEUTSCH": "kinematische Methode",
+    "FRANCAIS": "méthode cinématique",
+    "ITALIANO": "metodo cinematico"
+  },
+  {
+    "ENGLISH": "continuous",
+    "DEUTSCH": "durchlaufend",
+    "FRANCAIS": "continu",
+    "ITALIANO": "continuo"
+  },
+  {
+    "ENGLISH": "framework",
+    "DEUTSCH": "Rahmentragwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "structure à cadres"
+  },
+  {
+    "ENGLISH": "reinforced",
+    "DEUTSCH": "bewehrt",
+    "FRANCAIS": "armé",
+    "ITALIANO": "armato"
+  },
+  {
+    "ENGLISH": "fixed",
+    "DEUTSCH": "fest",
+    "FRANCAIS": "fixe",
+    "ITALIANO": "fisso"
+  },
+  {
+    "ENGLISH": "space",
+    "DEUTSCH": "räumlich",
+    "FRANCAIS": "spatial",
+    "ITALIANO": "spaziale"
+  },
+  {
+    "ENGLISH": "model variable",
+    "DEUTSCH": "Modellvariable",
+    "FRANCAIS": "variable du modèle",
+    "ITALIANO": "variabile di modello"
+  },
+  {
+    "ENGLISH": "diagonal bracing",
+    "DEUTSCH": "Verband",
+    "FRANCAIS": "contreventement",
+    "ITALIANO": "controventamento"
+  },
+  {
+    "ENGLISH": "three-hinged frame",
+    "DEUTSCH": "Dreigelenkrahmen",
+    "FRANCAIS": "cadre à trois articulations",
+    "ITALIANO": "telaio a tre cerniere"
+  },
+  {
+    "ENGLISH": "lift off",
+    "DEUTSCH": "Abheben",
+    "FRANCAIS": "das",
+    "ITALIANO": "soulèvement"
+  },
+  {
+    "ENGLISH": "abrasion",
+    "DEUTSCH": "Abrieb",
+    "FRANCAIS": "abrasion",
+    "ITALIANO": "abrasione"
+  },
+  {
+    "ENGLISH": "barrier",
+    "DEUTSCH": "Abschrankung",
+    "FRANCAIS": "barrière",
+    "ITALIANO": "barriera"
+  },
+  {
+    "ENGLISH": "requirement",
+    "DEUTSCH": "Anforderung",
+    "FRANCAIS": "exigence",
+    "ITALIANO": "esigenza"
+  },
+  {
+    "ENGLISH": "collision",
+    "DEUTSCH": "Anprall",
+    "FRANCAIS": "choc",
+    "ITALIANO": "urto"
+  },
+  {
+    "ENGLISH": "scaffolding",
+    "DEUTSCH": "Arbeitsgerüst",
+    "FRANCAIS": "das",
+    "ITALIANO": "échafaudage de travail"
+  },
+  {
+    "ENGLISH": "working cycle",
+    "DEUTSCH": "Arbeitsvorgang",
+    "FRANCAIS": "déroulement des travaux",
+    "ITALIANO": "processo lavorativo"
+  },
+  {
+    "ENGLISH": "displacement at support",
+    "DEUTSCH": "Auflagerverschiebung",
+    "FRANCAIS": "déplacement d'appui",
+    "ITALIANO": "cedimento vincolare"
+  },
+  {
+    "ENGLISH": "execution",
+    "DEUTSCH": "Ausführung",
+    "FRANCAIS": "exécution",
+    "ITALIANO": "esecuzione"
+  },
+  {
+    "ENGLISH": "displacement",
+    "DEUTSCH": "Auslenkung",
+    "FRANCAIS": "déplacement",
+    "ITALIANO": "spostamento"
+  },
+  {
+    "ENGLISH": "construction material",
+    "DEUTSCH": "Baustoff",
+    "FRANCAIS": "matériau de construction",
+    "ITALIANO": "materiale da costruzione"
+  },
+  {
+    "ENGLISH": "component",
+    "DEUTSCH": "Bauteil",
+    "FRANCAIS": "das",
+    "ITALIANO": "élément de construction"
+  },
+  {
+    "ENGLISH": "structural component",
+    "DEUTSCH": "tragedes Bauteil",
+    "FRANCAIS": "élément porteur",
+    "ITALIANO": "elemento portante"
+  },
+  {
+    "ENGLISH": "non-structural component",
+    "DEUTSCH": "nichtragendes Bauteil",
+    "FRANCAIS": "élément non porteur",
+    "ITALIANO": "elemento non portante"
+  },
+  {
+    "ENGLISH": "surfacing",
+    "DEUTSCH": "Belag",
+    "FRANCAIS": "habillage",
+    "ITALIANO": "manto"
+  },
+  {
+    "ENGLISH": "load test",
+    "DEUTSCH": "Belastungsversuch",
+    "FRANCAIS": "essai de charge",
+    "ITALIANO": "prova di carico"
+  },
+  {
+    "ENGLISH": "reference elevation",
+    "DEUTSCH": "Bezugshöhe",
+    "FRANCAIS": "altitude de référence",
+    "ITALIANO": "altitudine di riferimento"
+  },
+  {
+    "ENGLISH": "ground acceleration",
+    "DEUTSCH": "Bodenbeschleunigung",
+    "FRANCAIS": "accélération terrestre",
+    "ITALIANO": "accelerazione del terreno"
+  },
+  {
+    "ENGLISH": "soil parameter",
+    "DEUTSCH": "Bodenkennziffer",
+    "FRANCAIS": "valeur caractéristique des sols",
+    "ITALIANO": "coefficiente del terreno"
+  },
+  {
+    "ENGLISH": "slope angle",
+    "DEUTSCH": "Böschungswinkel",
+    "FRANCAIS": "angle de talus",
+    "ITALIANO": "angolo di riposo naturale"
+  },
+  {
+    "ENGLISH": "fire",
+    "DEUTSCH": "Brand",
+    "FRANCAIS": "incendie",
+    "ITALIANO": "incendio"
+  },
+  {
+    "ENGLISH": "parapet",
+    "DEUTSCH": "Brüstung",
+    "FRANCAIS": "parapet",
+    "ITALIANO": "parapetto"
+  },
+  {
+    "ENGLISH": "damping",
+    "DEUTSCH": "Dämpfung",
+    "FRANCAIS": "amortissement",
+    "ITALIANO": "smorzamento"
+  },
+  {
+    "ENGLISH": "dynamic coefficient",
+    "DEUTSCH": "dynamischer Beiwert",
+    "FRANCAIS": "coefficient dynamique",
+    "ITALIANO": "coefficiente dinamico"
+  },
+  {
+    "ENGLISH": "earth load",
+    "DEUTSCH": "Erdauflast",
+    "FRANCAIS": "surcharge de terre",
+    "ITALIANO": "carico del terreno"
+  },
+  {
+    "ENGLISH": "acceleration due to earthquake",
+    "DEUTSCH": "Erdbebenbeschleunigung",
+    "FRANCAIS": "accélération due au séisme",
+    "ITALIANO": "accelerazione conseguente al"
+  },
+  {
+    "ENGLISH": "fatigue resistance",
+    "DEUTSCH": "Ermüdungsfestigkeit",
+    "FRANCAIS": "résistance à la fatigue",
+    "ITALIANO": "resistenza a fatica"
+  },
+  {
+    "ENGLISH": "safety against fatigue",
+    "DEUTSCH": "Ermüdungssicherheit",
+    "FRANCAIS": "sécurité à la fatigue",
+    "ITALIANO": "sicurezza alla fatica"
+  },
+  {
+    "ENGLISH": "frequency of excitation",
+    "DEUTSCH": "Erregerfrequenz",
+    "FRANCAIS": "fréquence d'excitation",
+    "ITALIANO": "frequenza eccitatrice"
+  },
+  {
+    "ENGLISH": "facade",
+    "DEUTSCH": "Fassade",
+    "FRANCAIS": "façade",
+    "ITALIANO": "facciata"
+  },
+  {
+    "ENGLISH": "fire resistance classification",
+    "DEUTSCH": "Feuerwiderstandsklasse",
+    "FRANCAIS": "classe de résistance au feu",
+    "ITALIANO": "classe di resistenza al fuoco"
+  },
+  {
+    "ENGLISH": "overhead line",
+    "DEUTSCH": "Freileitung",
+    "FRANCAIS": "ligne",
+    "ITALIANO": "linea"
+  },
+  {
+    "ENGLISH": "frequency",
+    "DEUTSCH": "Frequenz",
+    "FRANCAIS": "fréquence",
+    "ITALIANO": "frequenza"
+  },
+  {
+    "ENGLISH": "content",
+    "DEUTSCH": "Füllgut",
+    "FRANCAIS": "das",
+    "ITALIANO": "contenu"
+  },
+  {
+    "ENGLISH": "building",
+    "DEUTSCH": "Gebäude",
+    "FRANCAIS": "das",
+    "ITALIANO": "bâtiment"
+  },
+  {
+    "ENGLISH": "hazard",
+    "DEUTSCH": "Gefährdung",
+    "FRANCAIS": "risque",
+    "ITALIANO": "rischio"
+  },
+  {
+    "ENGLISH": "stability",
+    "DEUTSCH": "Stabilität",
+    "FRANCAIS": "stabilité",
+    "ITALIANO": "stabilità"
+  },
+  {
+    "ENGLISH": "sliding",
+    "DEUTSCH": "Gleiten",
+    "FRANCAIS": "das",
+    "ITALIANO": "glissement"
+  },
+  {
+    "ENGLISH": "fundamental frequency",
+    "DEUTSCH": "Grundfrequenz",
+    "FRANCAIS": "fréquence fondamentale",
+    "ITALIANO": "frequenza di base"
+  },
+  {
+    "ENGLISH": "shed",
+    "DEUTSCH": "Halle",
+    "FRANCAIS": "halle",
+    "ITALIANO": "capannone"
+  },
+  {
+    "ENGLISH": "temporary bridge",
+    "DEUTSCH": "Hilfsbrücke",
+    "FRANCAIS": "pont provisoire",
+    "ITALIANO": "ponte provvisorio"
+  },
+  {
+    "ENGLISH": "commissioning",
+    "DEUTSCH": "Inbetriebnahme",
+    "FRANCAIS": "mise en service",
+    "ITALIANO": "messa in servizio"
+  },
+  {
+    "ENGLISH": "insulation",
+    "DEUTSCH": "Isolation",
+    "FRANCAIS": "isolation",
+    "ITALIANO": "isolazione"
+  },
+  {
+    "ENGLISH": "overturning",
+    "DEUTSCH": "Umkippen",
+    "FRANCAIS": "das",
+    "ITALIANO": "renversement"
+  },
+  {
+    "ENGLISH": "corrosion",
+    "DEUTSCH": "Korrosion",
+    "FRANCAIS": "corrosion",
+    "ITALIANO": "corrosione"
+  },
+  {
+    "ENGLISH": "gantry crane rail",
+    "DEUTSCH": "Kranbahn",
+    "FRANCAIS": "pont roulant",
+    "ITALIANO": "carroponte"
+  },
+  {
+    "ENGLISH": "parapet wall",
+    "DEUTSCH": "Leitmauer",
+    "FRANCAIS": "parapet",
+    "ITALIANO": "parapetto"
+  },
+  {
+    "ENGLISH": "ventilation",
+    "DEUTSCH": "Lüftung",
+    "FRANCAIS": "ventilation",
+    "ITALIANO": "ventilazione"
+  },
+  {
+    "ENGLISH": "mast",
+    "DEUTSCH": "Mast",
+    "FRANCAIS": "mât",
+    "ITALIANO": "torre a traliccio"
+  },
+  {
+    "ENGLISH": "utilisation",
+    "DEUTSCH": "Nutzung",
+    "FRANCAIS": "utilisation",
+    "ITALIANO": "utilizzazione"
+  },
+  {
+    "ENGLISH": "change in use",
+    "DEUTSCH": "Nutzungsänderung",
+    "FRANCAIS": "changement d'utilisation",
+    "ITALIANO": "cambiamento di utilizzazione"
+  },
+  {
+    "ENGLISH": "service life",
+    "DEUTSCH": "Nutzungsdauer",
+    "FRANCAIS": "durée d'utilisation",
+    "ITALIANO": "durata di utilizzazione"
+  },
+  {
+    "ENGLISH": "design",
+    "DEUTSCH": "Projektierung",
+    "FRANCAIS": "élaboration de projet",
+    "ITALIANO": "progettazione"
+  },
+  {
+    "ENGLISH": "kerb",
+    "DEUTSCH": "Randabschluss",
+    "FRANCAIS": "bordure",
+    "ITALIANO": "bordura"
+  },
+  {
+    "ENGLISH": "resonance",
+    "DEUTSCH": "Resonanz",
+    "FRANCAIS": "résonance",
+    "ITALIANO": "risonanza"
+  },
+  {
+    "ENGLISH": "risk evaluation",
+    "DEUTSCH": "Risikobewertung",
+    "FRANCAIS": "évaluation de risque",
+    "ITALIANO": "valutazione del rischio"
+  },
+  {
+    "ENGLISH": "tube",
+    "DEUTSCH": "Rohr",
+    "FRANCAIS": "das",
+    "ITALIANO": "tuyau"
+  },
+  {
+    "ENGLISH": "ballast",
+    "DEUTSCH": "Schotter",
+    "FRANCAIS": "ballast",
+    "ITALIANO": "massicciata"
+  },
+  {
+    "ENGLISH": "cableway",
+    "DEUTSCH": "Seilbahn",
+    "FRANCAIS": "funiculaire",
+    "ITALIANO": "funivia"
+  },
+  {
+    "ENGLISH": "cable",
+    "DEUTSCH": "Seil",
+    "FRANCAIS": "das",
+    "ITALIANO": "câble"
+  },
+  {
+    "ENGLISH": "blasting",
+    "DEUTSCH": "Sprengung",
+    "FRANCAIS": "minage",
+    "ITALIANO": "brillamento"
+  },
+  {
+    "ENGLISH": "rod",
+    "DEUTSCH": "Stange",
+    "FRANCAIS": "barre",
+    "ITALIANO": "sbarra"
+  },
+  {
+    "ENGLISH": "storage tank",
+    "DEUTSCH": "Behälter",
+    "FRANCAIS": "réservoir",
+    "ITALIANO": "m"
+  },
+  {
+    "ENGLISH": "de-icing salt",
+    "DEUTSCH": "Tausalz",
+    "FRANCAIS": "das",
+    "ITALIANO": "sel de déverglaçage"
+  },
+  {
+    "ENGLISH": "thermal expansion",
+    "DEUTSCH": "Temperaturausdehnung",
+    "FRANCAIS": "dilatation thermique",
+    "ITALIANO": "dilatazione termica"
+  },
+  {
+    "ENGLISH": "partition wall",
+    "DEUTSCH": "Trennwand",
+    "FRANCAIS": "cloison",
+    "ITALIANO": "parete divisoria"
+  },
+  {
+    "ENGLISH": "tower",
+    "DEUTSCH": "Turm",
+    "FRANCAIS": "tour",
+    "ITALIANO": "torre"
+  },
+  {
+    "ENGLISH": "component",
+    "DEUTSCH": "Bauteil",
+    "FRANCAIS": "das",
+    "ITALIANO": "élément de construction"
+  },
+  {
+    "ENGLISH": "structural component",
+    "DEUTSCH": "tragedes Bauteil",
+    "FRANCAIS": "élément porteur",
+    "ITALIANO": "elemento portante"
+  },
+  {
+    "ENGLISH": "non-structural component",
+    "DEUTSCH": "nichtragendes Bauteil",
+    "FRANCAIS": "élément non porteur",
+    "ITALIANO": "elemento non portante"
+  },
+  {
+    "ENGLISH": "surfacing",
+    "DEUTSCH": "Belag",
+    "FRANCAIS": "habillage",
+    "ITALIANO": "manto"
+  },
+  {
+    "ENGLISH": "load test",
+    "DEUTSCH": "Belastungsversuch",
+    "FRANCAIS": "essai de charge",
+    "ITALIANO": "prova di carico"
+  },
+  {
+    "ENGLISH": "reference elevation",
+    "DEUTSCH": "Bezugshöhe",
+    "FRANCAIS": "altitude de référence",
+    "ITALIANO": "altitudine di riferimento"
+  },
+  {
+    "ENGLISH": "ground acceleration",
+    "DEUTSCH": "Bodenbeschleunigung",
+    "FRANCAIS": "accélération terrestre",
+    "ITALIANO": "accelerazione del terreno"
+  },
+  {
+    "ENGLISH": "soil parameter",
+    "DEUTSCH": "Bodenkennziffer",
+    "FRANCAIS": "valeur caractéristique des sols",
+    "ITALIANO": "coefficiente del terreno"
+  },
+  {
+    "ENGLISH": "slope angle",
+    "DEUTSCH": "Böschungswinkel",
+    "FRANCAIS": "angle de talus",
+    "ITALIANO": "angolo di riposo naturale"
+  },
+  {
+    "ENGLISH": "fire",
+    "DEUTSCH": "Brand",
+    "FRANCAIS": "incendie",
+    "ITALIANO": "incendio"
+  },
+  {
+    "ENGLISH": "parapet",
+    "DEUTSCH": "Brüstung",
+    "FRANCAIS": "parapet",
+    "ITALIANO": "parapetto"
+  },
+  {
+    "ENGLISH": "damping",
+    "DEUTSCH": "Dämpfung",
+    "FRANCAIS": "amortissement",
+    "ITALIANO": "smorzamento"
+  },
+  {
+    "ENGLISH": "dynamic coefficient",
+    "DEUTSCH": "dynamischer Beiwert",
+    "FRANCAIS": "coefficient dynamique",
+    "ITALIANO": "coefficiente dinamico"
+  },
+  {
+    "ENGLISH": "earth load",
+    "DEUTSCH": "Erdauflast",
+    "FRANCAIS": "surcharge de terre",
+    "ITALIANO": "carico del terreno"
+  },
+  {
+    "ENGLISH": "acceleration due to earthquake",
+    "DEUTSCH": "Erdbebenbeschleunigung",
+    "FRANCAIS": "accélération due au séisme",
+    "ITALIANO": "accelerazione conseguente al"
+  },
+  {
+    "ENGLISH": "fatigue resistance",
+    "DEUTSCH": "Ermüdungsfestigkeit",
+    "FRANCAIS": "résistance à la fatigue",
+    "ITALIANO": "resistenza a fatica"
+  },
+  {
+    "ENGLISH": "safety against fatigue",
+    "DEUTSCH": "Ermüdungssicherheit",
+    "FRANCAIS": "sécurité à la fatigue",
+    "ITALIANO": "sicurezza alla fatica"
+  },
+  {
+    "ENGLISH": "frequency of excitation",
+    "DEUTSCH": "Erregerfrequenz",
+    "FRANCAIS": "fréquence d'excitation",
+    "ITALIANO": "frequenza eccitatrice"
+  },
+  {
+    "ENGLISH": "facade",
+    "DEUTSCH": "Fassade",
+    "FRANCAIS": "façade",
+    "ITALIANO": "facciata"
+  },
+  {
+    "ENGLISH": "fire resistance classification",
+    "DEUTSCH": "Feuerwiderstandsklasse",
+    "FRANCAIS": "classe de résistance au feu",
+    "ITALIANO": "classe di resistenza al fuoco"
+  },
+  {
+    "ENGLISH": "overhead line",
+    "DEUTSCH": "Freileitung",
+    "FRANCAIS": "ligne",
+    "ITALIANO": "linea"
+  },
+  {
+    "ENGLISH": "frequency",
+    "DEUTSCH": "Frequenz",
+    "FRANCAIS": "fréquence",
+    "ITALIANO": "frequenza"
+  },
+  {
+    "ENGLISH": "content",
+    "DEUTSCH": "Füllgut",
+    "FRANCAIS": "das",
+    "ITALIANO": "contenu"
+  },
+  {
+    "ENGLISH": "building",
+    "DEUTSCH": "Gebäude",
+    "FRANCAIS": "das",
+    "ITALIANO": "bâtiment"
+  },
+  {
+    "ENGLISH": "hazard",
+    "DEUTSCH": "Gefährdung",
+    "FRANCAIS": "risque",
+    "ITALIANO": "rischio"
+  },
+  {
+    "ENGLISH": "stability",
+    "DEUTSCH": "Stabilität",
+    "FRANCAIS": "stabilité",
+    "ITALIANO": "stabilità"
+  },
+  {
+    "ENGLISH": "sliding",
+    "DEUTSCH": "Gleiten",
+    "FRANCAIS": "das",
+    "ITALIANO": "glissement"
+  },
+  {
+    "ENGLISH": "fundamental frequency",
+    "DEUTSCH": "Grundfrequenz",
+    "FRANCAIS": "fréquence fondamentale",
+    "ITALIANO": "frequenza di base"
+  },
+  {
+    "ENGLISH": "cohesion",
+    "DEUTSCH": "Kohäsion",
+    "FRANCAIS": "cohésion",
+    "ITALIANO": "coesione"
+  },
+  {
+    "ENGLISH": "lamination",
+    "DEUTSCH": "Lamelle",
+    "FRANCAIS": "lamelle",
+    "ITALIANO": "lamella"
+  },
+  {
+    "ENGLISH": "bracing",
+    "DEUTSCH": "Spriess",
+    "FRANCAIS": "étai",
+    "ITALIANO": "sbadacchio"
+  },
+  {
+    "ENGLISH": "pile group",
+    "DEUTSCH": "Pfahlgruppe",
+    "FRANCAIS": "groupe de pieux",
+    "ITALIANO": "gruppo di pali"
+  },
+  {
+    "ENGLISH": "driving",
+    "DEUTSCH": "Rammen",
+    "FRANCAIS": "das",
+    "ITALIANO": "battage"
+  },
+  {
+    "ENGLISH": "wooden corbel",
+    "DEUTSCH": "Sattelholz",
+    "FRANCAIS": "das",
+    "ITALIANO": "cale en bois"
+  },
+  {
+    "ENGLISH": "beam",
+    "DEUTSCH": "Schwelle",
+    "FRANCAIS": "longrine",
+    "ITALIANO": "longarina"
+  },
+  {
+    "ENGLISH": "lap joint",
+    "DEUTSCH": "Blatt",
+    "FRANCAIS": "das",
+    "ITALIANO": "assemblage à entaille"
+  },
+  {
+    "ENGLISH": "dovetail",
+    "DEUTSCH": "Schwalbenschwanz",
+    "FRANCAIS": "queue d'aronde",
+    "ITALIANO": "coda di rondine"
+  },
+  {
+    "ENGLISH": "groove",
+    "DEUTSCH": "Nut",
+    "FRANCAIS": "rainure",
+    "ITALIANO": "scanalatura"
+  },
+  {
+    "ENGLISH": "interlocking",
+    "DEUTSCH": "Verzahnung",
+    "FRANCAIS": "endenture",
+    "ITALIANO": "dentellatura"
+  },
+  {
+    "ENGLISH": "beam",
+    "DEUTSCH": "Riegel",
+    "FRANCAIS": "traverse",
+    "ITALIANO": "trave"
+  },
+  {
+    "ENGLISH": "ridge",
+    "DEUTSCH": "First",
+    "FRANCAIS": "faîte",
+    "ITALIANO": "colmo"
+  },
+  {
+    "ENGLISH": "gable",
+    "DEUTSCH": "Giebel",
+    "FRANCAIS": "pignon",
+    "ITALIANO": "frontone"
+  },
+  {
+    "ENGLISH": "wind brace",
+    "DEUTSCH": "Windrispe",
+    "FRANCAIS": "contreventement de toiture",
+    "ITALIANO": "saetta di controvento"
+  },
+  {
+    "ENGLISH": "tie",
+    "DEUTSCH": "Zange",
+    "FRANCAIS": "moise",
+    "ITALIANO": "collegamento"
+  },
+  {
+    "ENGLISH": "peg",
+    "DEUTSCH": "Holznagel",
+    "FRANCAIS": "clou à bois",
+    "ITALIANO": "chiodo per legno"
+  },
+  {
+    "ENGLISH": "bolt",
+    "DEUTSCH": "Schraube",
+    "FRANCAIS": "boulon",
+    "ITALIANO": "bullone"
+  },
+  {
+    "ENGLISH": "slip",
+    "DEUTSCH": "Schlupf",
+    "FRANCAIS": "glissement",
+    "ITALIANO": "scorrimento"
+  },
+  {
+    "ENGLISH": "cement paste",
+    "DEUTSCH": "Zementleim",
+    "FRANCAIS": "coulis de ciment",
+    "ITALIANO": "colla di cemento"
+  },
+  {
+    "ENGLISH": "plan",
+    "DEUTSCH": "Grundriss",
+    "FRANCAIS": "plan",
+    "ITALIANO": "pianta"
+  },
+  {
+    "ENGLISH": "erection plan",
+    "DEUTSCH": "Montageplan",
+    "FRANCAIS": "plan de montage",
+    "ITALIANO": "piano di montaggio"
+  },
+  {
+    "ENGLISH": "supervision plan",
+    "DEUTSCH": "Überwachungsplan",
+    "FRANCAIS": "plan de surveillance",
+    "ITALIANO": "piano di sorveglianza"
+  },
+  {
+    "ENGLISH": "itemplan",
+    "DEUTSCH": "Positionsplan",
+    "FRANCAIS": "plan des positions",
+    "ITALIANO": "piano di posizionamento"
+  },
+  {
+    "ENGLISH": "shallow foundation",
+    "DEUTSCH": "Flachgründung",
+    "FRANCAIS": "fondation superficielle",
+    "ITALIANO": "fondazione superficiale"
+  },
+  {
+    "ENGLISH": "member",
+    "DEUTSCH": "Stab",
+    "FRANCAIS": "barre",
+    "ITALIANO": "asta"
+  },
+  {
+    "ENGLISH": "compression member",
+    "DEUTSCH": "Druckstab",
+    "FRANCAIS": "barre comprimée",
+    "ITALIANO": "asta compressa"
+  },
+  {
+    "ENGLISH": "tension member",
+    "DEUTSCH": "Zugstab",
+    "FRANCAIS": "barre tendue",
+    "ITALIANO": "asta tesa"
+  },
+  {
+    "ENGLISH": "load path",
+    "DEUTSCH": "Kraftfluss",
+    "FRANCAIS": "flux des forces",
+    "ITALIANO": "flusso delle forze"
+  },
+  {
+    "ENGLISH": "redistribution of forces",
+    "DEUTSCH": "Kraftumlagerung",
+    "FRANCAIS": "redistribution des efforts",
+    "ITALIANO": "ridistribuzione delle forze"
+  },
+  {
+    "ENGLISH": "load transfer",
+    "DEUTSCH": "Kraftübertragung",
+    "FRANCAIS": "transmission des forces",
+    "ITALIANO": "trasmissione delle forze"
+  },
+  {
+    "ENGLISH": "bursting reinforcement",
+    "DEUTSCH": "Spaltzugbewehrung",
+    "FRANCAIS": "armature de frettage",
+    "ITALIANO": "armatura di frettaggio"
+  },
+  {
+    "ENGLISH": "span",
+    "DEUTSCH": "Spannweite",
+    "FRANCAIS": "portée théorique",
+    "ITALIANO": "luce teorica"
+  },
+  {
+    "ENGLISH": "brittle",
+    "DEUTSCH": "spröde",
+    "FRANCAIS": "fragile",
+    "ITALIANO": "fragile"
+  },
+  {
+    "ENGLISH": "warping moment",
+    "DEUTSCH": "Wölbtorsion",
+    "FRANCAIS": "torsion non-uniforme",
+    "ITALIANO": "torsione non uniforme"
+  },
+  {
+    "ENGLISH": "friction angle",
+    "DEUTSCH": "Reibungswinkel",
+    "FRANCAIS": "angle de frottement",
+    "ITALIANO": "angolo di attrito"
+  },
+  {
+    "ENGLISH": "shear strength",
+    "DEUTSCH": "Scherfestigkeit",
+    "FRANCAIS": "cohésion apparente",
+    "ITALIANO": "resistenza di taglio"
+  },
+  {
+    "ENGLISH": "disturbed shear strength",
+    "DEUTSCH": "gestörte Scherfestigkeit",
+    "FRANCAIS": "cohésion apparente remaniée",
+    "ITALIANO": "resistenza di taglio disturbata"
+  },
+  {
+    "ENGLISH": "undrained shear strength",
+    "DEUTSCH": "undrainierte Scherfestigkeit",
+    "FRANCAIS": "cohésion apparente non drainée",
+    "ITALIANO": "resistenza di taglio non drenata"
+  },
+  {
+    "ENGLISH": "water content",
+    "DEUTSCH": "Wassergehalt",
+    "FRANCAIS": "teneur en eau",
+    "ITALIANO": "contenuto d'acqua"
+  },
+  {
+    "ENGLISH": "degree of saturation",
+    "DEUTSCH": "Sättigungsgrad",
+    "FRANCAIS": "degré de saturation",
+    "ITALIANO": "grado di saturazione"
+  },
+  {
+    "ENGLISH": "porosity",
+    "DEUTSCH": "Porosität",
+    "FRANCAIS": "porosité",
+    "ITALIANO": "porosità"
+  },
+  {
+    "ENGLISH": "consolidation",
+    "DEUTSCH": "Konsolidation",
+    "FRANCAIS": "consolidation",
+    "ITALIANO": "consolidamento"
+  },
+  {
+    "ENGLISH": "modulus of deformation",
+    "DEUTSCH": "Verformungsmodul",
+    "FRANCAIS": "module de déformation",
+    "ITALIANO": "modulo di deformazione"
+  },
+  {
+    "ENGLISH": "modulus of subgrade reaction",
+    "DEUTSCH": "Bettungsziffer",
+    "FRANCAIS": "module de réaction",
+    "ITALIANO": "modulo di reazione"
+  },
+  {
+    "ENGLISH": "coefficient of permeability",
+    "DEUTSCH": "Durchlässigkeitskoeffizient",
+    "FRANCAIS": "coefficient de perméabilité",
+    "ITALIANO": "coefficiente di permeabilità"
+  },
+  {
+    "ENGLISH": "hydraulic head",
+    "DEUTSCH": "Druckhöhe",
+    "FRANCAIS": "charge hydraulique",
+    "ITALIANO": "carico idraulico"
+  },
+  {
+    "ENGLISH": "grain size distribution",
+    "DEUTSCH": "Kornverteilung",
+    "FRANCAIS": "granulométrie",
+    "ITALIANO": "granulometria"
+  },
+  {
+    "ENGLISH": "grain size",
+    "DEUTSCH": "Korndurchmesser",
+    "FRANCAIS": "diamètre des grains",
+    "ITALIANO": "dimensione del grano"
+  },
+  {
+    "ENGLISH": "seepage water",
+    "DEUTSCH": "Sickerwasser",
+    "FRANCAIS": "das",
+    "ITALIANO": "eau d'infiltration"
+  },
+  {
+    "ENGLISH": "arching action",
+    "DEUTSCH": "Gewölbedruck",
+    "FRANCAIS": "effet de voûte",
+    "ITALIANO": "effetto volta o arco"
+  },
+  {
+    "ENGLISH": "anchor plate",
+    "DEUTSCH": "Ankerplatte",
+    "FRANCAIS": "plaque d'ancrage",
+    "ITALIANO": "piastra di ancoraggio"
+  },
+  {
+    "ENGLISH": "bearing capacity",
+    "DEUTSCH": "Tragfähigkeit",
+    "FRANCAIS": "capacité portante",
+    "ITALIANO": "capacità portante"
+  },
+  {
+    "ENGLISH": "depth of foundation",
+    "DEUTSCH": "Fundationstiefe",
+    "FRANCAIS": "profondeur de la fondation",
+    "ITALIANO": "profondità di fondazione"
+  },
+  {
+    "ENGLISH": "row of piles",
+    "DEUTSCH": "Pfahlreihe",
+    "FRANCAIS": "rangée de pieux",
+    "ITALIANO": "fila di pali"
+  },
+  {
+    "ENGLISH": "deep foundation",
+    "DEUTSCH": "Tiefgründung",
+    "FRANCAIS": "fondation profonde",
+    "ITALIANO": "fondazione profonda"
+  },
+  {
+    "ENGLISH": "roofing batten",
+    "DEUTSCH": "Dachlatte",
+    "FRANCAIS": "latte",
+    "ITALIANO": "correntino"
+  },
+  {
+    "ENGLISH": "roof slope",
+    "DEUTSCH": "Dachneigung",
+    "FRANCAIS": "pente du toit",
+    "ITALIANO": "pendenza del tetto"
+  },
+  {
+    "ENGLISH": "roof framework",
+    "DEUTSCH": "Dachstuhl",
+    "FRANCAIS": "charpente de toit",
+    "ITALIANO": "capriata semplice"
+  },
+  {
+    "ENGLISH": "humidity",
+    "DEUTSCH": "Feuchtigkeit",
+    "FRANCAIS": "humidité",
+    "ITALIANO": "umidità"
+  },
+  {
+    "ENGLISH": "excavation",
+    "DEUTSCH": "Baugrube",
+    "FRANCAIS": "excavation",
+    "ITALIANO": "fossa di scavo"
+  },
+  {
+    "ENGLISH": "compression",
+    "DEUTSCH": "Kompression",
+    "FRANCAIS": "compression",
+    "ITALIANO": "compressione"
+  },
+  {
+    "ENGLISH": "well",
+    "DEUTSCH": "Brunnen",
+    "FRANCAIS": "puit",
+    "ITALIANO": "pozzo"
+  },
+  {
+    "ENGLISH": "roadway",
+    "DEUTSCH": "Fahrbahn",
+    "FRANCAIS": "chaussée",
+    "ITALIANO": "carreggiata"
+  },
+  {
+    "ENGLISH": "base slab",
+    "DEUTSCH": "Fundamentplatte",
+    "FRANCAIS": "dalle de fondation",
+    "ITALIANO": "platea di fondazione"
+  },
+  {
+    "ENGLISH": "hand rail",
+    "DEUTSCH": "Geländer",
+    "FRANCAIS": "das",
+    "ITALIANO": "garde-corps"
+  },
+  {
+    "ENGLISH": "wedge",
+    "DEUTSCH": "Keil",
+    "FRANCAIS": "coin",
+    "ITALIANO": "cuneo"
+  },
+  {
+    "ENGLISH": "force",
+    "DEUTSCH": "Kraft",
+    "FRANCAIS": "effort",
+    "ITALIANO": "forza"
+  },
+  {
+    "ENGLISH": "external force",
+    "DEUTSCH": "äussere Kraft",
+    "FRANCAIS": "effort extérieur",
+    "ITALIANO": "forza esterna"
+  },
+  {
+    "ENGLISH": "axial force",
+    "DEUTSCH": "Normalkraft",
+    "FRANCAIS": "effort normal",
+    "ITALIANO": "forza assiale"
+  },
+  {
+    "ENGLISH": "shear force",
+    "DEUTSCH": "Querkraft",
+    "FRANCAIS": "effort tranchant",
+    "ITALIANO": "forza di taglio"
+  },
+  {
+    "ENGLISH": "internal force",
+    "DEUTSCH": "Schnittkraft",
+    "FRANCAIS": "effort intérieur",
+    "ITALIANO": "forza interna"
+  },
+  {
+    "ENGLISH": "plate",
+    "DEUTSCH": "Platte",
+    "FRANCAIS": "plaque",
+    "ITALIANO": "piastra"
+  },
+  {
+    "ENGLISH": "drive",
+    "DEUTSCH": "rammen",
+    "FRANCAIS": "battre",
+    "ITALIANO": "battere"
+  },
+  {
+    "ENGLISH": "stiffness",
+    "DEUTSCH": "Steifigkeit",
+    "FRANCAIS": "rigidité",
+    "ITALIANO": "rigidità"
+  },
+  {
+    "ENGLISH": "column",
+    "DEUTSCH": "Stütze",
+    "FRANCAIS": "poteau",
+    "ITALIANO": "pilastro"
+  },
+  {
+    "ENGLISH": "brick wall",
+    "DEUTSCH": "Mauer",
+    "FRANCAIS": "mur",
+    "ITALIANO": "muro"
+  },
+  {
+    "ENGLISH": "force",
+    "DEUTSCH": "Kraft",
+    "FRANCAIS": "force",
+    "ITALIANO": "forza"
+  },
+  {
+    "ENGLISH": "force of deviation",
+    "DEUTSCH": "Ablenkkraft",
+    "FRANCAIS": "force de déviation",
+    "ITALIANO": "forza deviazionale"
+  },
+  {
+    "ENGLISH": "bearing reaction",
+    "DEUTSCH": "Auflagerkraft",
+    "FRANCAIS": "réaction d'appui",
+    "ITALIANO": "forza d'appoggio"
+  },
+  {
+    "ENGLISH": "compressive force",
+    "DEUTSCH": "Druckkraft",
+    "FRANCAIS": "force de compression",
+    "ITALIANO": "forza di compressione"
+  },
+  {
+    "ENGLISH": "equivalent (static) force",
+    "DEUTSCH": "Ersatzkraft",
+    "FRANCAIS": "force (statique) de remplacement",
+    "ITALIANO": "forza (statica) sostitutiva"
+  },
+  {
+    "ENGLISH": "membrane force",
+    "DEUTSCH": "Membrankraft",
+    "FRANCAIS": "effort membranaire",
+    "ITALIANO": "forza membranale"
+  },
+  {
+    "ENGLISH": "tensile force",
+    "DEUTSCH": "Zugkraft",
+    "FRANCAIS": "force de traction",
+    "ITALIANO": "forza di trazione"
+  },
+  {
+    "ENGLISH": "pylon",
+    "DEUTSCH": "Pylon",
+    "FRANCAIS": "pylône",
+    "ITALIANO": "pilone"
+  },
+  {
+    "ENGLISH": "natural stone",
+    "DEUTSCH": "Naturstein",
+    "FRANCAIS": "pierre naturelle",
+    "ITALIANO": "pietra naturale"
+  },
+  {
+    "ENGLISH": "wear",
+    "DEUTSCH": "Abnutzung",
+    "FRANCAIS": "usure",
+    "ITALIANO": "usura"
+  },
+  {
+    "ENGLISH": "spacing",
+    "DEUTSCH": "Abstand",
+    "FRANCAIS": "écartement",
+    "ITALIANO": "distanza"
+  },
+  {
+    "ENGLISH": "elevation",
+    "DEUTSCH": "Ansicht",
+    "FRANCAIS": "élévation",
+    "ITALIANO": "vista"
+  },
+  {
+    "ENGLISH": "timber",
+    "DEUTSCH": "Holz",
+    "FRANCAIS": "das",
+    "ITALIANO": "bois"
+  },
+  {
+    "ENGLISH": "round timber",
+    "DEUTSCH": "Rundholz",
+    "FRANCAIS": "bois rond",
+    "ITALIANO": "legno tondo"
+  },
+  {
+    "ENGLISH": "sawn timber",
+    "DEUTSCH": "Schnittholz",
+    "FRANCAIS": "bois débité",
+    "ITALIANO": "legno tagliato"
+  },
+  {
+    "ENGLISH": "clamp",
+    "DEUTSCH": "Klammer",
+    "FRANCAIS": "pince",
+    "ITALIANO": "cambra"
+  },
+  {
+    "ENGLISH": "masonry",
+    "DEUTSCH": "Mauerwerk",
+    "FRANCAIS": "das",
+    "ITALIANO": "maçonnerie"
+  },
+  {
+    "ENGLISH": "pier",
+    "DEUTSCH": "Pfeiler",
+    "FRANCAIS": "pile",
+    "ITALIANO": "pila"
+  },
+  {
+    "ENGLISH": "unit weight",
+    "DEUTSCH": "Raumlast",
+    "FRANCAIS": "charge volumique",
+    "ITALIANO": "carico specifico"
+  },
+  {
+    "ENGLISH": "helical reinforced column",
+    "DEUTSCH": "umschnürte Druckglied",
+    "FRANCAIS": "das",
+    "ITALIANO": "pièce comprimée frettée"
+  },
+  {
+    "ENGLISH": "plate girder",
+    "DEUTSCH": "Vollwandträger",
+    "FRANCAIS": "poutre à âme pleine",
+    "ITALIANO": "trave con anima piena"
+  },
+  {
+    "ENGLISH": "transition joint",
+    "DEUTSCH": "Fahrbahnübergang",
+    "FRANCAIS": "joint de transition",
+    "ITALIANO": "giunto di transizione"
+  },
+  {
+    "ENGLISH": "vault",
+    "DEUTSCH": "Voute",
+    "FRANCAIS": "voûte",
+    "ITALIANO": "volta"
+  },
+  {
+    "ENGLISH": "strip method",
+    "DEUTSCH": "Streifenmethode",
+    "FRANCAIS": "méthode des bandes",
+    "ITALIANO": "metodo delle strisce incruciate"
+  },
+  {
+    "ENGLISH": "shear resistance",
+    "DEUTSCH": "Scherfestigkeit",
+    "FRANCAIS": "résistance au cisaillement",
+    "ITALIANO": "resistenza al taglio"
+  },
+  {
+    "ENGLISH": "compatibility",
+    "DEUTSCH": "Verträglichkeit",
+    "FRANCAIS": "compatibilité",
+    "ITALIANO": "compatibilità"
+  },
+  {
+    "ENGLISH": "collapse",
+    "DEUTSCH": "Einsturz",
+    "FRANCAIS": "ruine",
+    "ITALIANO": "collasso"
+  },
+  {
+    "ENGLISH": "opening",
+    "DEUTSCH": "Öffnung",
+    "FRANCAIS": "ouverture",
+    "ITALIANO": "apertura"
+  },
+  {
+    "ENGLISH": "danger",
+    "DEUTSCH": "Gefahr",
+    "FRANCAIS": "danger",
+    "ITALIANO": "pericolo"
+  },
+  {
+    "ENGLISH": "axial force",
+    "DEUTSCH": "Normalkraft",
+    "FRANCAIS": "effort normal",
+    "ITALIANO": "forza assiale"
+  },
+  {
+    "ENGLISH": "shear force",
+    "DEUTSCH": "Querkraft",
+    "FRANCAIS": "effort tranchant",
+    "ITALIANO": "forza di taglio"
+  },
+  {
+    "ENGLISH": "internal force",
+    "DEUTSCH": "Schnittkraft",
+    "FRANCAIS": "effort intérieur",
+    "ITALIANO": "forza interna"
+  },
+  {
+    "ENGLISH": "sustained load",
+    "DEUTSCH": "Dauerlast",
+    "FRANCAIS": "charge de longue durée",
+    "ITALIANO": "carico di lunga durata"
+  },
+  {
+    "ENGLISH": "moment of inertia",
+    "DEUTSCH": "Trägheitsmoment",
+    "FRANCAIS": "das",
+    "ITALIANO": "moment d'inertie"
+  },
+  {
+    "ENGLISH": "section modulus",
+    "DEUTSCH": "Widerstandsmoment",
+    "FRANCAIS": "das",
+    "ITALIANO": "moment de résistance"
+  },
+  {
+    "ENGLISH": "compression",
+    "DEUTSCH": "Druck",
+    "FRANCAIS": "compression",
+    "ITALIANO": "compressione"
+  },
+  {
+    "ENGLISH": "statically indeterminate",
+    "DEUTSCH": "statisch unbestimmt",
+    "FRANCAIS": "hyperstatique",
+    "ITALIANO": "staticamente indeterminato"
+  },
+  {
+    "ENGLISH": "mean value",
+    "DEUTSCH": "Mittelwert",
+    "FRANCAIS": "valeur moyenne",
+    "ITALIANO": "valore medio"
+  },
+  {
+    "ENGLISH": "specimen",
+    "DEUTSCH": "Probe",
+    "FRANCAIS": "échantillon",
+    "ITALIANO": "provino"
+  },
+  {
+    "ENGLISH": "play",
+    "DEUTSCH": "Spiel",
+    "FRANCAIS": "das",
+    "ITALIANO": "jeu"
+  },
+  {
+    "ENGLISH": "internal friction angle",
+    "DEUTSCH": "Reibungswinkel",
+    "FRANCAIS": "innerer",
+    "ITALIANO": "angle de frottement interne"
+  },
+  {
+    "ENGLISH": "stone",
+    "DEUTSCH": "Stein",
+    "FRANCAIS": "pierre",
+    "ITALIANO": "pietra"
+  },
+  {
+    "ENGLISH": "concrete strength",
+    "DEUTSCH": "Betonfestigkeit",
+    "FRANCAIS": "résistance du béton",
+    "ITALIANO": "resistenza di calcestruzzo"
+  },
+  {
+    "ENGLISH": "cylinder strength",
+    "DEUTSCH": "Würfeldruckfestigkeit",
+    "FRANCAIS": "résistance sur cube",
+    "ITALIANO": "resistenza cilindrica"
+  },
+  {
+    "ENGLISH": "prism strength",
+    "DEUTSCH": "Zylinderdruckfestigkeit",
+    "FRANCAIS": "résistance sur  cylindre",
+    "ITALIANO": "resistenza prismatica"
+  },
+  {
+    "ENGLISH": "cube strength",
+    "DEUTSCH": "Prismendruckfestigkeit",
+    "FRANCAIS": "résistance sur prisme",
+    "ITALIANO": "resistenza su cubo"
+  }
+]
