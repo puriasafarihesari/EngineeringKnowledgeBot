@@ -77,7 +77,10 @@ namespace CoreBot1
         {
 
             string url = "http://grot.rvba.fr/models/proj1.json";
+            string peopleUrl = "http://grot.rvba.fr/models/csvjson.json";
             var proj1Json = GetCSV(url);
+            var peopleJson = GetCSV(peopleUrl);
+            DataBase._persons = JsonConvert.DeserializeObject<List<Person>>(peopleJson);
 
             SpecleMesh matchingMesh = null;
             if (TryGetBestMatchingProject(project, out matchingMesh))
