@@ -16,7 +16,7 @@ namespace CoreBot1.Dialogs
     {
         private const string DestinationStepMsgText = "Where do you want to design a bridge?";
         private const string MaterialStepMsgText = "What material is your bridge?";
-        private const string SpanStepMsgText = "Span is your bridge?";
+        private const string SpanStepMsgText = "What span is your bridge?";
 
         //private const string OriginStepMsgText = "Where are you traveling from?";
 

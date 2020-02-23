@@ -118,23 +118,17 @@ namespace CoreBot1
             //return compiledUrl;
         }
 
-        public static void Stream(string project)
+        public static string GetProjectUrl(string project)
         {
-            string route = "https://speckle.continuum.codes/api/streams/MfNWI67wx";
+            if (project == null) return null;
 
-            string url = "http://grot.rvba.fr/models/proj1.json";
-            var proj1Json = GetCSV(url);
-
-            string response = ApiRequest.ApiRequestWithAuth(RequestType.PUT, ResponseType.String, route, proj1Json, false);
-
-
-
-            SpecleMesh matchingMesh = null;
-            if (TryGetBestMatchingProject(project, out matchingMesh))
+            if (project.ToLower().Contains("bridge2"))
+                return " http://bot.continuum.codes/bridge2.html";
+            if (project.ToLower().Contains("bridge4"))
+                return "http://bot.continuum.codes/bridge4.html";
+            else
             {
-                SpeckleInput input = new SpeckleInput();
-                input.Objects.Add(matchingMesh);
-                //string response = ApiRequest.ApiRequestWithAuth(RequestType.PUT, ResponseType.String, route, input);
+                return null;
             }
         }
     }

@@ -101,6 +101,8 @@ namespace CoreBot1.Dialogs
                     BridgeTopologyDetails topologyDetails = new BridgeTopologyDetails()
                     {
                         Country = luisResult.Country,
+                        Material = luisResult.Material,
+                        MaxSpan = luisResult.MaxSpan
                     };
                     return await stepContext.BeginDialogAsync(nameof(BridgeTypologyDialog), topologyDetails, cancellationToken);
                 //var getBridgeMessageText = "Sick dude, what kind of bridge?";
@@ -130,7 +132,19 @@ namespace CoreBot1.Dialogs
                     break;
                 case FlightBooking.Intent.ShowProject:
                     var projectModel = luisResult.Project;
-                    StreamProject.Stream(projectModel);
+                    string url = StreamProject.GetProjectUrl(projectModel);
+                    string response = string.Empty;
+                    if(url == null)
+                    {
+                        response = $"sorry couldn't find that model.";
+                    }
+                    else
+                    {
+                        response = $"A 3d view of the model '{projectModel}' can be found here: ";
+                        response += url;
+                    }
+                    var msgMessage1 = MessageFactory.Text(response, response, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(msgMessage1, cancellationToken);
                     break;
                 case FlightBooking.Intent.GenerateParametricBuilding:
                     var curviness = luisResult.Curviness;

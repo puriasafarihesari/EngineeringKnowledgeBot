@@ -78,6 +78,9 @@ namespace CoreBot1.CognitiveModels
                 public InstanceData[] Project;
                 public InstanceData[] Levels;
                 public InstanceData[] Curviness;
+                public InstanceData[] MaxSpan;
+                public InstanceData[] Material;
+
             }
             [JsonProperty("$instance")]
             public _Instance _instance;
