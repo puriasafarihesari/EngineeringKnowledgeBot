@@ -126,7 +126,7 @@
     "executionMethod": "Scaffolding supported from the ground"
   },
   {
-    "Typology": "Prestressed Concrete Beam",
+    "Typology": "Post-tension",
     "Material": "Concrete",
     "minSpan": 20,
     "maxSpan": 30,
@@ -140,7 +140,7 @@
     "minSpan": 20,
     "maxSpan": 35,
     "crossSection": "Ribbed slab deck",
-    "projectName": "Devin Cantu Crossing",
+    "projectName": "Coolebrucke",
     "executionMethod": "Erection with cranes supported from the ground"
   },
   {
@@ -149,7 +149,7 @@
     "minSpan": 35,
     "maxSpan": 70,
     "crossSection": "Slab girder deck",
-    "projectName": "Pranav Weaver Crossing",
+    "projectName": "Tollebrucke",
     "executionMethod": "Erection with cranes supported from the ground"
   },
   {

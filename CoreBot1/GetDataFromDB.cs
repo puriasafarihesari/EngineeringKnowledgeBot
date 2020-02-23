@@ -55,7 +55,7 @@ namespace CoreBot1
             string projString = "";
             foreach (Project p in DataBase._project)
             {
-                if (p.Typology != null && p.Typology.ToLower() == typo)
+                if (p.Typology != null && p.Typology.ToLower().Contains(typo))
                     projString = projString + p.projectName + Environment.NewLine;
             }
             return projString;
