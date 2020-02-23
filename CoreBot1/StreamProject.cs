@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace CoreBot1
@@ -60,9 +62,23 @@ namespace CoreBot1
             }
             return false;
         }
-        
+
+        public static string GetCSV(string url)
+        {
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
+            HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
+            StreamReader sr = new StreamReader(resp.GetResponseStream());
+            string results = sr.ReadToEnd();
+            sr.Close();
+            return results;
+        }
+
         public static void Stream(string project)
         {
+
+            string url = "http://grot.rvba.fr/models/proj1.json";
+            var proj1Json = GetCSV(url);
+
             SpecleMesh matchingMesh = null;
             if (TryGetBestMatchingProject(project, out matchingMesh))
             {
