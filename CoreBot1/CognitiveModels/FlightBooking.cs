@@ -24,7 +24,8 @@ namespace CoreBot1.CognitiveModels
             GetBridgeTypology,
             GetPersonFromSkill,
             GetPersonFromProject,
-            ShowProject
+            ShowProject,
+            GenerateParametricBuilding
         };
         public Dictionary<Intent, IntentScore> Intents;
 
@@ -72,6 +73,8 @@ namespace CoreBot1.CognitiveModels
                 public InstanceData[] Country;
                 public InstanceData[] Skill;
                 public InstanceData[] Project;
+                public InstanceData[] Levels;
+                public InstanceData[] Curviness;
             }
             [JsonProperty("$instance")]
             public _Instance _instance;
