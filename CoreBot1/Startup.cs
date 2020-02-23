@@ -12,6 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 
 using CoreBot1.Bots;
 using CoreBot1.Dialogs;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace CoreBot1
 {
@@ -61,6 +63,14 @@ namespace CoreBot1
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(), "MyStaticFiles")),
+                RequestPath = "/StaticFiles"
+            });
+
+
             app.UseWebSockets();
             app.UseMvc();
         }

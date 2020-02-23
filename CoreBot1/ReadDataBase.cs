@@ -10,7 +10,7 @@ namespace CoreBot1
     {
         public static void ReadData()
         {
-            var reader = new StreamReader("Dummydatabase.csv");
+            var reader = new StreamReader("MyStaticFiles/Dummydatabase.csv");
             while (!reader.EndOfStream)
             {
                 var line = reader.ReadLine();
