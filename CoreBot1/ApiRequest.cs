@@ -28,19 +28,9 @@ namespace CoreBot1
     {
         private static string key = "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZGYzNzczOGY0YTU1MDA3OWUyY2Q4ZmEiLCJpYXQiOjE1NzYyMzY4NTYsImV4cCI6MTYzOTM1MjA1Nn0.julewKh3RbjF_wzSBSuMX7frGvaESXkJdHckx0ra6W0";
 
-
-
-        public static dynamic ApiRequestWithAuth(RequestType requestType, ResponseType responseType, string route, object jsonObject, bool serialize)
+        public static dynamic ApiRequestWithAuth(RequestType requestType, ResponseType responseType, string route, object jsonObject)
         {
-            string jsonArguments; 
-            if (serialize)
-            {
-            jsonArguments = JsonConvert.SerializeObject(jsonObject, Formatting.Indented);
-            }
-            else
-            {
-                jsonArguments = jsonObject as string;
-            }
+            string jsonArguments = JsonConvert.SerializeObject(jsonObject, Formatting.Indented);
 
             using (var client = new WebClient())
             {
