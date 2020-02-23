@@ -15,6 +15,9 @@ namespace CoreBot1.Dialogs
     public class BridgeTypologyDialog : CancelAndHelpDialog
     {
         private const string DestinationStepMsgText = "Where do you want to design a bridge?";
+        private const string MaterialStepMsgText = "What material is your bridge?";
+        private const string SpanStepMsgText = "Span is your bridge?";
+
         //private const string OriginStepMsgText = "Where are you traveling from?";
 
         public BridgeTypologyDialog()
@@ -26,6 +29,8 @@ namespace CoreBot1.Dialogs
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
                 DestinationStepAsync,
+                MaterialStepAsync,
+                SpanStepAsync,
                 //OriginStepAsync,
                 //TravelDateStepAsync,
                 ConfirmStepAsync,
@@ -40,58 +45,67 @@ namespace CoreBot1.Dialogs
         {
 
             var bookingDetails = (BridgeTopologyDetails)stepContext.Options;
-
             if (bookingDetails.Country == null)
             {
                 var promptMessage = MessageFactory.Text(DestinationStepMsgText, DestinationStepMsgText, InputHints.ExpectingInput);
                 return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
-                //var promptMessage = MessageFactory.Text(DestinationStepMsgText, DestinationStepMsgText, InputHints.ExpectingInput);
-                //return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
             }
 
             return await stepContext.NextAsync(bookingDetails.Country, cancellationToken);
         }
 
-        //private async Task<DialogTurnResult> OriginStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
-        //{
-        //    var bookingDetails = (BookingDetails)stepContext.Options;
+        private async Task<DialogTurnResult> MaterialStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        {
 
-        //    bookingDetails.Destination = (string)stepContext.Result;
+            var bookingDetails = (BridgeTopologyDetails)stepContext.Options;
+            bookingDetails.Country = (string)stepContext.Result;
 
-        //    if (bookingDetails.Origin == null)
-        //    {
-        //        var promptMessage = MessageFactory.Text(OriginStepMsgText, OriginStepMsgText, InputHints.ExpectingInput);
-        //        //return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
-        //    }
+            if (bookingDetails.Material == null)
+            {
+                var promptMessage = MessageFactory.Text(MaterialStepMsgText, MaterialStepMsgText, InputHints.ExpectingInput);
+                return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+                
+            }
 
-        //    return await stepContext.NextAsync(bookingDetails.Origin, cancellationToken);
-        //}
+            return await stepContext.NextAsync(bookingDetails.Material, cancellationToken);
+        }
 
-        //private async Task<DialogTurnResult> TravelDateStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
-        //{
-        //    var bookingDetails = (BookingDetails)stepContext.Options;
+        private async Task<DialogTurnResult> SpanStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        {
 
-        //    bookingDetails.Origin = (string)stepContext.Result;
+            var bookingDetails = (BridgeTopologyDetails)stepContext.Options;
+            bookingDetails.Material = (string)stepContext.Result;
 
-        //    if (bookingDetails.TravelDate == null || IsAmbiguous(bookingDetails.TravelDate))
-        //    {
-        //        return await stepContext.BeginDialogAsync(nameof(DateResolverDialog), bookingDetails.TravelDate, cancellationToken);
-        //    }
+            if (bookingDetails.MaxSpan == null)
+            {
+                var promptMessage = MessageFactory.Text(SpanStepMsgText, SpanStepMsgText, InputHints.ExpectingInput);
+                return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+                //var promptMessage = MessageFactory.Text(DestinationStepMsgText, DestinationStepMsgText, InputHints.ExpectingInput);
+                //return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            }
 
-        //    return await stepContext.NextAsync(bookingDetails.TravelDate, cancellationToken);
-        //}
+            return await stepContext.NextAsync(bookingDetails.MaxSpan, cancellationToken);
+        }
 
         private async Task<DialogTurnResult> ConfirmStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var bookingDetails = (BridgeTopologyDetails)stepContext.Options;
-            bookingDetails.Country = (string)stepContext.Result;
+            bookingDetails.MaxSpan = (string)stepContext.Result;
 
             //bookingDetails.TravelDate = (string)stepContext.Result;
 
-            var messageText = $"Please confirm dude, you're designing a bridge in: {bookingDetails.Country}";
-            var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.ExpectingInput);
+            var messageText = $"For a {bookingDetails.Material} bridge in {bookingDetails.Country} with a span of {bookingDetails.MaxSpan}, I recommend the following systems: ";
+            messageText += " Bajs";
 
-            return await stepContext.PromptAsync(nameof(ConfirmPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.IgnoringInput);
+
+            return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+
+            //var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.ExpectingInput);
+
+            //messageText
+            //var getPersonFromProjectMessage = MessageFactory.Text(messageText, messageText, InputHints.IgnoringInput);
+
         }
 
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)

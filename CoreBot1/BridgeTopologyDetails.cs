@@ -7,9 +7,12 @@ namespace CoreBot1
 {
     public class BridgeTopologyDetails
     {
-        
-        //public string MaximumSpan { get; set; }
         public string Country { get; set; }
         //public string Span { get; set; }
+        public string Material { get; set; }
+        public string MaxSpan { get; set; }
+
+
+        
     }
 }
