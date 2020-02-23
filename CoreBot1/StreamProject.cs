@@ -77,7 +77,7 @@ namespace CoreBot1
         {
             if (curviness == null)
             {
-                curviness = "4";
+                curviness = "54";
             }
             else
             {
