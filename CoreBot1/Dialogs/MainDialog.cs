@@ -31,7 +31,6 @@ namespace CoreBot1.Dialogs
             Logger = logger;
 
             AddDialog(new TextPrompt(nameof(TextPrompt)));
-            //ReadDataBase.ReadData();
             AddDialog(bookingDialog);
             AddDialog(new BridgeTypologyDialog());
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
