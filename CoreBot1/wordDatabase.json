@@ -50,8 +50,8 @@
   {
     "ENGLISH": "virtual work integral",
     "DEUTSCH": "Arbeitsintegral",
-    "FRANCAIS": "das",
-    "ITALIANO": "intégrale du travail virtuel"
+    "FRANCAIS": "intégrale du travail virtuel",
+    "ITALIANO": "integrale del lavoro"
   },
   {
     "ENGLISH": "support reaction",
@@ -230,8 +230,8 @@
   {
     "ENGLISH": "couple",
     "DEUTSCH": "Kräftepaar",
-    "FRANCAIS": "das",
-    "ITALIANO": "couple"
+    "FRANCAIS": "couple",
+    "ITALIANO": "coppia"
   },
   {
     "ENGLISH": "three-hinged arch",
@@ -296,14 +296,14 @@
   {
     "ENGLISH": "truss",
     "DEUTSCH": "Fachwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "treillis"
+    "FRANCAIS": "treillis",
+    "ITALIANO": "traliccio"
   },
   {
     "ENGLISH": "folded plate structure",
     "DEUTSCH": "Faltwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "structure plissée"
+    "FRANCAIS": "structure plissée",
+    "ITALIANO": "voltina scatolare"
   },
   {
     "ENGLISH": "strength",
@@ -338,8 +338,8 @@
   {
     "ENGLISH": "hazard scenario",
     "DEUTSCH": "Gefährdungsbild",
-    "FRANCAIS": "das",
-    "ITALIANO": "situation de risque"
+    "FRANCAIS": "situation de risque",
+    "ITALIANO": "situazione di rischio"
   },
   {
     "ENGLISH": "hinged beam",
@@ -350,8 +350,8 @@
   {
     "ENGLISH": "equilibrium",
     "DEUTSCH": "Gleichgewicht",
-    "FRANCAIS": "das",
-    "ITALIANO": "équilibre"
+    "FRANCAIS": "équilibre",
+    "ITALIANO": "equilibrio"
   },
   {
     "ENGLISH": "condition of equilibrium",
@@ -380,8 +380,8 @@
   {
     "ENGLISH": "suspension structure",
     "DEUTSCH": "Hängewerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "structure suspendue"
+    "FRANCAIS": "structure suspendue",
+    "ITALIANO": "struttura sospesa"
   },
   {
     "ENGLISH": "hollow section",
@@ -392,8 +392,8 @@
   {
     "ENGLISH": "wood",
     "DEUTSCH": "Holz",
-    "FRANCAIS": "das",
-    "ITALIANO": "bois"
+    "FRANCAIS": "bois",
+    "ITALIANO": "legno"
   },
   {
     "ENGLISH": "hardwood",
@@ -428,8 +428,8 @@
   {
     "ENGLISH": "lateral buckling",
     "DEUTSCH": "Kippen",
-    "FRANCAIS": "das",
-    "ITALIANO": "déversement"
+    "FRANCAIS": "déversement",
+    "ITALIANO": "svergolamento"
   },
   {
     "ENGLISH": "buckling length",
@@ -452,8 +452,8 @@
   {
     "ENGLISH": "kneebrace",
     "DEUTSCH": "Kopfband",
-    "FRANCAIS": "das",
-    "ITALIANO": "aisselier"
+    "FRANCAIS": "aisselier",
+    "ITALIANO": "nastro di testa"
   },
   {
     "ENGLISH": "body",
@@ -464,8 +464,8 @@
   {
     "ENGLISH": "force method",
     "DEUTSCH": "Kraftgrössenverfahren",
-    "FRANCAIS": "das",
-    "ITALIANO": "méthode des forces"
+    "FRANCAIS": "méthode des forces",
+    "ITALIANO": "metodo delle forze"
   },
   {
     "ENGLISH": "curvature",
@@ -487,9 +487,9 @@
   },
   {
     "ENGLISH": "eccentric load",
-    "DEUTSCH": "ausmittige",
-    "FRANCAIS": "exzentrische Last",
-    "ITALIANO": "charge excentrée"
+    "DEUTSCH": "exzentrische Last",
+    "FRANCAIS": "charge excentrée",
+    "ITALIANO": "carico eccentrico"
   },
   {
     "ENGLISH": "rail traffic load",
@@ -535,9 +535,9 @@
   },
   {
     "ENGLISH": "concentrated load",
-    "DEUTSCH": "mittige",
-    "FRANCAIS": "zentrische Last",
-    "ITALIANO": "charge concentrée"
+    "DEUTSCH": "zentrische Last",
+    "FRANCAIS": "charge concentrée",
+    "ITALIANO": "carico centrico"
   },
   {
     "ENGLISH": "live load",
@@ -594,10 +594,10 @@
     "ITALIANO": "diagramma dei momenti"
   },
   {
-    "ENGLISH": "code",
-    "DEUTSCH": "standard",
-    "FRANCAIS": "Norm",
-    "ITALIANO": "norme"
+    "ENGLISH": "standard",
+    "DEUTSCH": "Norm",
+    "FRANCAIS": "norme",
+    "ITALIANO": "norma"
   },
   {
     "ENGLISH": "neutral axis",
@@ -626,8 +626,8 @@
   {
     "ENGLISH": "plastic moment",
     "DEUTSCH": "plastische Moment",
-    "FRANCAIS": "das",
-    "ITALIANO": "moment plastique"
+    "FRANCAIS": "moment plastique",
+    "ITALIANO": "momento plastico"
   },
   {
     "ENGLISH": "plasticity condition",
@@ -710,8 +710,8 @@
   {
     "ENGLISH": "shrinkage",
     "DEUTSCH": "Schwinden",
-    "FRANCAIS": "das",
-    "ITALIANO": "retrait"
+    "FRANCAIS": "retrait",
+    "ITALIANO": "ritiro"
   },
   {
     "ENGLISH": "vibration",
@@ -746,14 +746,14 @@
   {
     "ENGLISH": "strut frame structure",
     "DEUTSCH": "Sprengwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "structure à béquilles"
+    "FRANCAIS": "structure à béquilles",
+    "ITALIANO": "struttura a piedritti inclinati"
   },
   {
     "ENGLISH": "steel section",
     "DEUTSCH": "Stahlprofil",
-    "FRANCAIS": "das",
-    "ITALIANO": "profilé métallique"
+    "FRANCAIS": "profilé métallique",
+    "ITALIANO": "profilato d'acciaio"
   },
   {
     "ENGLISH": "statically determinate",
@@ -794,8 +794,8 @@
   {
     "ENGLISH": "static moment",
     "DEUTSCH": "statisches Moment",
-    "FRANCAIS": "das",
-    "ITALIANO": "moment statique"
+    "FRANCAIS": "moment statique",
+    "ITALIANO": "momento statico"
   },
   {
     "ENGLISH": "structural analysis",
@@ -866,14 +866,14 @@
   {
     "ENGLISH": "product of inertia",
     "DEUTSCH": "Zentrifugalmoment",
-    "FRANCAIS": "das",
-    "ITALIANO": "produit d'inertie"
+    "FRANCAIS": "produit d'inertie",
+    "ITALIANO": "momento centrifugo"
   },
   {
     "ENGLISH": "tie rod",
     "DEUTSCH": "Zugband",
-    "FRANCAIS": "das",
-    "ITALIANO": "tirant"
+    "FRANCAIS": "tirant",
+    "ITALIANO": "puntoni e tiranti"
   },
   {
     "ENGLISH": "constraint stress",
@@ -932,8 +932,8 @@
   {
     "ENGLISH": "impounding reservoir",
     "DEUTSCH": "Becken",
-    "FRANCAIS": "das",
-    "ITALIANO": "bassin de retenue"
+    "FRANCAIS": "bassin de retenue",
+    "ITALIANO": "bacino"
   },
   {
     "ENGLISH": "dimensioning",
@@ -1064,8 +1064,8 @@
   {
     "ENGLISH": "influence surface",
     "DEUTSCH": "Einflussfeld",
-    "FRANCAIS": "das",
-    "ITALIANO": "surface d'influence"
+    "FRANCAIS": "surface d'influence",
+    "ITALIANO": "area d'influenza"
   },
   {
     "ENGLISH": "underground reservoir",
@@ -1076,8 +1076,8 @@
   {
     "ENGLISH": "soil",
     "DEUTSCH": "Erdreich",
-    "FRANCAIS": "das",
-    "ITALIANO": "sol"
+    "FRANCAIS": "sol",
+    "ITALIANO": "suolo"
   },
   {
     "ENGLISH": "hardening",
@@ -1112,8 +1112,8 @@
   {
     "ENGLISH": "footing",
     "DEUTSCH": "Fundament",
-    "FRANCAIS": "das",
-    "ITALIANO": "fondation"
+    "FRANCAIS": "fondation",
+    "ITALIANO": "fondazione"
   },
   {
     "ENGLISH": "isolated load distribution",
@@ -1136,8 +1136,8 @@
   {
     "ENGLISH": "hinge",
     "DEUTSCH": "Gelenk",
-    "FRANCAIS": "das",
-    "ITALIANO": "articulation"
+    "FRANCAIS": "articulation",
+    "ITALIANO": "cerniera"
   },
   {
     "ENGLISH": "envelope",
@@ -1166,8 +1166,8 @@
   {
     "ENGLISH": "interaction diagram",
     "DEUTSCH": "Interaktionsdiagramm",
-    "FRANCAIS": "das",
-    "ITALIANO": "diagramme d'interaction"
+    "FRANCAIS": "diagramme d'interaction",
+    "ITALIANO": "diagramma d'interazione"
   },
   {
     "ENGLISH": "representative value",
@@ -1178,8 +1178,8 @@
   {
     "ENGLISH": "buckling of column",
     "DEUTSCH": "Knicken",
-    "FRANCAIS": "das",
-    "ITALIANO": "flambage"
+    "FRANCAIS": "flambage",
+    "ITALIANO": "sbandamento"
   },
   {
     "ENGLISH": "corbel",
@@ -1196,8 +1196,8 @@
   {
     "ENGLISH": "creep",
     "DEUTSCH": "Kriechen",
-    "FRANCAIS": "das",
-    "ITALIANO": "fluage"
+    "FRANCAIS": "fluage",
+    "ITALIANO": "deformazione lenta o viscosa"
   },
   {
     "ENGLISH": "creep coefficient",
@@ -1220,8 +1220,8 @@
   {
     "ENGLISH": "scaffolding",
     "DEUTSCH": "Lehrgerüst",
-    "FRANCAIS": "das",
-    "ITALIANO": "cintre"
+    "FRANCAIS": "cintre",
+    "ITALIANO": "centinatura"
   },
   {
     "ENGLISH": "T-beam",
@@ -1292,7 +1292,7 @@
   {
     "ENGLISH": "silo",
     "DEUTSCH": "Silo",
-    "FRANCAIS": "das",
+    "FRANCAIS": "silo",
     "ITALIANO": "silo"
   },
   {
@@ -1304,8 +1304,8 @@
   {
     "ENGLISH": "frame structure",
     "DEUTSCH": "Stabtragwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "structure à barres"
+    "FRANCAIS": "structure à barres",
+    "ITALIANO": "struttura a asta"
   },
   {
     "ENGLISH": "steel",
@@ -1382,8 +1382,8 @@
   {
     "ENGLISH": "prestressing system",
     "DEUTSCH": "Vorspannsystem",
-    "FRANCAIS": "das",
-    "ITALIANO": "système de précontrainte"
+    "FRANCAIS": "système de précontrainte",
+    "ITALIANO": "sistema di precompressione"
   },
   {
     "ENGLISH": "loss of prestress",
@@ -1394,8 +1394,8 @@
   {
     "ENGLISH": "abutment",
     "DEUTSCH": "Widerlager",
-    "FRANCAIS": "das",
-    "ITALIANO": "culée"
+    "FRANCAIS": "culée",
+    "ITALIANO": "spalla"
   },
   {
     "ENGLISH": "resistance factor",
@@ -1412,8 +1412,8 @@
   {
     "ENGLISH": "intermediate support",
     "DEUTSCH": "Zwischenauflager",
-    "FRANCAIS": "das",
-    "ITALIANO": "appui intermédiaire"
+    "FRANCAIS": "appui intermédiaire",
+    "ITALIANO": "appoggio intermedio"
   },
   {
     "ENGLISH": "cylinder",
@@ -1436,14 +1436,14 @@
   {
     "ENGLISH": "bend",
     "DEUTSCH": "Abbiegen",
-    "FRANCAIS": "das",
-    "ITALIANO": "façonnage"
+    "FRANCAIS": "façonnage",
+    "ITALIANO": "piegatura"
   },
   {
     "ENGLISH": "setting",
     "DEUTSCH": "Abbinden",
-    "FRANCAIS": "das",
-    "ITALIANO": "prise"
+    "FRANCAIS": "prise",
+    "ITALIANO": "presa"
   },
   {
     "ENGLISH": "waterproof seal",
@@ -1454,8 +1454,8 @@
   {
     "ENGLISH": "shearing off",
     "DEUTSCH": "Abscheren",
-    "FRANCAIS": "das",
-    "ITALIANO": "cisaillement"
+    "FRANCAIS": "cisaillement",
+    "ITALIANO": "taglio"
   },
   {
     "ENGLISH": "spacer",
@@ -1472,8 +1472,8 @@
   {
     "ENGLISH": "support",
     "DEUTSCH": "Auflager",
-    "FRANCAIS": "das",
-    "ITALIANO": "appui"
+    "FRANCAIS": "appui",
+    "ITALIANO": "appoggio"
   },
   {
     "ENGLISH": "build-in support",
@@ -1532,8 +1532,8 @@
   {
     "ENGLISH": "striking",
     "DEUTSCH": "Ausschalen",
-    "FRANCAIS": "das",
-    "ITALIANO": "décoffrage"
+    "FRANCAIS": "décoffrage",
+    "ITALIANO": "disarmo"
   },
   {
     "ENGLISH": "axis",
@@ -1568,8 +1568,8 @@
   {
     "ENGLISH": "scaffolding",
     "DEUTSCH": "Baugerüst",
-    "FRANCAIS": "das",
-    "ITALIANO": "échafaudage"
+    "FRANCAIS": "échafaudage",
+    "ITALIANO": "centina"
   },
   {
     "ENGLISH": "statics of structures",
@@ -1610,8 +1610,8 @@
   {
     "ENGLISH": "concrete hinge",
     "DEUTSCH": "Betongelenk",
-    "FRANCAIS": "das",
-    "ITALIANO": "articulation en béton"
+    "FRANCAIS": "articulation en béton",
+    "ITALIANO": "cerniera in calcestruzzo"
   },
   {
     "ENGLISH": "concrete cover",
@@ -1622,14 +1622,14 @@
   {
     "ENGLISH": "buckling of plate or shell",
     "DEUTSCH": "Beulen",
-    "FRANCAIS": "das",
-    "ITALIANO": "voilement"
+    "FRANCAIS": "voilement",
+    "ITALIANO": "imbozzamento"
   },
   {
     "ENGLISH": "reinforcing mesh",
     "DEUTSCH": "Bewehrungsnetz",
-    "FRANCAIS": "das",
-    "ITALIANO": "treillis d'armature"
+    "FRANCAIS": "treillis d'armature",
+    "ITALIANO": "rete d'armatura"
   },
   {
     "ENGLISH": "reinforcement bar",
@@ -1664,8 +1664,8 @@
   {
     "ENGLISH": "binding agent",
     "DEUTSCH": "Bindemittel",
-    "FRANCAIS": "das",
-    "ITALIANO": "liant"
+    "FRANCAIS": "liant",
+    "ITALIANO": "legante"
   },
   {
     "ENGLISH": "binder",
@@ -1694,8 +1694,8 @@
   {
     "ENGLISH": "product of inertia",
     "DEUTSCH": "Deviationsmoment",
-    "FRANCAIS": "das",
-    "ITALIANO": "produit d'inertie"
+    "FRANCAIS": "produit d'inertie",
+    "ITALIANO": "momento centrifugo"
   },
   {
     "ENGLISH": "slope",
@@ -1706,8 +1706,8 @@
   {
     "ENGLISH": "board",
     "DEUTSCH": "Brett",
-    "FRANCAIS": "das",
-    "ITALIANO": "planche"
+    "FRANCAIS": "planche",
+    "ITALIANO": "tavola di legno"
   },
   {
     "ENGLISH": "rupture",
@@ -1730,8 +1730,8 @@
   {
     "ENGLISH": "roof",
     "DEUTSCH": "Dach",
-    "FRANCAIS": "das",
-    "ITALIANO": "toit"
+    "FRANCAIS": "toit",
+    "ITALIANO": "tetto"
   },
   {
     "ENGLISH": "collar roof",
@@ -1754,8 +1754,8 @@
   {
     "ENGLISH": "weight of oven-dry wood",
     "DEUTSCH": "Darrgewicht",
-    "FRANCAIS": "das",
-    "ITALIANO": "poids volumique apparent sec"
+    "FRANCAIS": "poids volumique apparent sec",
+    "ITALIANO": "peso del legno essicato"
   },
   {
     "ENGLISH": "slab",
@@ -1814,8 +1814,8 @@
   {
     "ENGLISH": "compression member",
     "DEUTSCH": "Druckglied",
-    "FRANCAIS": "das",
-    "ITALIANO": "élément comprimé"
+    "FRANCAIS": "élément comprimé",
+    "ITALIANO": "elemento compresso"
   },
   {
     "ENGLISH": "compression zone",
@@ -1844,8 +1844,8 @@
   {
     "ENGLISH": "punching",
     "DEUTSCH": "Durchstanzen",
-    "FRANCAIS": "das",
-    "ITALIANO": "poinçonnement"
+    "FRANCAIS": "poinçonnement",
+    "ITALIANO": "punzonamento"
   },
   {
     "ENGLISH": "influence line",
@@ -1886,8 +1886,8 @@
   {
     "ENGLISH": "earthquake",
     "DEUTSCH": "Erdbeben",
-    "FRANCAIS": "das",
-    "ITALIANO": "tremblement de terre"
+    "FRANCAIS": "tremblement de terre",
+    "ITALIANO": "terremoto"
   },
   {
     "ENGLISH": "earth pressure",
@@ -1922,8 +1922,8 @@
   {
     "ENGLISH": "equivalent system",
     "DEUTSCH": "Ersatzsystem",
-    "FRANCAIS": "das",
-    "ITALIANO": "système de remplacement"
+    "FRANCAIS": "système de remplacement",
+    "ITALIANO": "sistema sostitutivo"
   },
   {
     "ENGLISH": "eccentricity",
@@ -1952,8 +1952,8 @@
   {
     "ENGLISH": "space structure",
     "DEUTSCH": "Flächentragwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "structure porteuse à paroi"
+    "FRANCAIS": "structure porteuse à paroi",
+    "ITALIANO": "struttura a pareti sottili"
   },
   {
     "ENGLISH": "bending stress",
@@ -2012,8 +2012,8 @@
   {
     "ENGLISH": "sealing strip",
     "DEUTSCH": "Fugenband",
-    "FRANCAIS": "das",
-    "ITALIANO": "ruban d'étanchéité"
+    "FRANCAIS": "ruban d'étanchéité",
+    "ITALIANO": "nastro per giunto"
   },
   {
     "ENGLISH": "serviceability limit state",
@@ -2030,8 +2030,8 @@
   {
     "ENGLISH": "basic system",
     "DEUTSCH": "Grundsystem",
-    "FRANCAIS": "das",
-    "ITALIANO": "système fondamental"
+    "FRANCAIS": "système fondamental",
+    "ITALIANO": "sistema base"
   },
   {
     "ENGLISH": "foundation",
@@ -2090,8 +2090,8 @@
   {
     "ENGLISH": "principal moment of inertia",
     "DEUTSCH": "Hauptträgheitsmoment",
-    "FRANCAIS": "das",
-    "ITALIANO": "moment d'inertie principal"
+    "FRANCAIS": "moment d'inertie principal",
+    "ITALIANO": "momento principale d'inerzia"
   },
   {
     "ENGLISH": "lever-arm",
@@ -2114,14 +2114,14 @@
   {
     "ENGLISH": "duct",
     "DEUTSCH": "Hüllrohr",
-    "FRANCAIS": "das",
-    "ITALIANO": "gaine"
+    "FRANCAIS": "gaine",
+    "ITALIANO": "guaina"
   },
   {
     "ENGLISH": "grouting",
     "DEUTSCH": "Injizieren",
-    "FRANCAIS": "das",
-    "ITALIANO": "injection"
+    "FRANCAIS": "injection",
+    "ITALIANO": "iniettare"
   },
   {
     "ENGLISH": "gravel",
@@ -2144,8 +2144,8 @@
   {
     "ENGLISH": "gusset plate",
     "DEUTSCH": "Knotenblech",
-    "FRANCAIS": "das",
-    "ITALIANO": "gousset"
+    "FRANCAIS": "gousset",
+    "ITALIANO": "fazzoletto"
   },
   {
     "ENGLISH": "force method",
@@ -2173,21 +2173,21 @@
   },
   {
     "ENGLISH": "sliding bearing",
-    "DEUTSCH": "- Gleitlager",
-    "FRANCAIS": "das",
-    "ITALIANO": "appui glissant"
+    "DEUTSCH": "Gleitlager",
+    "FRANCAIS": "appui glissant",
+    "ITALIANO": "appoggio scorrevole"
   },
   {
     "ENGLISH": "rocker bearing",
-    "DEUTSCH": "- Kipplager",
-    "FRANCAIS": "das",
-    "ITALIANO": "appui oscillant"
+    "DEUTSCH": "Kipplager",
+    "FRANCAIS": "appui oscillant",
+    "ITALIANO": "vincolo a cerniera"
   },
   {
     "ENGLISH": "roller bearing",
-    "DEUTSCH": "- Rollenlager",
-    "FRANCAIS": "das",
-    "ITALIANO": "appui à rouleaux"
+    "DEUTSCH": "Rollenlager",
+    "FRANCAIS": "appui à rouleaux",
+    "ITALIANO": "carrello"
   },
   {
     "ENGLISH": "load case",
@@ -2222,8 +2222,8 @@
   {
     "ENGLISH": "masonry wall",
     "DEUTSCH": "Mauerwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "maçonnerie"
+    "FRANCAIS": "maçonnerie",
+    "ITALIANO": "muratura"
   },
   {
     "ENGLISH": "single skin wall",
@@ -2246,8 +2246,8 @@
   {
     "ENGLISH": "moment",
     "DEUTSCH": "Moment",
-    "FRANCAIS": "das",
-    "ITALIANO": "moment"
+    "FRANCAIS": "moment",
+    "ITALIANO": "momento"
   },
   {
     "ENGLISH": "bending moment",
@@ -2400,10 +2400,10 @@
     "ITALIANO": "palo battuto"
   },
   {
-    "ENGLISH": "floating pile",
-    "DEUTSCH": "friction pile",
-    "FRANCAIS": "Reibungspfahl",
-    "ITALIANO": "pieu flottant"
+    "ENGLISH": "friction pile",
+    "DEUTSCH": "Reibungspfahl",
+    "FRANCAIS": "pieu flottant",
+    "ITALIANO": "palo per attrito"
   },
   {
     "ENGLISH": "end-bearing pile",
@@ -2432,8 +2432,8 @@
   {
     "ENGLISH": "swelling",
     "DEUTSCH": "Quellen",
-    "FRANCAIS": "das",
-    "ITALIANO": "gonflement"
+    "FRANCAIS": "gonflement",
+    "ITALIANO": "gonfiamento"
   },
   {
     "ENGLISH": "lateral strain",
@@ -2456,8 +2456,8 @@
   {
     "ENGLISH": "structure",
     "DEUTSCH": "Tragwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "structure porteuse"
+    "FRANCAIS": "structure porteuse",
+    "ITALIANO": "struttura portante"
   },
   {
     "ENGLISH": "plane structure",
@@ -2576,8 +2576,8 @@
   {
     "ENGLISH": "link polygon",
     "DEUTSCH": "Seilpolygon",
-    "FRANCAIS": "das",
-    "ITALIANO": "polygone funiculaire"
+    "FRANCAIS": "polygone funiculaire",
+    "ITALIANO": "poligono funicolare"
   },
   {
     "ENGLISH": "settlement",
@@ -2600,14 +2600,14 @@
   {
     "ENGLISH": "pretensioning",
     "DEUTSCH": "Spannbettverfahren",
-    "FRANCAIS": "das",
-    "ITALIANO": "procédé de précontrainte par"
+    "FRANCAIS": "procédé de précontrainte par",
+    "ITALIANO": "sistema di pretesatura dei cavi"
   },
   {
     "ENGLISH": "tendon",
     "DEUTSCH": "Spannkabel",
-    "FRANCAIS": "das",
-    "ITALIANO": "câble de précontrainte"
+    "FRANCAIS": "câble de précontrainte",
+    "ITALIANO": "cavo di precompressione"
   },
   {
     "ENGLISH": "principal stress trajectory",
@@ -2864,8 +2864,8 @@
   {
     "ENGLISH": "fastener",
     "DEUTSCH": "Verbindungsmittel",
-    "FRANCAIS": "das",
-    "ITALIANO": "moyen d'assemblage"
+    "FRANCAIS": "moyen d'assemblage",
+    "ITALIANO": "mezzo di collegamento"
   },
   {
     "ENGLISH": "composite section",
@@ -2894,8 +2894,8 @@
   {
     "ENGLISH": "precast element",
     "DEUTSCH": "vorfabriziertes Element",
-    "FRANCAIS": "das",
-    "ITALIANO": "élément préfabriqué"
+    "FRANCAIS": "élément préfabriqué",
+    "ITALIANO": "elemento prefabbricato"
   },
   {
     "ENGLISH": "wall",
@@ -2936,8 +2936,8 @@
   {
     "ENGLISH": "admixture",
     "DEUTSCH": "Zusatzmittel",
-    "FRANCAIS": "das",
-    "ITALIANO": "adjuvant"
+    "FRANCAIS": "adjuvant",
+    "ITALIANO": "additivo"
   },
   {
     "ENGLISH": "aggregate",
@@ -2960,14 +2960,14 @@
   {
     "ENGLISH": "element",
     "DEUTSCH": "Element",
-    "FRANCAIS": "das",
-    "ITALIANO": "élément"
+    "FRANCAIS": "élément",
+    "ITALIANO": "elemento"
   },
   {
     "ENGLISH": "system",
     "DEUTSCH": "System",
-    "FRANCAIS": "das",
-    "ITALIANO": "système"
+    "FRANCAIS": "système",
+    "ITALIANO": "sistema"
   },
   {
     "ENGLISH": "failure mode",
@@ -2990,8 +2990,8 @@
   {
     "ENGLISH": "risk",
     "DEUTSCH": "Risiko",
-    "FRANCAIS": "das",
-    "ITALIANO": "risque"
+    "FRANCAIS": "risque",
+    "ITALIANO": "rischio"
   },
   {
     "ENGLISH": "accepted risk",
@@ -3032,8 +3032,8 @@
   {
     "ENGLISH": "residual risk",
     "DEUTSCH": "Restrisiko",
-    "FRANCAIS": "das",
-    "ITALIANO": "risque résiduel"
+    "FRANCAIS": "risque résiduel",
+    "ITALIANO": "rischio residuo"
   },
   {
     "ENGLISH": "reliability",
@@ -3056,8 +3056,8 @@
   {
     "ENGLISH": "hazard potential",
     "DEUTSCH": "Gefährdungspotential",
-    "FRANCAIS": "das",
-    "ITALIANO": "potentiel de risque"
+    "FRANCAIS": "potentiel de risque",
+    "ITALIANO": "potenziale di rischio"
   },
   {
     "ENGLISH": "residual hazard",
@@ -3116,8 +3116,8 @@
   {
     "ENGLISH": "cause-consequence-chart",
     "DEUTSCH": "Ursachen-Folgen-Diagramm",
-    "FRANCAIS": "das",
-    "ITALIANO": "diagramme cause-"
+    "FRANCAIS": "diagramme cause-",
+    "ITALIANO": "diagramma causa-effetto"
   },
   {
     "ENGLISH": "progressive failure",
@@ -3218,8 +3218,8 @@
   {
     "ENGLISH": "histogramme",
     "DEUTSCH": "Histogramm",
-    "FRANCAIS": "das",
-    "ITALIANO": "histogramme"
+    "FRANCAIS": "histogramme",
+    "ITALIANO": "istogramma"
   },
   {
     "ENGLISH": "time curve",
@@ -3332,8 +3332,8 @@
   {
     "ENGLISH": "load arrangement",
     "DEUTSCH": "Lastbild",
-    "FRANCAIS": "das",
-    "ITALIANO": "disposition des charges"
+    "FRANCAIS": "disposition des charges",
+    "ITALIANO": "configurazione del carico"
   },
   {
     "ENGLISH": "service value",
@@ -3428,8 +3428,8 @@
   {
     "ENGLISH": "framework",
     "DEUTSCH": "Rahmentragwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "structure à cadres"
+    "FRANCAIS": "structure à cadres",
+    "ITALIANO": "struttura a telaio"
   },
   {
     "ENGLISH": "reinforced",
@@ -3470,8 +3470,8 @@
   {
     "ENGLISH": "lift off",
     "DEUTSCH": "Abheben",
-    "FRANCAIS": "das",
-    "ITALIANO": "soulèvement"
+    "FRANCAIS": "soulèvement",
+    "ITALIANO": "sollevamento"
   },
   {
     "ENGLISH": "abrasion",
@@ -3500,8 +3500,8 @@
   {
     "ENGLISH": "scaffolding",
     "DEUTSCH": "Arbeitsgerüst",
-    "FRANCAIS": "das",
-    "ITALIANO": "échafaudage de travail"
+    "FRANCAIS": "échafaudage de travail",
+    "ITALIANO": "ponteggio di lavoro"
   },
   {
     "ENGLISH": "working cycle",
@@ -3536,8 +3536,8 @@
   {
     "ENGLISH": "component",
     "DEUTSCH": "Bauteil",
-    "FRANCAIS": "das",
-    "ITALIANO": "élément de construction"
+    "FRANCAIS": "élément de construction",
+    "ITALIANO": "elemento costruttivo"
   },
   {
     "ENGLISH": "structural component",
@@ -3668,14 +3668,14 @@
   {
     "ENGLISH": "content",
     "DEUTSCH": "Füllgut",
-    "FRANCAIS": "das",
-    "ITALIANO": "contenu"
+    "FRANCAIS": "contenu",
+    "ITALIANO": "contenuto"
   },
   {
     "ENGLISH": "building",
     "DEUTSCH": "Gebäude",
-    "FRANCAIS": "das",
-    "ITALIANO": "bâtiment"
+    "FRANCAIS": "bâtiment",
+    "ITALIANO": "edificio"
   },
   {
     "ENGLISH": "hazard",
@@ -3692,8 +3692,8 @@
   {
     "ENGLISH": "sliding",
     "DEUTSCH": "Gleiten",
-    "FRANCAIS": "das",
-    "ITALIANO": "glissement"
+    "FRANCAIS": "glissement",
+    "ITALIANO": "scivolamento"
   },
   {
     "ENGLISH": "fundamental frequency",
@@ -3728,8 +3728,8 @@
   {
     "ENGLISH": "overturning",
     "DEUTSCH": "Umkippen",
-    "FRANCAIS": "das",
-    "ITALIANO": "renversement"
+    "FRANCAIS": "renversement",
+    "ITALIANO": "ribaltamento"
   },
   {
     "ENGLISH": "corrosion",
@@ -3806,8 +3806,8 @@
   {
     "ENGLISH": "tube",
     "DEUTSCH": "Rohr",
-    "FRANCAIS": "das",
-    "ITALIANO": "tuyau"
+    "FRANCAIS": "tuyau",
+    "ITALIANO": "tubo"
   },
   {
     "ENGLISH": "ballast",
@@ -3824,8 +3824,8 @@
   {
     "ENGLISH": "cable",
     "DEUTSCH": "Seil",
-    "FRANCAIS": "das",
-    "ITALIANO": "câble"
+    "FRANCAIS": "câble",
+    "ITALIANO": "cavo"
   },
   {
     "ENGLISH": "blasting",
@@ -3843,13 +3843,13 @@
     "ENGLISH": "storage tank",
     "DEUTSCH": "Behälter",
     "FRANCAIS": "réservoir",
-    "ITALIANO": "m"
+    "ITALIANO": "serbatoio"
   },
   {
     "ENGLISH": "de-icing salt",
     "DEUTSCH": "Tausalz",
-    "FRANCAIS": "das",
-    "ITALIANO": "sel de déverglaçage"
+    "FRANCAIS": "sel de déverglaçage",
+    "ITALIANO": "sale antighiaccio"
   },
   {
     "ENGLISH": "thermal expansion",
@@ -3872,8 +3872,8 @@
   {
     "ENGLISH": "component",
     "DEUTSCH": "Bauteil",
-    "FRANCAIS": "das",
-    "ITALIANO": "élément de construction"
+    "FRANCAIS": "élément de construction",
+    "ITALIANO": "elemento costruttivo"
   },
   {
     "ENGLISH": "structural component",
@@ -4004,14 +4004,14 @@
   {
     "ENGLISH": "content",
     "DEUTSCH": "Füllgut",
-    "FRANCAIS": "das",
-    "ITALIANO": "contenu"
+    "FRANCAIS": "contenu",
+    "ITALIANO": "contenuto"
   },
   {
     "ENGLISH": "building",
     "DEUTSCH": "Gebäude",
-    "FRANCAIS": "das",
-    "ITALIANO": "bâtiment"
+    "FRANCAIS": "bâtiment",
+    "ITALIANO": "edificio"
   },
   {
     "ENGLISH": "hazard",
@@ -4028,8 +4028,8 @@
   {
     "ENGLISH": "sliding",
     "DEUTSCH": "Gleiten",
-    "FRANCAIS": "das",
-    "ITALIANO": "glissement"
+    "FRANCAIS": "glissement",
+    "ITALIANO": "scivolamento"
   },
   {
     "ENGLISH": "fundamental frequency",
@@ -4064,14 +4064,14 @@
   {
     "ENGLISH": "driving",
     "DEUTSCH": "Rammen",
-    "FRANCAIS": "das",
-    "ITALIANO": "battage"
+    "FRANCAIS": "battage",
+    "ITALIANO": "battitura"
   },
   {
     "ENGLISH": "wooden corbel",
     "DEUTSCH": "Sattelholz",
-    "FRANCAIS": "das",
-    "ITALIANO": "cale en bois"
+    "FRANCAIS": "cale en bois",
+    "ITALIANO": "cavalletto"
   },
   {
     "ENGLISH": "beam",
@@ -4082,8 +4082,8 @@
   {
     "ENGLISH": "lap joint",
     "DEUTSCH": "Blatt",
-    "FRANCAIS": "das",
-    "ITALIANO": "assemblage à entaille"
+    "FRANCAIS": "assemblage à entaille",
+    "ITALIANO": "collegamento semplice"
   },
   {
     "ENGLISH": "dovetail",
@@ -4334,8 +4334,8 @@
   {
     "ENGLISH": "seepage water",
     "DEUTSCH": "Sickerwasser",
-    "FRANCAIS": "das",
-    "ITALIANO": "eau d'infiltration"
+    "FRANCAIS": "eau d'infiltration",
+    "ITALIANO": "acqua d'infiltrazione"
   },
   {
     "ENGLISH": "arching action",
@@ -4430,8 +4430,8 @@
   {
     "ENGLISH": "hand rail",
     "DEUTSCH": "Geländer",
-    "FRANCAIS": "das",
-    "ITALIANO": "garde-corps"
+    "FRANCAIS": "garde-corps",
+    "ITALIANO": "ringhiera"
   },
   {
     "ENGLISH": "wedge",
@@ -4574,8 +4574,8 @@
   {
     "ENGLISH": "timber",
     "DEUTSCH": "Holz",
-    "FRANCAIS": "das",
-    "ITALIANO": "bois"
+    "FRANCAIS": "bois",
+    "ITALIANO": "legno"
   },
   {
     "ENGLISH": "round timber",
@@ -4598,8 +4598,8 @@
   {
     "ENGLISH": "masonry",
     "DEUTSCH": "Mauerwerk",
-    "FRANCAIS": "das",
-    "ITALIANO": "maçonnerie"
+    "FRANCAIS": "maçonnerie",
+    "ITALIANO": "muratura"
   },
   {
     "ENGLISH": "pier",
@@ -4616,8 +4616,8 @@
   {
     "ENGLISH": "helical reinforced column",
     "DEUTSCH": "umschnürte Druckglied",
-    "FRANCAIS": "das",
-    "ITALIANO": "pièce comprimée frettée"
+    "FRANCAIS": "pièce comprimée frettée",
+    "ITALIANO": "elemento compresso con"
   },
   {
     "ENGLISH": "plate girder",
@@ -4700,14 +4700,14 @@
   {
     "ENGLISH": "moment of inertia",
     "DEUTSCH": "Trägheitsmoment",
-    "FRANCAIS": "das",
-    "ITALIANO": "moment d'inertie"
+    "FRANCAIS": "moment d'inertie",
+    "ITALIANO": "momento d'inerzia"
   },
   {
     "ENGLISH": "section modulus",
     "DEUTSCH": "Widerstandsmoment",
-    "FRANCAIS": "das",
-    "ITALIANO": "moment de résistance"
+    "FRANCAIS": "moment de résistance",
+    "ITALIANO": "momento resistente"
   },
   {
     "ENGLISH": "compression",
@@ -4736,14 +4736,14 @@
   {
     "ENGLISH": "play",
     "DEUTSCH": "Spiel",
-    "FRANCAIS": "das",
-    "ITALIANO": "jeu"
+    "FRANCAIS": "jeu",
+    "ITALIANO": "gioco"
   },
   {
     "ENGLISH": "internal friction angle",
     "DEUTSCH": "Reibungswinkel",
-    "FRANCAIS": "innerer",
-    "ITALIANO": "angle de frottement interne"
+    "FRANCAIS": "angle de frottement interne",
+    "ITALIANO": "angolo di attrito interno"
   },
   {
     "ENGLISH": "stone",
