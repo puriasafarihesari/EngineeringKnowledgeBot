@@ -63,17 +63,13 @@ namespace CoreBot1
         
         public static void Stream(string project)
         {
-            string url = "http://grot.rvba.fr/models/proj1.json";
-            var proj1Json = ReadDataBase.GetCSV(url);
-
-
             SpecleMesh matchingMesh = null;
             if (TryGetBestMatchingProject(project, out matchingMesh))
             {
                 string route = "https://speckle.continuum.codes/api/streams/MfNWI67wx";
                 SpeckleInput input = new SpeckleInput();
                 input.Objects.Add(matchingMesh);
-                //string response = ApiRequest.ApiRequestWithAuth(RequestType.PUT, ResponseType.String, route, input);
+                string response = ApiRequest.ApiRequestWithAuth(RequestType.PUT, ResponseType.String, route, input);
             }
         }
     }
