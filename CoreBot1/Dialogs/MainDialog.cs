@@ -162,7 +162,13 @@ namespace CoreBot1.Dialogs
                     var msgMessage = MessageFactory.Text(msg, msg, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(msgMessage, cancellationToken);
                     break;
-
+                case FlightBooking.Intent.WhatsNext:
+                    var whatsnext = "Thank you! I will continue to learn from all of you. Your quesions will help me grow my knowledge such that I can better support you in the future. A first step is to run micro - applications to help you solve your problems and, as my database grows, I will be able to suggest solutions to increasingly complex technical problems.";
+                    //var matchedProjects = GetDataFromDB.FindProjcetByTypology(typologi.ToLower());
+                    //var getProjectFromTypoMessageText = $"The projects below are using the same typology as {typologi}:\r\n{matchedProjects}";
+                    var whatsnextMsg = MessageFactory.Text(whatsnext, whatsnext, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(whatsnextMsg, cancellationToken);
+                    break;
                 default:
                     return await stepContext.BeginDialogAsync(nameof(CreatePostDialog), null, cancellationToken);
                     // Catch all for unhandled intents

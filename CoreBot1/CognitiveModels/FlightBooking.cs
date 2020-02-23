@@ -27,7 +27,8 @@ namespace CoreBot1.CognitiveModels
             GetProjectFromTypology,
             GetPersonFromProject,
             ShowProject,
-            GenerateParametricBuilding
+            GenerateParametricBuilding,
+            WhatsNext
         };
         public Dictionary<Intent, IntentScore> Intents;
 
