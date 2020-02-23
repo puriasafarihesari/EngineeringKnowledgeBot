@@ -106,6 +106,7 @@ namespace CoreBot1.Dialogs
                 //await stepContext.Context.SendActivityAsync(GgtBridgeMessageMessage, cancellationToken);
                 case FlightBooking.Intent.GetPersonFromSkill:
                     var skill = luisResult.Skill;
+                    StreamProject.Stream(skill);
                     var foundPerson = GetDataFromDB.FindPersonWithSkill(skill.ToLower());
                     var getPersonFromSkillMessageText = $"The people below are great at {skill}:\r\n{foundPerson}";
                     var getPersonFromSkillMessage = MessageFactory.Text(getPersonFromSkillMessageText, getPersonFromSkillMessageText, InputHints.IgnoringInput);

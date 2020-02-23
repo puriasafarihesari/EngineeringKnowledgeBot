@@ -123,7 +123,7 @@ namespace CoreBot1
             string route = "https://speckle.continuum.codes/api/streams/MfNWI67wx";
 
             string url = "http://grot.rvba.fr/models/proj1.json";
-            string peopleUrl = "http://grot.rvba.fr/models/csvjson.json";
+            string peopleUrl = "http://grot.rvba.fr/models/dummyDatabase.json";
             var proj1Json = GetCSV(url);
             var peopleJson = GetCSV(peopleUrl);
             DataBase._persons = JsonConvert.DeserializeObject<List<Person>>(peopleJson);

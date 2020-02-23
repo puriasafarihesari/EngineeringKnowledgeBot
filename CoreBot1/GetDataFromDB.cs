@@ -12,7 +12,7 @@ namespace CoreBot1
             string person = "";
             foreach (Person p in DataBase._persons)
             {
-                if (p.Expertise == skill)
+                if (p.Expertise.ToLower() == skill)
                     person = person + p.Name + Environment.NewLine;
             }
             return person;
