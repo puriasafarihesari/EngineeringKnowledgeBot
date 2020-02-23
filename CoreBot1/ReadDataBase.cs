@@ -12,12 +12,11 @@ namespace CoreBot1
     {
         public static void ReadData()
         {
-            string peopleUrl = "http://grot.rvba.fr/models/dummyDatabase.json";
-            var peopleJson = StreamProject.GetCSV(peopleUrl);
-            DataBase._persons = JsonConvert.DeserializeObject<List<Person>>(peopleJson);
+            string dummyDBJson = File.ReadAllText("dummyDatabase.json");
+            DataBase._persons = JsonConvert.DeserializeObject<List<Person>>(dummyDBJson);
             string wordDBJson = File.ReadAllText("wordDatabase.json");
             DataBase._language = JsonConvert.DeserializeObject<List<Language>>(wordDBJson);
-            string projectDBJson = File.ReadAllText("wordDatabase.json");
+            string projectDBJson = File.ReadAllText("projetDatabase.json");
             DataBase._project = JsonConvert.DeserializeObject<List<Project>>(projectDBJson);
         }
     }

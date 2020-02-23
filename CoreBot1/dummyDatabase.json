@@ -1,0 +1,128 @@
+[
+  {
+    "Name": "Leanna Choi",
+    "Email": "lc@dummy.dk",
+    "Phone": 51623301,
+    "RoomNumber": 4123,
+    "Expertise": "Steel Bridges"
+  },
+  {
+    "Name": "Russell Bowman",
+    "Email": "rb@dummy.dk",
+    "Phone": 51622132,
+    "RoomNumber": 4565,
+    "Expertise": "Concrete Bridge"
+  },
+  {
+    "Name": "Kelvin Hall",
+    "Email": "kh@dummy.dk",
+    "Phone": 51621123,
+    "RoomNumber": 2212,
+    "Expertise": "Prestressed Bridges"
+  },
+  {
+    "Name": "Gloria Ellis",
+    "Email": "ge@dummy.dk",
+    "Phone": 51622314,
+    "RoomNumber": 3321,
+    "Expertise": "HVAC"
+  },
+  {
+    "Name": "Reyna Mckenzie",
+    "Email": "rm@dummy.dk",
+    "Phone": 51622313,
+    "RoomNumber": 4467,
+    "Expertise": "Sustainability"
+  },
+  {
+    "Name": "Camron Farmer",
+    "Email": "cf@dummy.dk",
+    "Phone": 51626435,
+    "RoomNumber": 1213,
+    "Expertise": "Computational Design"
+  },
+  {
+    "Name": "Tobias Sutton",
+    "Email": "ts@dummy.dk",
+    "Phone": 51622135,
+    "RoomNumber": 4531,
+    "Expertise": "Grasshopper"
+  },
+  {
+    "Name": "Amanda Rhodes",
+    "Email": "ar@dummy.dk",
+    "Phone": 51628879,
+    "RoomNumber": 5426,
+    "Expertise": "SOFiSTiK"
+  },
+  {
+    "Name": "Ayana Johnson",
+    "Email": "aj@dummy.dk",
+    "Phone": 51622123,
+    "RoomNumber": 4331,
+    "Expertise": "AutoCAD"
+  },
+  {
+    "Name": "Martha Donovan",
+    "Email": "md@dummy.dk",
+    "Phone": 51627789,
+    "RoomNumber": 3244,
+    "Expertise": "Composite Bridges"
+  },
+  {
+    "Name": "Ali Parsons",
+    "Email": "ap@dummy.dk",
+    "Phone": 51622313,
+    "RoomNumber": 4232,
+    "Expertise": "Steel Buildings"
+  },
+  {
+    "Name": "Kylan Boyd",
+    "Email": "kb@dummy.dk",
+    "Phone": 51623215,
+    "RoomNumber": 3345,
+    "Expertise": "Concrete Buildings"
+  },
+  {
+    "Name": "Angelina Silva",
+    "Email": "as@dummy.dk",
+    "Phone": 51627789,
+    "RoomNumber": 5523,
+    "Expertise": "Composite Buildings"
+  },
+  {
+    "Name": "Alejandro Collins",
+    "Email": "ac@dummy.dk",
+    "Phone": 51622214,
+    "RoomNumber": 1124,
+    "Expertise": "Tekla"
+  },
+  {
+    "Name": "Yesenia Singh",
+    "Email": "ys@dummy.dk",
+    "Phone": 51622213,
+    "RoomNumber": 3667,
+    "Expertise": "Microstation"
+  },
+  {
+    "Name": "Leo Thomas",
+    "Email": "lt@dummy.dk",
+    "Phone": 51629876,
+    "RoomNumber": 3412,
+    "Expertise": "LUSAS"
+  },
+  {
+    "Name": "Puria Safari",
+    "Email": "ps@dummy.dk",
+    "Phone": 51629863,
+    "RoomNumber": 1124,
+    "Expertise": "LUSAS"
+  },
+  {
+    "Name": "Emil Poulsen",
+    "Email": "ps@dummy.dk",
+    "Phone": 51629888,
+    "RoomNumber": 4232,
+    "Expertise": "LUSAS"
+  }
+]
