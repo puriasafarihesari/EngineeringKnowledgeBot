@@ -22,6 +22,7 @@ namespace CoreBot1.Dialogs
     {
         private readonly FlightBookingRecognizer _luisRecognizer;
         protected readonly ILogger Logger;
+        private int _askCounter = 0;
 
         // Dependency injection uses this constructor to instantiate MainDialog
         public MainDialog(FlightBookingRecognizer luisRecognizer, BookingDialog bookingDialog, ILogger<MainDialog> logger)
@@ -29,6 +30,7 @@ namespace CoreBot1.Dialogs
         {
             _luisRecognizer = luisRecognizer;
             Logger = logger;
+            _askCounter = 0;
 
             ReadDataBase.ReadData();
             AddDialog(new TextPrompt(nameof(TextPrompt)));
@@ -61,8 +63,7 @@ namespace CoreBot1.Dialogs
             var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.ExpectingInput);
             return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
         }
-
-        private static int _askCounter = 0;
+        
 
         private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
