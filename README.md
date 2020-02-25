@@ -43,7 +43,7 @@ The assistant – Helps with registering expenses or booking flights
 - Add learning pipeline from intranet
 - UI touchups – integrated 2D/3D viewer
 
-## Running 
+## Running the app
 - Clone the repo
 - Get a luis.ai account and put the API keys in the appSettings.json. Note that you'll have to create appropriate intents, entities and data sets on your own to train you bot. See further instructions in [Corebot1](/Corebot1)
 - Run the server
@@ -53,3 +53,7 @@ The assistant – Helps with registering expenses or booking flights
 As mentioned, everything in the repo was developed during the hackathon, so be aware the state of the code is rough. We used the MS Bot "Core" example as a starting point, which will become aparent after further inspection of the source. The bot's training set is limited, which means that it your conversation intents may be incorrectly mapped and interpreted by Fraiboto wrong.
 
 Cred for the bot's name goes to [Frei Otto](https://en.wikipedia.org/wiki/Frei_Otto). 
+
+## License
+[MIT](LICENSE).
+
