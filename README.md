@@ -1,3 +1,3 @@
 # EngineeringKnowledgeBot
 
-![](img/fraibot_banner.png)
+![fraiboto](img/fraiboto_banner.png)
