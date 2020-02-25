@@ -21,7 +21,7 @@
       "type": "TextBlock",
       "size": "default",
       "isSubtle": true,
-      "text": "I am a very smart bot that knows tons of stuff about bridge engineering and more.",
+      "text": "I am a very smart bot that knows tons of stuff about bridge engineering and more. Try asking me something!",
       "wrap": true,
       "maxLines": 0
     }
