@@ -199,10 +199,12 @@ namespace CoreBot1.Dialogs
                     await stepContext.Context.SendActivityAsync(whatsnextMsg, cancellationToken);
                     break;
                 default:
-                    if (_askCounter > 0)
+                    var act = stepContext?.Context?.Activity?.Text;
+                    if (_askCounter > 0 && act != "Hello")
                     {
                         return await stepContext.BeginDialogAsync(nameof(CreatePostDialog), null, cancellationToken);
                     }
+
                     break;
                     // Catch all for unhandled intents
                     //var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {luisResult.TopIntent().intent})";
