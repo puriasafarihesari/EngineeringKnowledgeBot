@@ -238,10 +238,16 @@ namespace CoreBot1.Dialogs
                 var message = MessageFactory.Text(messageText, messageText, InputHints.IgnoringInput);
                 await stepContext.Context.SendActivityAsync(message, cancellationToken);
             }
-
+            if (_askCounter > 1)
+            {
+                var promptMessage = "What else can I do for you?";
+                return await stepContext.ReplaceDialogAsync(InitialDialogId, promptMessage, cancellationToken);
+            }
+            else
+            {
+                return await stepContext.NextAsync(null, cancellationToken);
+            }
             // Restart the main dialog with a different message the second time around
-            var promptMessage = "What else can I do for you?";
-            return await stepContext.ReplaceDialogAsync(InitialDialogId, promptMessage, cancellationToken);
         }
     }
 }
