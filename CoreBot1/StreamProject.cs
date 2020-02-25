@@ -122,9 +122,9 @@ namespace CoreBot1
         {
             if (project == null) return null;
 
-            if (project.Contains("Tollebrucke"))
+            if (project.ToLower().Contains("coolebrucke"))
                 return " http://bot.continuum.codes/bridge2.html";
-            if (project.Contains("Coolebrucke"))
+            if (project.ToLower().Contains("toolebrucke"))
                 return "http://bot.continuum.codes/bridge4.html";
             else
             {
