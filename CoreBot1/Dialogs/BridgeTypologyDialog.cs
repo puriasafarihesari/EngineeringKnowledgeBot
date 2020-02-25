@@ -34,7 +34,7 @@ namespace CoreBot1.Dialogs
                 //OriginStepAsync,
                 //TravelDateStepAsync,
                 ConfirmStepAsync,
-                FinalStepAsync,
+                //FinalStepAsync,
             }));
 
             // The initial child Dialog to run.
@@ -98,8 +98,9 @@ namespace CoreBot1.Dialogs
             messageText += " Prestressed concrete beam bridge";
             //For a Concrete bridge in Germany with a span of 18m, I recommend the following systems: Prestressed concrete beam bridge.
             var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.IgnoringInput);
-
-            return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            //return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            return await stepContext.EndDialogAsync(bookingDetails, cancellationToken);
+            //return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
 
             //var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.ExpectingInput);
 
