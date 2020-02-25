@@ -62,6 +62,8 @@ namespace CoreBot1.Dialogs
             return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
         }
 
+        private static int _askCounter = 0;
+
         private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             if (!_luisRecognizer.IsConfigured)
@@ -125,8 +127,16 @@ namespace CoreBot1.Dialogs
                     break;
                 case FlightBooking.Intent.GetProjectFromTypology:
                     var typologi = luisResult.Typology;
-                    var matchedProjects = GetDataFromDB.FindProjcetByTypology(typologi.ToLower());
-                    var getProjectFromTypoMessageText = $"The projects below are using the same typology as {typologi}:\r\n{matchedProjects}";
+                    string getProjectFromTypoMessageText = string.Empty;
+                    if (typologi != null)
+                    {
+                        var matchedProjects = GetDataFromDB.FindProjcetByTypology(typologi.ToLower());
+                        getProjectFromTypoMessageText = $"The projects below are using the same typology as {typologi}:\r\n{matchedProjects}";
+                    }
+                    else
+                    {
+                        getProjectFromTypoMessageText = "Try again.";
+                    }
                     var getProjectFromTypoMessage = MessageFactory.Text(getProjectFromTypoMessageText, getProjectFromTypoMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(getProjectFromTypoMessage, cancellationToken);
                     break;
@@ -170,14 +180,18 @@ namespace CoreBot1.Dialogs
                     await stepContext.Context.SendActivityAsync(whatsnextMsg, cancellationToken);
                     break;
                 default:
-                    return await stepContext.BeginDialogAsync(nameof(CreatePostDialog), null, cancellationToken);
+                    if (_askCounter > 0)
+                    {
+                        return await stepContext.BeginDialogAsync(nameof(CreatePostDialog), null, cancellationToken);
+                    }
+                    break;
                     // Catch all for unhandled intents
                     //var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {luisResult.TopIntent().intent})";
                     //var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
                     // await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
                     //break;
             }
-
+            _askCounter++;
             return await stepContext.NextAsync(null, cancellationToken);
         }
 
