@@ -113,8 +113,18 @@ namespace CoreBot1.Dialogs
                 //await stepContext.Context.SendActivityAsync(GgtBridgeMessageMessage, cancellationToken);
                 case FlightBooking.Intent.GetPersonFromSkill:
                     var skill = luisResult.Skill;
-                    var foundPerson = GetDataFromDB.FindPersonWithSkill(skill.ToLower());
-                    var getPersonFromSkillMessageText = $"The people below are great at {skill}:\r\n{foundPerson}";
+                    
+                    var getPersonFromSkillMessageText = string.Empty;
+                    try
+                    {
+                        var foundPerson = GetDataFromDB.FindPersonWithSkill(skill.ToLower());
+                        getPersonFromSkillMessageText = $"The people below are great at {skill}:\r\n{foundPerson}";
+                    }
+                    catch (Exception e)
+                    {
+                        getPersonFromSkillMessageText = e.ToString();
+                        //throw;
+                    }
                     var getPersonFromSkillMessage = MessageFactory.Text(getPersonFromSkillMessageText, getPersonFromSkillMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(getPersonFromSkillMessage, cancellationToken);
                     break;
@@ -127,16 +137,25 @@ namespace CoreBot1.Dialogs
                     await stepContext.Context.SendActivityAsync(getTranslatedWordMessage, cancellationToken);
                     break;
                 case FlightBooking.Intent.GetProjectFromTypology:
-                    var typologi = luisResult.Typology;
                     string getProjectFromTypoMessageText = string.Empty;
-                    if (typologi != null)
+                    try
                     {
-                        var matchedProjects = GetDataFromDB.FindProjcetByTypology(typologi.ToLower());
-                        getProjectFromTypoMessageText = $"The projects below are using the same typology as {typologi}:\r\n{matchedProjects}";
+                        var typologi = luisResult.Typology;
+                        if (typologi != null)
+                        {
+                            var matchedProjects = GetDataFromDB.FindProjcetByTypology(typologi.ToLower());
+                            getProjectFromTypoMessageText = $"The projects below are using the same typology as {typologi}:\r\n{matchedProjects}";
+                        }
+                        else
+                        {
+                            getProjectFromTypoMessageText = "Try again.";
+                        }
+
                     }
-                    else
+                    catch (Exception e)
                     {
-                        getProjectFromTypoMessageText = "Try again.";
+                        getProjectFromTypoMessageText = e.ToString();
+                        //throw ;
                     }
                     var getProjectFromTypoMessage = MessageFactory.Text(getProjectFromTypoMessageText, getProjectFromTypoMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(getProjectFromTypoMessage, cancellationToken);
